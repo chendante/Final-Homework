@@ -13037,7 +13037,7 @@ body #content.full-page {
     display: block;
     margin: 0 auto;
     text-align: center;
-    width: 360px;
+    width: 480px;
     background-color: rgba(0, 0, 0, 0.3);
     height: 100%;
     -webkit-box-sizing: content-box;
@@ -13877,7 +13877,7 @@ body #content.full-page.error .search {
     body .timeline > li > .el-container .content h1 {
       text-align: center; }
     body #content.full-page .inside-block, body #content.full-page.error .inside-block {
-      width: 70%;
+      width: 80%;
       height: 100%; }
       body #content.full-page .inside-block form, body #content.full-page.error .inside-block form {
         margin-bottom: 40px; }
