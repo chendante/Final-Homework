@@ -53,12 +53,10 @@ AppAsset::register($this);
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="typo.html">Typography</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="index.html">主页</a></li>
+                    <li><a href="about.html">文章</a></li>
+                    <li><a href="service.html">球队信息</a></li>
+                    <li><a href="blog.html">比赛信息</a></li>
                     <?php if(\Yii::$app->user->isGuest) { ?>
 
                         <li><a href="<?php echo Url::to(['site/login']) ?>" ></span>
