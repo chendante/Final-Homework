@@ -41,7 +41,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
 </head>
-
 <body>
 
 <!-- Top content -->
@@ -90,7 +89,6 @@ $this->params['breadcrumbs'][] = $this->title;
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="js/jquery.backstretch.min.js"></script>
 <script src="js/scripts.js"></script>
-
 <!--[if lt IE 10]>
 <script src="js/placeholder.js"></script>
 <![endif]-->

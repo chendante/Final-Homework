@@ -1,4 +1,3 @@
-@import url(http://fonts.useso.com/css?family=Ubuntu+Mono|Roboto:400,100,300,500,700,300italic|Roboto+Condensed:300,400,700|Roboto+Slab:400,700&subset=latin,latin-ext);
 /*****************************************/
 /************* MAIN SETTINGS *************/
 /*****************************************/
@@ -55,7 +54,7 @@ body {
     background-position: left top;
     background-size: auto, cover; }
   body.bg-3 {
-    background-image: url(../images/noise.png), url(../images/backgrounds/3.jpg);
+    background-image: url(../images/noise.png), url(images/backgrounds/3.jpg);
     background-repeat: repeat, no-repeat;
     background-position: left top;
     background-size: auto, cover; }
