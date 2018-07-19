@@ -2,307 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402af6b9-1186-4844-8f9a-d8178bfa746e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/minimal.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/vendor/animate/animate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/vendor/animate/animate.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/vendor/bootstrap-checkbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/vendor/bootstrap/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/vendor/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/vendor/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/vendor/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/css/vendor/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/assets/images/video.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/minimal.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/animate-numbers/jquery.animateNumbers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/blockui/jquery.blockUI.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/bootstrap/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/chosen/chosen.jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/chosen/css/chosen-bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/chosen/css/chosen.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/chosen/images/chosen-sprite.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/chosen/images/chosen-sprite@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/colorbox/css/colorbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/colorbox/css/images/controls.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/colorbox/css/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/colorbox/css/images/loading_background.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/colorbox/jquery.colorbox-min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/colorpalette/bootstrap-colorpalette.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/colorpalette/bootstrap-colorpalette.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/colorpicker/bootstrap-colorpicker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/colorpicker/css/bootstrap-colorpicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/ColReorderWithResize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/colvis/dataTables.colVis.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/css/ColVis.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/css/TableTools.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/css/dataTables.bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/dataTables.bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/background.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/collection.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/collection_hover.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/copy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/copy_hover.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/csv.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/csv_hover.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/datatables/sort_asc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/datatables/sort_asc_disabled.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/datatables/sort_both.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/datatables/sort_desc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/datatables/sort_desc_disabled.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/pdf.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/pdf_hover.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/print.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/print_hover.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/xls.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/images/xls_hover.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/jquery.dataTables.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/swf/copy_csv_xls_pdf.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/tabletools/ZeroClipboard.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/tabletools/dataTables.tableTools.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datatables/tabletools/swf/copy_csv_xls_pdf.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datepicker/bootstrap-datetimepicker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/datepicker/css/bootstrap-datetimepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/easypiechart/jquery.easypiechart.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/flot/jquery.flot.animator.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/flot/jquery.flot.categories.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/flot/jquery.flot.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/flot/jquery.flot.orderBars.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/flot/jquery.flot.pie.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/flot/jquery.flot.selection.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/flot/jquery.flot.stack.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/flot/jquery.flot.time.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/flot/jquery.flot.tooltip.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/fullcalendar/fullcalendar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/fullcalendar/fullcalendar.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/fullcalendar/jquery-ui-1.10.4.custom.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/gmaps/jquery.ui.map.extensions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/gmaps/jquery.ui.map.full.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/gmaps/jquery.ui.map.microformat.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/gmaps/markerclusterer.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/graphtable/jquery.graphTable-0.3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jgrowl/css/jquery.jgrowl.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jgrowl/jquery.jgrowl.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/css/jquery.fileupload-noscript.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/css/jquery.fileupload-ui-noscript.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/css/jquery.fileupload-ui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/css/jquery.fileupload.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/fileupload-main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/img/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/img/progressbar.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/jquery.fileupload-audio.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/jquery.fileupload-image.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/jquery.fileupload-process.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/jquery.fileupload-ui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/jquery.fileupload-validate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/jquery.fileupload-video.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/jquery.fileupload.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/jquery.iframe-transport.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jquery-file-upload/vendor/jquery.ui.widget.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/justgage/justgage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jvectormaps/addons/gdp-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jvectormaps/addons/jquery-jvectormap-de-merc-en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jvectormaps/addons/jquery-jvectormap-es-merc-en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jvectormaps/addons/jquery-jvectormap-fr-merc-en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jvectormaps/addons/jquery-jvectormap-us-aea-en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jvectormaps/addons/jquery-jvectormap-us-lcc-en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jvectormaps/addons/jquery-jvectormap-world-mill-en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jvectormaps/addons/mall-map.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jvectormaps/css/jquery-jvectormap-1.2.2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/jvectormaps/jquery-jvectormap-1.2.2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/mmenu/css/jquery.mmenu.all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/mmenu/js/jquery.mmenu.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/momentjs/moment-with-langs.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/morris/css/morris.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/morris/morris.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/nicescroll/jquery.nicescroll.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/no-ui-slider/css/jquery.nouislider.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/no-ui-slider/jquery.nouislider.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/owl-carousel/css/AjaxLoader.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/owl-carousel/css/grabbing.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/owl-carousel/css/owl.carousel.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/owl-carousel/css/owl.theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/owl-carousel/owl.carousel.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/parsley/parsley.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/rickshaw/css/rickshaw.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/rickshaw/d3.v2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/rickshaw/raphael-min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/rickshaw/rickshaw.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/skycons/skycons.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/sparkline/jquery.sparkline.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/summernote/css/summernote-bs3.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/summernote/css/summernote.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/summernote/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/summernote/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/summernote/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/summernote/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/summernote/summernote.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/superbox/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/superbox/img/close.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/superbox/superbox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/tabdrop/bootstrap-tabdrop.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/tabdrop/css/tabdrop.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/typeahead/css/typeahead.js-bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/typeahead/typeahead.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/videobackground/css/jquery.videobackground.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/videobackground/jquery.videobackground.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/js/vendor/wizard/jquery.bootstrap.wizard.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/web/img/backgrounds/1@2x.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4d69aa47c7c.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4d6d838a7ae.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4d995e99df7.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4d99652d83f.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4d99655299b.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4d996562a0c.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4d9967d919e.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4d9968aa3f1.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4dbad9539ab.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4dd43d2455a.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4dd4440daed.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4dd4442f4d4.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4dd444409e3.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4dd4476a960.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4dd448227a5.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4df564b2c0b.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4df575076b5.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4df5753103d.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4df575410ae.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4df578d0164.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4df57987a47.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4df6b8d1146.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4df71c2ab40.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee3d64729e.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee3e233040.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee3e2641c6.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee3e27e5ca.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee40943ca5.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee40963671.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee4bc7d9a9.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee4bcb2186.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee4c17116b.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee4c1a218a.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee4c1ba795.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee4c6f1362.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee4c71ecea.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee5ad8ba8e.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee7db4edf4.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee7db641de.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee7dd7046f.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ee7de9f894.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ef6d5c3415.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ef6e2931a0.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ef6e892c15.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4ef6ef29bf3.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4f004b6d9d4.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4f00540f18a.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4f005449a6b.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4f00546f2ba.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4f00572d65a.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5b4f005874ba2.data" afterPath="" />
       <change beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" />
       <change beforePath="$PROJECT_DIR$/backend/views/layouts/main_layout.php" afterPath="$PROJECT_DIR$/backend/views/layouts/main_layout.php" />
-      <change beforePath="$PROJECT_DIR$/backend/views/site/login.php" afterPath="$PROJECT_DIR$/backend/views/site/login.php" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/css/minimal.css" afterPath="$PROJECT_DIR$/backend/web/assets/css/minimal.css" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/arnold-avatar.jpg" afterPath="$PROJECT_DIR$/backend/web/images/arnold-avatar.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/backgrounds/1.jpg" afterPath="$PROJECT_DIR$/backend/web/images/backgrounds/1.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/backgrounds/2.jpg" afterPath="$PROJECT_DIR$/backend/web/images/backgrounds/2.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/backgrounds/3.jpg" afterPath="$PROJECT_DIR$/backend/web/images/3.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/backgrounds/4.jpg" afterPath="$PROJECT_DIR$/backend/web/images/backgrounds/4.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/backgrounds/5.jpg" afterPath="$PROJECT_DIR$/backend/web/images/backgrounds/5.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/backgrounds/6.jpg" afterPath="$PROJECT_DIR$/backend/web/images/backgrounds/6.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/backgrounds/thumbs/1.jpg" afterPath="$PROJECT_DIR$/backend/web/images/backgrounds/thumbs/1.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/backgrounds/thumbs/2.jpg" afterPath="$PROJECT_DIR$/backend/web/images/backgrounds/thumbs/2.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/backgrounds/thumbs/3.jpg" afterPath="$PROJECT_DIR$/backend/web/images/backgrounds/thumbs/3.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/backgrounds/thumbs/4.jpg" afterPath="$PROJECT_DIR$/backend/web/images/backgrounds/thumbs/4.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/backgrounds/thumbs/5.jpg" afterPath="$PROJECT_DIR$/backend/web/images/backgrounds/thumbs/5.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/backgrounds/thumbs/6.jpg" afterPath="$PROJECT_DIR$/backend/web/images/backgrounds/thumbs/6.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/bootstrap-colorpicker/alpha-horizontal.png" afterPath="$PROJECT_DIR$/backend/web/images/bootstrap-colorpicker/alpha-horizontal.png" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/bootstrap-colorpicker/alpha.png" afterPath="$PROJECT_DIR$/backend/web/images/bootstrap-colorpicker/alpha.png" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/bootstrap-colorpicker/hue-horizontal.png" afterPath="$PROJECT_DIR$/backend/web/images/bootstrap-colorpicker/hue-horizontal.png" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/bootstrap-colorpicker/hue.png" afterPath="$PROJECT_DIR$/backend/web/images/bootstrap-colorpicker/hue.png" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/bootstrap-colorpicker/saturation.png" afterPath="$PROJECT_DIR$/backend/web/images/bootstrap-colorpicker/saturation.png" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/carousel/carousel1.jpg" afterPath="$PROJECT_DIR$/backend/web/images/carousel/carousel1.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/carousel/carousel2.jpg" afterPath="$PROJECT_DIR$/backend/web/images/carousel/carousel2.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/carousel/carousel3.jpg" afterPath="$PROJECT_DIR$/backend/web/images/carousel/carousel3.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/carousel/carousel4.jpg" afterPath="$PROJECT_DIR$/backend/web/images/carousel/carousel4.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/chosen-sprite-transparent.png" afterPath="$PROJECT_DIR$/backend/web/images/chosen-sprite-transparent.png" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/dot_pattern.png" afterPath="$PROJECT_DIR$/backend/web/images/dot_pattern.png" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/george-avatar.jpg" afterPath="$PROJECT_DIR$/backend/web/images/george-avatar.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/ici-avatar.jpg" afterPath="$PROJECT_DIR$/backend/web/images/ici-avatar.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/loader.gif" afterPath="$PROJECT_DIR$/backend/web/images/loader.gif" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/logo-big.png" afterPath="$PROJECT_DIR$/backend/web/images/logo-big.png" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/minimal-logo.png" afterPath="$PROJECT_DIR$/backend/web/images/minimal-logo.png" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/modal-close-hover.png" afterPath="$PROJECT_DIR$/backend/web/images/modal-close-hover.png" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/modal-close.png" afterPath="$PROJECT_DIR$/backend/web/images/modal-close.png" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/noise.png" afterPath="$PROJECT_DIR$/backend/web/images/noise.png" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/peter-avatar.jpg" afterPath="$PROJECT_DIR$/backend/web/images/peter-avatar.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/profile-photo.jpg" afterPath="$PROJECT_DIR$/backend/web/images/profile-photo.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/random-avatar1.jpg" afterPath="$PROJECT_DIR$/backend/web/images/random-avatar1.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/random-avatar2.jpg" afterPath="$PROJECT_DIR$/backend/web/images/random-avatar2.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/random-avatar4.jpg" afterPath="$PROJECT_DIR$/backend/web/images/random-avatar4.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/random-avatar5.jpg" afterPath="$PROJECT_DIR$/backend/web/images/random-avatar5.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/random-avatar6.jpg" afterPath="$PROJECT_DIR$/backend/web/images/random-avatar6.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/random-avatar7.jpg" afterPath="$PROJECT_DIR$/backend/web/images/random-avatar7.jpg" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/images/random-avatar8.jpg" afterPath="$PROJECT_DIR$/backend/web/images/random-avatar8.jpg" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3e6733e0.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3e679b92.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3e72b3d4.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3e7c6877.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3e87d326.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3e927e4b.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3e9d5bfe.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3e9e9333.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3eaa2a25.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3eb60861.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3ecb94e4.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3f0e3867.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3f1508b8.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3f524d90.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3f58ba90.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3fa64f49.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3fab8018.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3fb93edb.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef3fc761bf.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef40178b2e.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef401c2550.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef53305e55.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef5333a9fb.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef5337bc5e.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef53749b0a.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef538d7ed0.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef53a2af05.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef562d47be.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef5635765c.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef574e6928.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef57557255.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef58c05682.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef599b9b43.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef59a1fce7.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef5ee23836.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef5ee81f97.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef5f38cb16.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef5f3dfde5.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef600ca823.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef6012f5c2.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef60d91d4c.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef60dec041.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef6a57fab2.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef6bcdd43d.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef6bd51d39.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef6d226bbd.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef6d290de0.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef6db52775.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef6dbc9ac0.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef6e654f85.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef6e6b1ea8.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef6efbc162.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4ef6f00ef93.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4f003e1f621.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4f0046a6d4a.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4f0062122b3.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b4f006320394.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/site/login.php" afterPath="$PROJECT_DIR$/frontend/views/site/login.php" />
-      <change beforePath="$PROJECT_DIR$/frontend/web/assets/img/backgrounds/1.jpg" afterPath="$PROJECT_DIR$/backend/web/images/backgrounds/3.jpg" />
-      <change beforePath="$PROJECT_DIR$/frontend/web/assets/img/backgrounds/1@2x.jpg" afterPath="$PROJECT_DIR$/frontend/web/img/backgrounds/1.jpg" />
-      <change beforePath="$PROJECT_DIR$/frontend/web/js/scripts.js" afterPath="$PROJECT_DIR$/frontend/web/js/scripts.js" />
+      <change beforePath="$PROJECT_DIR$/backend/web/css/minimal.css" afterPath="$PROJECT_DIR$/backend/web/css/minimal.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -316,33 +26,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="jquery.backstretch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/web/js/jquery.backstretch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8775">
-              <caret line="327" column="41" lean-forward="false" selection-start-line="327" selection-start-column="40" selection-end-line="327" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="0">
               <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_layout.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_layout.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/views/layouts/main_layout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="213" column="58" lean-forward="true" selection-start-line="213" selection-start-column="58" selection-end-line="213" selection-end-column="58" />
+            <state relative-caret-position="81">
+              <caret line="356" column="49" lean-forward="false" selection-start-line="356" selection-start-column="49" selection-end-line="356" selection-end-column="49" />
               <folding>
-                <marker date="1531989778545" expanded="true" signature="51156:51170" ph="..." />
+                <marker date="1532005819730" expanded="true" signature="52758:52772" ph="..." />
               </folding>
             </state>
           </provider>
@@ -368,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minimal.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="minimal.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/web/css/minimal.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="56" column="77" lean-forward="false" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
+            <state relative-caret-position="426">
+              <caret line="611" column="24" lean-forward="true" selection-start-line="611" selection-start-column="24" selection-end-line="611" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -388,8 +88,8 @@
       <file leaf-file-name="minimal.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/web/assets/css/minimal.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="27">
+              <caret line="616" column="49" lean-forward="false" selection-start-line="616" selection-start-column="49" selection-end-line="616" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -435,6 +135,7 @@
       <find>font</find>
       <find>assets</find>
       <find>assets/</find>
+      <find>bread</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -458,9 +159,9 @@
         <option value="$PROJECT_DIR$/frontend/web/js/scripts.js" />
         <option value="$PROJECT_DIR$/backend/views/site/login.php" />
         <option value="$PROJECT_DIR$/backend/web/assets/css/minimal.css" />
+        <option value="$PROJECT_DIR$/backend/web/.gitignore" />
         <option value="$PROJECT_DIR$/backend/views/layouts/main_layout.php" />
         <option value="$PROJECT_DIR$/backend/web/css/minimal.css" />
-        <option value="$PROJECT_DIR$/backend/web/.gitignore" />
       </list>
     </option>
   </component>
@@ -657,18 +358,18 @@
       <workItem from="1531904024381" duration="183000" />
       <workItem from="1531983724249" duration="6148000" />
       <workItem from="1532000255889" duration="795000" />
-      <workItem from="1532001944994" duration="129000" />
+      <workItem from="1532001944994" duration="3987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32057000" />
+    <option name="totallyTimeSpent" value="35915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4265625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26145834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -854,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/web/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="3" column="495" lean-forward="false" selection-start-line="3" selection-start-column="495" selection-end-line="3" selection-end-column="495" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/web/css/form-elements.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1593">
@@ -973,7 +667,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="0">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding />
         </state>
@@ -995,25 +689,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/web/css/minimal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="56" column="77" lean-forward="false" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/web/images/backgrounds/3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/web/assets/css/minimal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/web/.gitignore">
@@ -1032,13 +710,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/web/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="3" column="12238" lean-forward="false" selection-start-line="3" selection-start-column="12238" selection-end-line="3" selection-end-column="12238" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/web/assets/css/minimal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="616" column="49" lean-forward="false" selection-start-line="616" selection-start-column="49" selection-end-line="616" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/layouts/main_layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="213" column="58" lean-forward="true" selection-start-line="213" selection-start-column="58" selection-end-line="213" selection-end-column="58" />
+        <state relative-caret-position="81">
+          <caret line="356" column="49" lean-forward="false" selection-start-line="356" selection-start-column="49" selection-end-line="356" selection-end-column="49" />
           <folding>
-            <marker date="1531989778545" expanded="true" signature="51156:51170" ph="..." />
+            <marker date="1532005819730" expanded="true" signature="52758:52772" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/web/css/minimal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="611" column="24" lean-forward="true" selection-start-line="611" selection-start-column="24" selection-end-line="611" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
