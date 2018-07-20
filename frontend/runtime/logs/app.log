@@ -22234,3 +22234,2835 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1531904099.085
     'REQUEST_TIME' => 1531904099
 ]
+2018-07-19 03:31:04 [::1][2][lkmr0k21kumrcmhhfps0ara3fv][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 03:31:04 [::1][2][lkmr0k21kumrcmhhfps0ara3fv][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => 'bac34d990a63bba7c7faa40d9427ca642028e1182aba04e1131ee5227c6beccfa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"πçxvﬁJ\'ç4•Îã´j1B3Ö∞t›Xô¥eá¢L\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-frontend' => 'lkmr0k21kumrcmhhfps0ara3fv'
+    '_identity-frontend' => 'af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=bac34d990a63bba7c7faa40d9427ca642028e1182aba04e1131ee5227c6beccfa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%B9%8Dxv%06%DEJ%27%8D4%A5%EB%8B%AB%1Fj1%06B3%85%B0t%DD%1AX%99%B4e%87%A2L%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-frontend=lkmr0k21kumrcmhhfps0ara3fv; _identity-frontend=af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '6570'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531963864.488
+    'REQUEST_TIME' => 1531963864
+]
+2018-07-19 09:06:38 [::1][2][t07257q34fvm7b4bl2e8db4r60][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:06:38 [::1][2][t07257q34fvm7b4bl2e8db4r60][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '22e60d8ac135bb072036a28e608154e42fe1ffa0ed8fd15b5c6d63c2c31b8332a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"AÔ†fQ∫⁄¶JLS6c‚œQ4j=8Q»⁄o∂x$À\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-frontend' => 't07257q34fvm7b4bl2e8db4r60'
+    '_identity-frontend' => 'af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=22e60d8ac135bb072036a28e608154e42fe1ffa0ed8fd15b5c6d63c2c31b8332a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22A%EF%1D%A0fQ%BA%DA%A6JLS6%1Ec%E2%CF%05Q4%0Dj%3D8Q%C8%DAo%B6x%24%CB%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-frontend=t07257q34fvm7b4bl2e8db4r60; _identity-frontend=af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '10579'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531983998.554
+    'REQUEST_TIME' => 1531983998
+]
+2018-07-19 09:06:41 [::1][-][blpvj6pmt9v4j4f7g5he4nbqie][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:06:41 [::1][-][blpvj6pmt9v4j4f7g5he4nbqie][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '22e60d8ac135bb072036a28e608154e42fe1ffa0ed8fd15b5c6d63c2c31b8332a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"AÔ†fQ∫⁄¶JLS6c‚œQ4j=8Q»⁄o∂x$À\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-frontend' => 'blpvj6pmt9v4j4f7g5he4nbqie'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=22e60d8ac135bb072036a28e608154e42fe1ffa0ed8fd15b5c6d63c2c31b8332a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22A%EF%1D%A0fQ%BA%DA%A6JLS6%1Ec%E2%CF%05Q4%0Dj%3D8Q%C8%DAo%B6x%24%CB%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-frontend=blpvj6pmt9v4j4f7g5he4nbqie'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '10596'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531984001.484
+    'REQUEST_TIME' => 1531984001
+]
+2018-07-19 09:06:46 [::1][2][eausdi20avur7a768qhji9kj7r][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:06:46 [::1][2][eausdi20avur7a768qhji9kj7r][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '22e60d8ac135bb072036a28e608154e42fe1ffa0ed8fd15b5c6d63c2c31b8332a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"AÔ†fQ∫⁄¶JLS6c‚œQ4j=8Q»⁄o∂x$À\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-frontend' => 'eausdi20avur7a768qhji9kj7r'
+    '_identity-frontend' => 'af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=22e60d8ac135bb072036a28e608154e42fe1ffa0ed8fd15b5c6d63c2c31b8332a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22A%EF%1D%A0fQ%BA%DA%A6JLS6%1Ec%E2%CF%05Q4%0Dj%3D8Q%C8%DAo%B6x%24%CB%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-frontend=eausdi20avur7a768qhji9kj7r; _identity-frontend=af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '10596'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531984006.256
+    'REQUEST_TIME' => 1531984006
+]
+2018-07-19 09:11:09 [::1][2][eausdi20avur7a768qhji9kj7r][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:11:09 [::1][2][eausdi20avur7a768qhji9kj7r][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '22e60d8ac135bb072036a28e608154e42fe1ffa0ed8fd15b5c6d63c2c31b8332a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"AÔ†fQ∫⁄¶JLS6c‚œQ4j=8Q»⁄o∂x$À\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-frontend' => 'eausdi20avur7a768qhji9kj7r'
+    '_identity-frontend' => 'af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=22e60d8ac135bb072036a28e608154e42fe1ffa0ed8fd15b5c6d63c2c31b8332a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22A%EF%1D%A0fQ%BA%DA%A6JLS6%1Ec%E2%CF%05Q4%0Dj%3D8Q%C8%DAo%B6x%24%CB%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-frontend=eausdi20avur7a768qhji9kj7r; _identity-frontend=af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '10618'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531984269.465
+    'REQUEST_TIME' => 1531984269
+]
+2018-07-19 09:11:11 [::1][-][21d7ndul4m5urbmeb6epni7cd6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:11:11 [::1][-][21d7ndul4m5urbmeb6epni7cd6][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '22e60d8ac135bb072036a28e608154e42fe1ffa0ed8fd15b5c6d63c2c31b8332a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"AÔ†fQ∫⁄¶JLS6c‚œQ4j=8Q»⁄o∂x$À\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-frontend' => '21d7ndul4m5urbmeb6epni7cd6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=22e60d8ac135bb072036a28e608154e42fe1ffa0ed8fd15b5c6d63c2c31b8332a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22A%EF%1D%A0fQ%BA%DA%A6JLS6%1Ec%E2%CF%05Q4%0Dj%3D8Q%C8%DAo%B6x%24%CB%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-frontend=21d7ndul4m5urbmeb6epni7cd6'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '10623'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531984271.492
+    'REQUEST_TIME' => 1531984271
+]
+2018-07-19 09:14:13 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/1.jpg". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:14:13 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '10893'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531984453.269
+    'REQUEST_TIME' => 1531984453
+]
+2018-07-19 09:17:35 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/1.jpg". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:17:35 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '11169'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531984655.258
+    'REQUEST_TIME' => 1531984655
+]
+2018-07-19 09:17:49 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/1.jpg". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:17:49 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '11190'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531984669.501
+    'REQUEST_TIME' => 1531984669
+]
+2018-07-19 09:18:01 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/1.jpg". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:18:01 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '11207'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531984681.392
+    'REQUEST_TIME' => 1531984681
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/1.jpg". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12556'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.051
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/css/info.css". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12561'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/css/info.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/css/info.css'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.202
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/css/typo.css". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12559'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/css/typo.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/css/typo.css'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.201
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/css/trend.css". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12560'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/css/trend.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/css/trend.css'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.201
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/css/font-awesome.min.css". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12557'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/css/font-awesome.min.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/css/font-awesome.min.css'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.181
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/css/bootstrap.min.css". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12558'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/css/bootstrap.min.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/css/bootstrap.min.css'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.2
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/js/jquery.min.js". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12565'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/jquery.min.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/jquery.min.js'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.408
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/css/style.css". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12562'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/css/style.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/css/style.css'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.404
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/js/bootstrap.min.js". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12566'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/bootstrap.min.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/bootstrap.min.js'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.41
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/js/SmoothScroll.min.js". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12567'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/SmoothScroll.min.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/SmoothScroll.min.js'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.447
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/js/bliss-slider.js". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12568'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/bliss-slider.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/bliss-slider.js'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.589
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/images/banner1.jpg". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12569'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/images/banner1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/images/banner1.jpg'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.619
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/images/banner2.jpg". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12570'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/images/banner2.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/images/banner2.jpg'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.626
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/images/banner3.jpg". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12571'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/images/banner3.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/images/banner3.jpg'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.72
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/images/prev.png". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12572'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/images/prev.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/images/prev.png'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.749
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:06 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/images/next.png". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12573'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/images/next.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/images/next.png'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985646.761
+    'REQUEST_TIME' => 1531985646
+]
+2018-07-19 09:34:07 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/js/bootstrap.min.js". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:07 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12574'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/bootstrap.min.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/bootstrap.min.js'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985647.276
+    'REQUEST_TIME' => 1531985647
+]
+2018-07-19 09:34:07 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/js/SmoothScroll.min.js". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:07 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12575'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/SmoothScroll.min.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/SmoothScroll.min.js'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985647.381
+    'REQUEST_TIME' => 1531985647
+]
+2018-07-19 09:34:07 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/js/bliss-slider.js". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:34:07 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '12556'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/bliss-slider.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/js/bliss-slider.js'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531985647.507
+    'REQUEST_TIME' => 1531985647
+]
+2018-07-19 09:49:29 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/1.jpg". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:49:29 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '14165'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531986569.278
+    'REQUEST_TIME' => 1531986569
+]
+2018-07-19 09:49:32 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/1.jpg". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:49:32 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '14169'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531986572.063
+    'REQUEST_TIME' => 1531986572
+]
+2018-07-19 09:49:40 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/img/backgrounds/1.jpg". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/img/back...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:49:40 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Òπ≈ß–Í.€Ôz“<qˇ ºÇ≥‘ﬁ4¶QÎ!9ó;nx\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=a7638a7e0718b648dbf63c270d0c9484af3caa5a95825ecd8f502209c172c2e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F1%B9%C5%A7%D0%EA.%DB%EFz%D2%3Cq%FF+%BC%1F%82%B3%01%D4%DE4%A6Q%EB%219%97%3Bnx%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '14187'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/assets/img/backgrounds/1.jpg'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531986580.691
+    'REQUEST_TIME' => 1531986580
+]
+2018-07-19 09:51:07 [::1][2][98ff30mu2qn52maidb7l8i7446][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:51:07 [::1][2][98ff30mu2qn52maidb7l8i7446][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4f74e493f73b25d8062cafb1180e3aa2d43235daeab319f461304ea732033268a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"´ûvìç!wJ5±V®*±ßªEÜ[¶\0Ùhn¿\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-frontend' => '98ff30mu2qn52maidb7l8i7446'
+    '_identity-frontend' => 'af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=4f74e493f73b25d8062cafb1180e3aa2d43235daeab319f461304ea732033268a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%0E%AB%9Ev%93%8D%21wJ%14%1B5%B1V%A8%2A%B1%A7%BB%02E%86%01%18%5B%A6%00%1C%F4hn%C0%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-frontend=98ff30mu2qn52maidb7l8i7446; _identity-frontend=af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '14366'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531986667.93
+    'REQUEST_TIME' => 1531986667
+]
+2018-07-19 09:51:09 [::1][-][6gde8t3j3ii38csjnn642rdvo2][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:51:09 [::1][-][6gde8t3j3ii38csjnn642rdvo2][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4f74e493f73b25d8062cafb1180e3aa2d43235daeab319f461304ea732033268a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"´ûvìç!wJ5±V®*±ßªEÜ[¶\0Ùhn¿\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-frontend' => '6gde8t3j3ii38csjnn642rdvo2'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=4f74e493f73b25d8062cafb1180e3aa2d43235daeab319f461304ea732033268a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%0E%AB%9Ev%93%8D%21wJ%14%1B5%B1V%A8%2A%B1%A7%BB%02E%86%01%18%5B%A6%00%1C%F4hn%C0%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-frontend=6gde8t3j3ii38csjnn642rdvo2'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '14367'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531986669.621
+    'REQUEST_TIME' => 1531986669
+]
+2018-07-19 09:55:06 [::1][2][91fpvlq31iva0huaioinbieq9f][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:55:06 [::1][2][91fpvlq31iva0huaioinbieq9f][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '9e8141ee4bfdeb366ca068a11d6964b543ff5ffe1d55e3752347ad33e1e4826ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"”¿Ñ‡$V‡Â&,8√NI¯¨üf≠AY⁄oÆB¬›\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-frontend' => '91fpvlq31iva0huaioinbieq9f'
+    '_identity-frontend' => 'af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=9e8141ee4bfdeb366ca068a11d6964b543ff5ffe1d55e3752347ad33e1e4826ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%D3%15%C0%84%1A%E0%24V%1A%E0%E5%26%19%2C8%C3NI%F8%AC%F0%9Ff%ADAY%DAo%AEB%C2%DD%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-frontend=91fpvlq31iva0huaioinbieq9f; _identity-frontend=af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '14727'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531986906.613
+    'REQUEST_TIME' => 1531986906
+]
+2018-07-19 09:55:06 [::1][2][91fpvlq31iva0huaioinbieq9f][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:55:06 [::1][2][91fpvlq31iva0huaioinbieq9f][info][application] $_COOKIE = [
+    '_csrf-frontend' => '9e8141ee4bfdeb366ca068a11d6964b543ff5ffe1d55e3752347ad33e1e4826ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"”¿Ñ‡$V‡Â&,8√NI¯¨üf≠AY⁄oÆB¬›\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-frontend' => '91fpvlq31iva0huaioinbieq9f'
+    '_identity-frontend' => 'af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=9e8141ee4bfdeb366ca068a11d6964b543ff5ffe1d55e3752347ad33e1e4826ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%D3%15%C0%84%1A%E0%24V%1A%E0%E5%26%19%2C8%C3NI%F8%AC%F0%9Ff%ADAY%DAo%AEB%C2%DD%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-frontend=91fpvlq31iva0huaioinbieq9f; _identity-frontend=af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '14729'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531986906.811
+    'REQUEST_TIME' => 1531986906
+]
+2018-07-19 09:55:06 [::1][2][91fpvlq31iva0huaioinbieq9f][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/jquery.min.map". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('js/jquery.min.m...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 09:55:06 [::1][2][91fpvlq31iva0huaioinbieq9f][info][application] $_COOKIE = [
+    '_csrf-frontend' => '9e8141ee4bfdeb366ca068a11d6964b543ff5ffe1d55e3752347ad33e1e4826ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"”¿Ñ‡$V‡Â&,8√NI¯¨üf≠AY⁄oÆB¬›\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-frontend' => '91fpvlq31iva0huaioinbieq9f'
+    '_identity-frontend' => 'af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=9e8141ee4bfdeb366ca068a11d6964b543ff5ffe1d55e3752347ad33e1e4826ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%D3%15%C0%84%1A%E0%24V%1A%E0%E5%26%19%2C8%C3NI%F8%AC%F0%9Ff%ADAY%DAo%AEB%C2%DD%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-frontend=91fpvlq31iva0huaioinbieq9f; _identity-frontend=af3c54a5353d11985b6c52bf14fff27bfd2809d88cc9389535aa8a104e390a10a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '14731'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/js/jquery.min.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/frontend/web/js/jquery.min.map'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531986906.816
+    'REQUEST_TIME' => 1531986906
+]
+2018-07-19 15:24:56 [::1][2][oupvtmb1r81vtfva09tbn069ro][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-19 15:24:56 [::1][2][oupvtmb1r81vtfva09tbn069ro][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_identity-frontend' => '2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+    'advanced-frontend' => 'oupvtmb1r81vtfva09tbn069ro'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    '_csrf' => '72edd9f3d706429c063e3333fa39009a17d8f5b2e386db6106df5eb9dcd4c911a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lq	LVM«≥Ì ~g7´|d¥#◊….iWe	ÛÖE\";}'
+    'PHPSESSID' => 'um3t176d530eon6bqan0osbaja'
+    '_identity' => '28482aa283d16b67af8a82981da33cd2bea8b15a38fc7a4e36aec0ab54e4011ba:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"2jf_vMxxzRGXc0cRnJwnFqzP5X9uCp2h\",2592000]\";}'
+    '_csrf-frontend' => 'e791ede8934527ba044c96ad8bef473ea260fc1954442e26db9c2f6615d8ca54a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Å√®¿	{R8ïuœı√v9JØ”OÌH¿Æ7\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_identity-frontend=2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D; advanced-frontend=oupvtmb1r81vtfva09tbn069ro; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; _csrf=72edd9f3d706429c063e3333fa39009a17d8f5b2e386db6106df5eb9dcd4c911a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lq%09LVM%C7%B3%ED%06+%01%7Eg7%AB%7Cd%B4%23%1F%D7%C9.iWe%09%F3%85%0DE%22%3B%7D; PHPSESSID=um3t176d530eon6bqan0osbaja; _identity=28482aa283d16b67af8a82981da33cd2bea8b15a38fc7a4e36aec0ab54e4011ba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%222jf_vMxxzRGXc0cRnJwnFqzP5X9uCp2h%22%2C2592000%5D%22%3B%7D; _csrf-frontend=e791ede8934527ba044c96ad8bef473ea260fc1954442e26db9c2f6615d8ca54a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%81%11%C3%A8%02%C0%1F%09%7B%07R8%95u%11%CF%F5%C3%1Cv9J%AF%01%D3O%EDH%14%C0%AE7%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '7931'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532006696.355
+    'REQUEST_TIME' => 1532006696
+]

@@ -13,7 +13,9 @@ use common\widgets\Alert;
 
 AppAsset::register($this);
 ?>
-
+<!--吴轩羽-->
+<!--编辑于07-19-->
+<!--后台layout-->
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html>
@@ -23,24 +25,23 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
 
-    <link rel="icon" type="image/ico" href="http://tattek.com/minimal/assets/images/favicon.ico" />
+<!--    <link rel="icon" type="image/ico" href="http://tattek.com/minimal/assets/images/favicon.ico" />-->
     <!-- Bootstrap -->
-    <link href="assets/css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
-<!--    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">-->
-    <link rel="stylesheet" href="assets/css/vendor/animate/animate.min.css">
-    <link type="text/css" rel="stylesheet" media="all" href="assets/js/vendor/mmenu/css/jquery.mmenu.all.css" />
-    <link rel="stylesheet" href="assets/js/vendor/videobackground/css/jquery.videobackground.css">
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap-checkbox.css">
+    <link href="css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendor/animate/animate.min.css">
+    <link type="text/css" rel="stylesheet" media="all" href="js/vendor/mmenu/css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" href="js/vendor/videobackground/css/jquery.videobackground.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap-checkbox.css">
+    <link rel="stylesheet" href="js/vendor/rickshaw/css/rickshaw.min.css">
+    <link rel="stylesheet" href="js/vendor/morris/css/morris.css">
+    <link rel="stylesheet" href="js/vendor/tabdrop/css/tabdrop.css">
+    <link rel="stylesheet" href="js/vendor/summernote/css/summernote.css">
+    <link rel="stylesheet" href="js/vendor/summernote/css/summernote-bs3.css">
+    <link rel="stylesheet" href="js/vendor/chosen/css/chosen.min.css">
+    <link rel="stylesheet" href="js/vendor/chosen/css/chosen-bootstrap.css">
 
-    <link rel="stylesheet" href="assets/js/vendor/rickshaw/css/rickshaw.min.css">
-    <link rel="stylesheet" href="assets/js/vendor/morris/css/morris.css">
-    <link rel="stylesheet" href="assets/js/vendor/tabdrop/css/tabdrop.css">
-    <link rel="stylesheet" href="assets/js/vendor/summernote/css/summernote.css">
-    <link rel="stylesheet" href="assets/js/vendor/summernote/css/summernote-bs3.css">
-    <link rel="stylesheet" href="assets/js/vendor/chosen/css/chosen.min.css">
-    <link rel="stylesheet" href="assets/js/vendor/chosen/css/chosen-bootstrap.css">
-
-    <link href="assets/css/minimal.css" rel="stylesheet">
+    <link href="css/minimal.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -194,57 +195,58 @@ AppAsset::register($this);
                         </a>
                         <ul class="dropdown-menu wider arrow nopadding messages">
                             <li><h1>You have <strong>1</strong> new message</h1></li>
-                            <li>
-                                <a class="cyan" href="#">
-                                    <div class="profile-photo">
-                                        <img src="assets/images/ici-avatar.jpg" alt />
-                                    </div>
-                                    <div class="message-info">
-                                        <span class="sender">Ing. Imrich Kamarel</span>
-                                        <span class="time">12 mins</span>
-                                        <div class="message-content">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</div>
-                                    </div>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a class="green" href="#">
-                                    <div class="profile-photo">
-                                        <img src="assets/images/arnold-avatar.jpg" alt />
-                                    </div>
-                                    <div class="message-info">
-                                        <span class="sender">Arnold Karlsberg</span>
-                                        <span class="time">1 hour</span>
-                                        <div class="message-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
-                                    </div>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    <div class="profile-photo">
-                                        <img src="assets/images/profile-photo.jpg" alt />
-                                    </div>
-                                    <div class="message-info">
-                                        <span class="sender">John Douey</span>
-                                        <span class="time">3 hours</span>
-                                        <div class="message-content">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</div>
-                                    </div>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a class="red" href="#">
-                                    <div class="profile-photo">
-                                        <img src="assets/images/peter-avatar.jpg" alt />
-                                    </div>
-                                    <div class="message-info">
-                                        <span class="sender">Peter Kay</span>
-                                        <span class="time">5 hours</span>
-                                        <div class="message-content">Ut enim ad minim veniam, quis nostrud exercitation</div>
-                                    </div>
-                                </a>
-                            </li>
+<!--                            消息模板-->
+<!--                            <li>-->
+<!--                                <a class="cyan" href="#">-->
+<!--                                    <div class="profile-photo">-->
+<!--                                        <img src="assets/images/ici-avatar.jpg" alt />-->
+<!--                                    </div>-->
+<!--                                    <div class="message-info">-->
+<!--                                        <span class="sender">Ing. Imrich Kamarel</span>-->
+<!--                                        <span class="time">12 mins</span>-->
+<!--                                        <div class="message-content">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</div>-->
+<!--                                    </div>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!---->
+<!--                            <li>-->
+<!--                                <a class="green" href="#">-->
+<!--                                    <div class="profile-photo">-->
+<!--                                        <img src="assets/images/arnold-avatar.jpg" alt />-->
+<!--                                    </div>-->
+<!--                                    <div class="message-info">-->
+<!--                                        <span class="sender">Arnold Karlsberg</span>-->
+<!--                                        <span class="time">1 hour</span>-->
+<!--                                        <div class="message-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>-->
+<!--                                    </div>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!---->
+<!--                            <li>-->
+<!--                                <a href="#">-->
+<!--                                    <div class="profile-photo">-->
+<!--                                        <img src="assets/images/profile-photo.jpg" alt />-->
+<!--                                    </div>-->
+<!--                                    <div class="message-info">-->
+<!--                                        <span class="sender">John Douey</span>-->
+<!--                                        <span class="time">3 hours</span>-->
+<!--                                        <div class="message-content">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</div>-->
+<!--                                    </div>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!---->
+<!--                            <li>-->
+<!--                                <a class="red" href="#">-->
+<!--                                    <div class="profile-photo">-->
+<!--                                        <img src="assets/images/peter-avatar.jpg" alt />-->
+<!--                                    </div>-->
+<!--                                    <div class="message-info">-->
+<!--                                        <span class="sender">Peter Kay</span>-->
+<!--                                        <span class="time">5 hours</span>-->
+<!--                                        <div class="message-content">Ut enim ad minim veniam, quis nostrud exercitation</div>-->
+<!--                                    </div>-->
+<!--                                </a>-->
+<!--                            </li>-->
 
                             <li>
                                 <a class="orange" href="#">
@@ -296,8 +298,6 @@ AppAsset::register($this);
                         <a class="dropdown-toggle options" data-toggle="dropdown" href="#">
                             <?= Yii::$app->user->identity->username ?> <i class="fa fa-caret-down"></i>
                         </a>
-
-
                         <ul class="dropdown-menu arrow settings">
 
                             <li>
@@ -352,37 +352,25 @@ AppAsset::register($this);
                             <li class="search"><!-- Collapsed search pasting here at 768px --></li>
                         </ul>
                     </li>
-
+<!--新闻与留言模块-->
                     <li class="navigation" id="navigation">
-                        <a href="#" class="sidebar-toggle" data-toggle="#navigation">Navigation <i class="fa fa-angle-up"></i></a>
+                        <a href="#" class="sidebar-toggle" data-toggle="#navigation">文章管理<i class="fa fa-angle-up"></i></a>
 
                         <ul class="menu">
 
-                            <li class="active">
-                                <a href="index.html">
-                                    <i class="fa fa-tachometer"></i> Dashboard
-                                    <span class="badge badge-red">1</span>
-                                </a>
-                            </li>
-
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="fa fa-list"></i> Forms <b class="fa fa-plus dropdown-plus"></b>
+                                    <i class="fa fa-list"></i> 我的文章 <b class="fa fa-plus dropdown-plus"></b>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a href="form-elements.html">
-                                            <i class="fa fa-caret-right"></i> Common Elements
+                                            <i class="fa fa-caret-right"></i> 我发布的文章
                                         </a>
                                     </li>
                                     <li>
                                         <a href="validation-elements.html">
-                                            <i class="fa fa-caret-right"></i> Validation
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="form-wizard.html">
-                                            <i class="fa fa-caret-right"></i> Form Wizard
+                                            <i class="fa fa-caret-right"></i> 新建文章
                                         </a>
                                     </li>
                                 </ul>
@@ -390,193 +378,117 @@ AppAsset::register($this);
 
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="fa fa-pencil"></i> Interface <b class="fa fa-plus dropdown-plus"></b>
+                                    <i class="fa fa-pencil"></i> 我的留言 <b class="fa fa-plus dropdown-plus"></b>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a href="ui-elements.html">
-                                            <i class="fa fa-caret-right"></i> UI Elements
+                                            <i class="fa fa-caret-right"></i> 收到的留言
                                         </a>
                                     </li>
                                     <li>
                                         <a href="typography.html">
-                                            <i class="fa fa-caret-right"></i> Typography
+                                            <i class="fa fa-caret-right"></i> 给好友留言
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+<!--作业展示模块-->
+                    <li class="navigation" id="general-settings">
+                        <a href="#" class="sidebar-toggle underline" data-toggle="#general-settings">作业展示 <i class="fa fa-angle-up"></i></a>
+                        <ul class="menu">
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-list"></i> 团队作业 <b class="fa fa-plus dropdown-plus"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="form-elements.html">
+                                            <i class="fa fa-caret-right"></i> 介绍
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="validation-elements.html">
+                                            <i class="fa fa-caret-right"></i> 文档
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-pencil"></i> 个人作业 <b class="fa fa-plus dropdown-plus"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="ui-elements.html">
+                                            <i class="fa fa-caret-right"></i> 张缴怡
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="typography.html">
+                                            <i class="fa fa-caret-right"></i> 刘子晨
                                         </a>
                                     </li>
                                     <li>
                                         <a href="tiles.html">
-                                            <i class="fa fa-caret-right"></i> Tiles
+                                            <i class="fa fa-caret-right"></i> 吴明亮
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tiles.html">
+                                            <i class="fa fa-caret-right"></i> 吴轩羽
                                         </a>
                                     </li>
                                 </ul>
                             </li>
-
-                            <li>
-                                <a href="buttons.html">
-                                    <i class="fa fa-tint"></i> Buttons & Icons
-                                </a>
-                            </li>
-                            <li>
-                                <a href="grid.html">
-                                    <i class="fa fa-th"></i> Grid Layout
-                                </a>
-                            </li>
-
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="fa fa-th-large"></i> Tables <b class="fa fa-plus dropdown-plus"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="tables.html">
-                                            <i class="fa fa-caret-right"></i> Bootstrap Tables
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="datatables.html">
-                                            <i class="fa fa-caret-right"></i> DataTables
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="fa fa-desktop"></i> Example Pages <b class="fa fa-plus dropdown-plus"></b>
-                                    <span class="label label-greensea">mails</span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="login.html">
-                                            <i class="fa fa-caret-right"></i> Login Page
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="calendar.html">
-                                            <i class="fa fa-caret-right"></i> Calendar
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="page404.html">
-                                            <i class="fa fa-caret-right"></i> Page 404
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="page500.html">
-                                            <i class="fa fa-caret-right"></i> Page 500
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="page-offline.html">
-                                            <i class="fa fa-caret-right"></i> Page Offline
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="gallery.html">
-                                            <i class="fa fa-caret-right"></i> Gallery
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="timeline.html">
-                                            <i class="fa fa-caret-right"></i> Timeline
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="mail.html">
-                                            <i class="fa fa-caret-right"></i> Vertical Mail
-                                            <span class="badge badge-red">5</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="mail-horizontal.html">
-                                            <i class="fa fa-caret-right"></i> Horizontal Mail
-                                            <span class="label label-greensea">mails</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="vector-maps.html">
-                                            <i class="fa fa-caret-right"></i> Vector Maps
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="google-maps.html">
-                                            <i class="fa fa-caret-right"></i> Google Maps
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="widgets.html">
-                                    <i class="fa fa-play-circle"></i> Widgets
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="charts.html">
-                                    <i class="fa fa-bar-chart-o"></i> Charts & Graphs
-                                </a>
-                            </li>
-
-
                         </ul>
-
                     </li>
+<!--世界杯数据操作-->
+                    <li class="navigation" id="order-summary">
+                        <a href="#" class="sidebar-toggle " data-toggle="#order-summary"> 世界杯<i class="fa fa-angle-up"></i></a>
 
-                    <li class="summary" id="order-summary">
-                        <a href="#" class="sidebar-toggle underline" data-toggle="#order-summary">Orders Summary <i class="fa fa-angle-up"></i></a>
+                        <ul class="menu">
 
-                        <div class="media">
-                            <a class="pull-right" href="#">
-                                <span id="sales-chart"></span>
-                            </a>
-                            <div class="media-body">
-                                This week sales
-                                <h3 class="media-heading">26, 149</h3>
-                            </div>
-                        </div>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-list"></i> 球队相关 <b class="fa fa-plus dropdown-plus"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="form-elements.html">
+                                            <i class="fa fa-caret-right"></i> 球队信息管理
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="validation-elements.html">
+                                            <i class="fa fa-caret-right"></i> 球员信息管理
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
 
-                        <div class="media">
-                            <a class="pull-right" href="#">
-                                <span id="balance-chart"></span>
-                            </a>
-                            <div class="media-body">
-                                This week balance
-                                <h3 class="media-heading">318, 651</h3>
-                            </div>
-                        </div>
-
-                    </li>
-
-                    <li class="settings" id="general-settings">
-                        <a href="#" class="sidebar-toggle underline" data-toggle="#general-settings">General Settings <i class="fa fa-angle-up"></i></a>
-
-                        <div class="form-group">
-                            <label class="col-xs-8 control-label">Switch ON</label>
-                            <div class="col-xs-4 control-label">
-                                <div class="onoffswitch greensea">
-                                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="switch-on" checked="">
-                                    <label class="onoffswitch-label" for="switch-on">
-                                        <span class="onoffswitch-inner"></span>
-                                        <span class="onoffswitch-switch"></span>
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="col-xs-8 control-label">Switch OFF</label>
-                            <div class="col-xs-4 control-label">
-                                <div class="onoffswitch greensea">
-                                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="switch-off">
-                                    <label class="onoffswitch-label" for="switch-off">
-                                        <span class="onoffswitch-inner"></span>
-                                        <span class="onoffswitch-switch"></span>
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-pencil"></i> 赛程相关 <b class="fa fa-plus dropdown-plus"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="ui-elements.html">
+                                            <i class="fa fa-caret-right"></i> 赛程管理
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="typography.html">
+                                            <i class="fa fa-caret-right"></i> 央视名嘴
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
 
 
@@ -617,17 +529,9 @@ AppAsset::register($this);
             <div class="pageheader">
 
 
-                <h2><i class="fa fa-tachometer"></i> Dashboard
-                    <span>// Place subtitle here...</span></h2>
+                <h2><i class="fa fa-tachometer"></i> 欢迎老师
+                    <span>莅临后台</span></h2>
 
-
-                <div class="breadcrumbs">
-                    <ol class="breadcrumb">
-                        <li>You are here</li>
-                        <li><a href="index.html">Minimal</a></li>
-                        <li class="active">Dashboard</li>
-                    </ol>
-                </div>
 
 
             </div>
@@ -1072,36 +976,36 @@ AppAsset::register($this);
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="assets/js/jquery.js"></script>
+<script src="js/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="assets/js/vendor/bootstrap/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/vendor/mmenu/js/jquery.mmenu.min.js"></script>
-<script type="text/javascript" src="assets/js/vendor/sparkline/jquery.sparkline.min.js"></script>
-<script type="text/javascript" src="assets/js/vendor/nicescroll/jquery.nicescroll.min.js"></script>
-<script type="text/javascript" src="assets/js/vendor/animate-numbers/jquery.animateNumbers.js"></script>
-<script type="text/javascript" src="assets/js/vendor/videobackground/jquery.videobackground.js"></script>
-<script type="text/javascript" src="assets/js/vendor/blockui/jquery.blockUI.js"></script>
+<script src="js/vendor/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/vendor/mmenu/js/jquery.mmenu.min.js"></script>
+<script type="text/javascript" src="js/vendor/sparkline/jquery.sparkline.min.js"></script>
+<script type="text/javascript" src="js/vendor/nicescroll/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="js/vendor/animate-numbers/jquery.animateNumbers.js"></script>
+<script type="text/javascript" src="js/vendor/videobackground/jquery.videobackground.js"></script>
+<script type="text/javascript" src="js/vendor/blockui/jquery.blockUI.js"></script>
 
-<script src="assets/js/vendor/flot/jquery.flot.min.js"></script>
-<script src="assets/js/vendor/flot/jquery.flot.time.min.js"></script>
-<script src="assets/js/vendor/flot/jquery.flot.selection.min.js"></script>
-<script src="assets/js/vendor/flot/jquery.flot.animator.min.js"></script>
-<script src="assets/js/vendor/flot/jquery.flot.orderBars.js"></script>
-<script src="assets/js/vendor/easypiechart/jquery.easypiechart.min.js"></script>
+<script src="js/vendor/flot/jquery.flot.min.js"></script>
+<script src="js/vendor/flot/jquery.flot.time.min.js"></script>
+<script src="js/vendor/flot/jquery.flot.selection.min.js"></script>
+<script src="js/vendor/flot/jquery.flot.animator.min.js"></script>
+<script src="js/vendor/flot/jquery.flot.orderBars.js"></script>
+<script src="js/vendor/easypiechart/jquery.easypiechart.min.js"></script>
 
-<script src="assets/js/vendor/rickshaw/raphael-min.js"></script>
-<script src="assets/js/vendor/rickshaw/d3.v2.js"></script>
-<script src="assets/js/vendor/rickshaw/rickshaw.min.js"></script>
+<script src="js/vendor/rickshaw/raphael-min.js"></script>
+<script src="js/vendor/rickshaw/d3.v2.js"></script>
+<script src="js/vendor/rickshaw/rickshaw.min.js"></script>
 
-<script src="assets/js/vendor/morris/morris.min.js"></script>
+<script src="js/vendor/morris/morris.min.js"></script>
 
-<script src="assets/js/vendor/tabdrop/bootstrap-tabdrop.min.js"></script>
+<script src="js/vendor/tabdrop/bootstrap-tabdrop.min.js"></script>
 
-<script src="assets/js/vendor/summernote/summernote.min.js"></script>
+<script src="js/vendor/summernote/summernote.min.js"></script>
 
-<script src="assets/js/vendor/chosen/chosen.jquery.min.js"></script>
+<script src="js/vendor/chosen/chosen.jquery.min.js"></script>
 
-<script src="assets/js/minimal.min.js"></script>
+<script src="js/minimal.min.js"></script>
 
 <script>
     $(function(){
