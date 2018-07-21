@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="402af6b9-1186-4844-8f9a-d8178bfa746e" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/backend/controllers/GroupController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/backend/controllers/HomeworkController.php" />
       <change beforePath="" afterPath="$PROJECT_DIR$/backend/models/UploadedForm.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/backend/models/group/DbGroupMember.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/backend/models/homework/DbHomeworkGroup.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/backend/models/homework/DbHomeworkPersonal.php" />
       <change beforePath="" afterPath="$PROJECT_DIR$/backend/views/group/member.php" />
       <change beforePath="" afterPath="$PROJECT_DIR$/backend/views/homework/group.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/backend/views/homework/index.php" />
       <change beforePath="" afterPath="$PROJECT_DIR$/backend/views/homework/personal.php" />
       <change beforePath="" afterPath="$PROJECT_DIR$/backend/web/.htaccess" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -14,30 +19,30 @@
       <change beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" />
       <change beforePath="$PROJECT_DIR$/backend/runtime/logs/app.log" afterPath="$PROJECT_DIR$/backend/runtime/logs/app.log" />
       <change beforePath="$PROJECT_DIR$/backend/views/layouts/main_layout.php" afterPath="$PROJECT_DIR$/backend/views/layouts/main_layout.php" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/26bcb8d5/yii.activeForm.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/26bcb8d5/yii.captcha.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/26bcb8d5/yii.gridView.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/26bcb8d5/yii.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/26bcb8d5/yii.validation.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/2ab8dfee/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/2ab8dfee/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/2ab8dfee/jquery.min.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap-theme.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap-theme.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap-theme.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/js/bootstrap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/js/npm.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/26bcb8d5/yii.activeForm.js" afterPath="$PROJECT_DIR$/frontend/web/assets/269f765b/yii.activeForm.js" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/26bcb8d5/yii.captcha.js" afterPath="$PROJECT_DIR$/frontend/web/assets/269f765b/yii.captcha.js" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/26bcb8d5/yii.gridView.js" afterPath="$PROJECT_DIR$/frontend/web/assets/269f765b/yii.gridView.js" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/26bcb8d5/yii.js" afterPath="$PROJECT_DIR$/frontend/web/assets/269f765b/yii.js" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/26bcb8d5/yii.validation.js" afterPath="$PROJECT_DIR$/frontend/web/assets/269f765b/yii.validation.js" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/2ab8dfee/jquery.js" afterPath="$PROJECT_DIR$/frontend/web/assets/dbb55d10/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/2ab8dfee/jquery.min.js" afterPath="$PROJECT_DIR$/frontend/web/assets/dbb55d10/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/2ab8dfee/jquery.min.map" afterPath="$PROJECT_DIR$/frontend/web/assets/dbb55d10/jquery.min.map" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/css/bootstrap-theme.css" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/css/bootstrap-theme.css.map" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/css/bootstrap-theme.min.css" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/css/bootstrap-theme.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap.css" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/css/bootstrap.css.map" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/css/bootstrap.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/js/bootstrap.js" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/backend/web/assets/6268203a/js/npm.js" afterPath="$PROJECT_DIR$/frontend/web/assets/3512a970/js/npm.js" />
       <change beforePath="$PROJECT_DIR$/backend/web/assets/6dbf369/jquery.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/backend/web/assets/6dbf369/jquery.min.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/backend/web/assets/6dbf369/jquery.min.map" afterPath="" />
@@ -268,10 +273,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="main_layout.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main_layout.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/views/layouts/main_layout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="10395">
               <caret line="385" column="99" lean-forward="false" selection-start-line="385" selection-start-column="99" selection-end-line="385" selection-end-column="99" />
               <folding>
                 <element signature="e#97#118#0#PHP" expanded="true" />
@@ -328,11 +333,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="personal.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="personal.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/views/homework/personal.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/config/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppAsset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/assets/AppAsset.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -353,26 +378,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbGroupMember.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/models/group/DbGroupMember.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="68" column="46" lean-forward="false" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="member.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/views/group/member.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="68" column="35" lean-forward="false" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -760,12 +765,12 @@
       <workItem from="1532006604994" duration="159000" />
       <workItem from="1532100301424" duration="6016000" />
       <workItem from="1532106714822" duration="2189000" />
-      <workItem from="1532169426349" duration="15890000" />
+      <workItem from="1532169426349" duration="15970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60169000" />
+    <option name="totallyTimeSpent" value="60249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
@@ -1062,22 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/assets/AppAsset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/models/group/DbGroupMember.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="661">
@@ -1091,20 +1080,6 @@
         <state relative-caret-position="688">
           <caret line="68" column="35" lean-forward="false" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/layouts/main_layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="385" column="99" lean-forward="false" selection-start-line="385" selection-start-column="99" selection-end-line="385" selection-end-column="99" />
-          <folding>
-            <element signature="e#97#118#0#PHP" expanded="true" />
-            <marker date="1532182675299" expanded="true" signature="17785:17834" ph="..." />
-            <marker date="1532182675299" expanded="true" signature="18100:18149" ph="..." />
-            <marker date="1532182675299" expanded="true" signature="18417:18466" ph="..." />
-            <marker date="1532182675299" expanded="true" signature="28282:28296" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1165,6 +1140,36 @@
         <state relative-caret-position="420">
           <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/assets/AppAsset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/layouts/main_layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10395">
+          <caret line="385" column="99" lean-forward="false" selection-start-line="385" selection-start-column="99" selection-end-line="385" selection-end-column="99" />
+          <folding>
+            <element signature="e#97#118#0#PHP" expanded="true" />
+            <marker date="1532182675299" expanded="true" signature="17785:17834" ph="..." />
+            <marker date="1532182675299" expanded="true" signature="18100:18149" ph="..." />
+            <marker date="1532182675299" expanded="true" signature="18417:18466" ph="..." />
+            <marker date="1532182675299" expanded="true" signature="28282:28296" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
