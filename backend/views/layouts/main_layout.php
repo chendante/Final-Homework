@@ -3,15 +3,14 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-use frontend\assets\AppAsset;
+//use backend\assets\AppAsset;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
-
-AppAsset::register($this);
+//AppAsset::register($this);
 ?>
 <!--吴轩羽-->
 <!--编辑于07-19-->
@@ -40,7 +39,6 @@ AppAsset::register($this);
     <link rel="stylesheet" href="js/vendor/summernote/css/summernote-bs3.css">
     <link rel="stylesheet" href="js/vendor/chosen/css/chosen.min.css">
     <link rel="stylesheet" href="js/vendor/chosen/css/chosen-bootstrap.css">
-
     <link href="css/minimal.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -51,11 +49,10 @@ AppAsset::register($this);
     <![endif]-->
 </head>
 <body class="bg-3">
-
+<?php $this->beginBody() ?>
 
 
 <!-- Preloader -->
-<div class="mask"><div id="loader"></div></div>
 <!--/Preloader -->
 
 <!-- Wrap all page content here -->
@@ -195,63 +192,10 @@ AppAsset::register($this);
                         </a>
                         <ul class="dropdown-menu wider arrow nopadding messages">
                             <li><h1>You have <strong>1</strong> new message</h1></li>
-<!--                            消息模板-->
-<!--                            <li>-->
-<!--                                <a class="cyan" href="#">-->
-<!--                                    <div class="profile-photo">-->
-<!--                                        <img src="assets/images/ici-avatar.jpg" alt />-->
-<!--                                    </div>-->
-<!--                                    <div class="message-info">-->
-<!--                                        <span class="sender">Ing. Imrich Kamarel</span>-->
-<!--                                        <span class="time">12 mins</span>-->
-<!--                                        <div class="message-content">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</div>-->
-<!--                                    </div>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!---->
-<!--                            <li>-->
-<!--                                <a class="green" href="#">-->
-<!--                                    <div class="profile-photo">-->
-<!--                                        <img src="assets/images/arnold-avatar.jpg" alt />-->
-<!--                                    </div>-->
-<!--                                    <div class="message-info">-->
-<!--                                        <span class="sender">Arnold Karlsberg</span>-->
-<!--                                        <span class="time">1 hour</span>-->
-<!--                                        <div class="message-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>-->
-<!--                                    </div>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!---->
-<!--                            <li>-->
-<!--                                <a href="#">-->
-<!--                                    <div class="profile-photo">-->
-<!--                                        <img src="assets/images/profile-photo.jpg" alt />-->
-<!--                                    </div>-->
-<!--                                    <div class="message-info">-->
-<!--                                        <span class="sender">John Douey</span>-->
-<!--                                        <span class="time">3 hours</span>-->
-<!--                                        <div class="message-content">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</div>-->
-<!--                                    </div>-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!---->
-<!--                            <li>-->
-<!--                                <a class="red" href="#">-->
-<!--                                    <div class="profile-photo">-->
-<!--                                        <img src="assets/images/peter-avatar.jpg" alt />-->
-<!--                                    </div>-->
-<!--                                    <div class="message-info">-->
-<!--                                        <span class="sender">Peter Kay</span>-->
-<!--                                        <span class="time">5 hours</span>-->
-<!--                                        <div class="message-content">Ut enim ad minim veniam, quis nostrud exercitation</div>-->
-<!--                                    </div>-->
-<!--                                </a>-->
-<!--                            </li>-->
-
                             <li>
                                 <a class="orange" href="#">
                                     <div class="profile-photo">
-                                        <img src="assets/images/george-avatar.jpg" alt />
+                                        <img src="images/george-avatar.jpg" alt />
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">George McCain</span>
@@ -293,7 +237,7 @@ AppAsset::register($this);
 
                     <li class="dropdown divided user" id="current-user">
                         <div class="profile-photo">
-                            <img src="assets/images/profile-photo.jpg" alt />
+                            <img src="images/profile-photo.jpg" alt />
                         </div>
                         <a class="dropdown-toggle options" data-toggle="dropdown" href="#">
                             <?= Yii::$app->user->identity->username ?> <i class="fa fa-caret-down"></i>
@@ -402,16 +346,16 @@ AppAsset::register($this);
 
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="fa fa-list"></i> 团队作业 <b class="fa fa-plus dropdown-plus"></b>
+                                    <i class="fa fa-list"></i> 团队 <b class="fa fa-plus dropdown-plus"></b>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="form-elements.html">
+                                        <a href="group-member">
                                             <i class="fa fa-caret-right"></i> 介绍
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="validation-elements.html">
+                                        <a href="homework-group">
                                             <i class="fa fa-caret-right"></i> 文档
                                         </a>
                                     </li>
@@ -424,22 +368,22 @@ AppAsset::register($this);
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="ui-elements.html">
+                                        <a href="<?php echo Url::to(['homework/personal', 'id' =>1])?>">
                                             <i class="fa fa-caret-right"></i> 张缴怡
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="typography.html">
+                                        <a href="<?php echo Url::to(['homework/personal', 'id' =>2])?>">
                                             <i class="fa fa-caret-right"></i> 刘子晨
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="tiles.html">
+                                        <a href="<?php echo Url::to(['homework/personal', 'id' => 3 ])?>">
                                             <i class="fa fa-caret-right"></i> 吴明亮
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="tiles.html">
+                                        <a href="<?php echo Url::to(['homework/personal', 'id' => 4 ])?>">
                                             <i class="fa fa-caret-right"></i> 吴轩羽
                                         </a>
                                     </li>
@@ -548,412 +492,8 @@ AppAsset::register($this);
             </div>
             <!-- /content container -->
 
-
-
-
-
-
         </div>
         <!-- Page content end -->
-
-
-
-
-        <div id="mmenu" class="right-panel">
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs nav-justified">
-                <li class="active"><a href="#mmenu-users" data-toggle="tab"><i class="fa fa-users"></i></a></li>
-                <li class=""><a href="#mmenu-history" data-toggle="tab"><i class="fa fa-clock-o"></i></a></li>
-                <li class=""><a href="#mmenu-friends" data-toggle="tab"><i class="fa fa-heart"></i></a></li>
-                <li class=""><a href="#mmenu-settings" data-toggle="tab"><i class="fa fa-gear"></i></a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div class="tab-pane active" id="mmenu-users">
-                    <h5><strong>Online</strong> Users</h5>
-
-                    <ul class="users-list">
-
-                        <li class="online">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/ici-avatar.jpg" alt>
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Ing. Imrich <strong>Kamarel</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Ulaanbaatar, Mongolia</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="online">
-                            <div class="media">
-
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/arnold-avatar.jpg" alt>
-                                </a>
-                                <span class="badge badge-red unread">3</span>
-
-                                <div class="media-body">
-                                    <h6 class="media-heading">Arnold <strong>Karlsberg</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Bratislava, Slovakia</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-
-                            </div>
-                        </li>
-
-                        <li class="online">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/peter-avatar.jpg" alt>
-
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Peter <strong>Kay</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Kosice, Slovakia</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="online">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/george-avatar.jpg" alt>
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">George <strong>McCain</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Prague, Czech Republic</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="busy">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/random-avatar1.jpg" alt>
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Lucius <strong>Cashmere</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Wien, Austria</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="busy">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/random-avatar2.jpg" alt>
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Jesse <strong>Phoenix</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Berlin, Germany</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                    </ul>
-
-                    <h5><strong>Offline</strong> Users</h5>
-
-                    <ul class="users-list">
-
-                        <li class="offline">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/random-avatar4.jpg" alt>
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Dell <strong>MacApple</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Paris, France</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="offline">
-                            <div class="media">
-
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/random-avatar5.jpg" alt>
-                                </a>
-
-                                <div class="media-body">
-                                    <h6 class="media-heading">Roger <strong>Flopple</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Rome, Italia</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-
-                            </div>
-                        </li>
-
-                        <li class="offline">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/random-avatar6.jpg" alt>
-
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Nico <strong>Vulture</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Kyjev, Ukraine</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="offline">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/random-avatar7.jpg" alt>
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Bobby <strong>Socks</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Moscow, Russia</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="offline">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/random-avatar8.jpg" alt>
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Anna <strong>Opichia</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Budapest, Hungary</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-                <div class="tab-pane" id="mmenu-history">
-                    <h5><strong>Chat</strong> History</h5>
-
-                    <ul class="history-list">
-
-                        <li class="online">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/ici-avatar.jpg" alt>
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Ing. Imrich <strong>Kamarel</strong></h6>
-                                    <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="busy">
-                            <div class="media">
-
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/arnold-avatar.jpg" alt>
-                                </a>
-                                <span class="badge badge-red unread">3</span>
-
-                                <div class="media-body">
-                                    <h6 class="media-heading">Arnold <strong>Karlsberg</strong></h6>
-                                    <small>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-
-                            </div>
-                        </li>
-
-                        <li class="offline">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/peter-avatar.jpg" alt>
-
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Peter <strong>Kay</strong></h6>
-                                    <small>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit </small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-                <div class="tab-pane" id="mmenu-friends">
-                    <h5><strong>Friends</strong> List</h5>
-                    <ul class="favourite-list">
-
-                        <li class="online">
-                            <div class="media">
-
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/arnold-avatar.jpg" alt>
-                                </a>
-                                <span class="badge badge-red unread">3</span>
-
-                                <div class="media-body">
-                                    <h6 class="media-heading">Arnold <strong>Karlsberg</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Bratislava, Slovakia</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-
-                            </div>
-                        </li>
-
-                        <li class="offline">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/random-avatar8.jpg" alt>
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Anna <strong>Opichia</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Budapest, Hungary</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="busy">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/random-avatar1.jpg" alt>
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Lucius <strong>Cashmere</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Wien, Austria</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="online">
-                            <div class="media">
-                                <a class="pull-left profile-photo" href="#">
-                                    <img class="media-object" src="assets/images/ici-avatar.jpg" alt>
-                                </a>
-                                <div class="media-body">
-                                    <h6 class="media-heading">Ing. Imrich <strong>Kamarel</strong></h6>
-                                    <small><i class="fa fa-map-marker"></i> Ulaanbaatar, Mongolia</small>
-                                    <span class="badge badge-outline status"></span>
-                                </div>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-
-                <div class="tab-pane pane-settings" id="mmenu-settings">
-                    <h5><strong>Chat</strong> Settings</h5>
-
-                    <ul class="settings">
-
-                        <li>
-                            <div class="form-group">
-                                <label class="col-xs-8 control-label">Show Offline Users</label>
-                                <div class="col-xs-4 control-label">
-                                    <div class="onoffswitch greensea">
-                                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="show-offline" checked="">
-                                        <label class="onoffswitch-label" for="show-offline">
-                                            <span class="onoffswitch-inner"></span>
-                                            <span class="onoffswitch-switch"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="form-group">
-                                <label class="col-xs-8 control-label">Show Fullname</label>
-                                <div class="col-xs-4 control-label">
-                                    <div class="onoffswitch greensea">
-                                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="show-fullname">
-                                        <label class="onoffswitch-label" for="show-fullname">
-                                            <span class="onoffswitch-inner"></span>
-                                            <span class="onoffswitch-switch"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="form-group">
-                                <label class="col-xs-8 control-label">History Enable</label>
-                                <div class="col-xs-4 control-label">
-                                    <div class="onoffswitch greensea">
-                                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="show-history" checked="">
-                                        <label class="onoffswitch-label" for="show-history">
-                                            <span class="onoffswitch-inner"></span>
-                                            <span class="onoffswitch-switch"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="form-group">
-                                <label class="col-xs-8 control-label">Show Locations</label>
-                                <div class="col-xs-4 control-label">
-                                    <div class="onoffswitch greensea">
-                                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="show-location" checked="">
-                                        <label class="onoffswitch-label" for="show-location">
-                                            <span class="onoffswitch-inner"></span>
-                                            <span class="onoffswitch-switch"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="form-group">
-                                <label class="col-xs-8 control-label">Notifications</label>
-                                <div class="col-xs-4 control-label">
-                                    <div class="onoffswitch greensea">
-                                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="show-notifications">
-                                        <label class="onoffswitch-label" for="show-notifications">
-                                            <span class="onoffswitch-inner"></span>
-                                            <span class="onoffswitch-switch"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="form-group">
-                                <label class="col-xs-8 control-label">Show Undread Count</label>
-                                <div class="col-xs-4 control-label">
-                                    <div class="onoffswitch greensea">
-                                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="show-unread" checked="">
-                                        <label class="onoffswitch-label" for="show-unread">
-                                            <span class="onoffswitch-inner"></span>
-                                            <span class="onoffswitch-switch"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                    </ul>
-
-                </div><!-- tab-pane -->
-
-            </div><!-- tab-content -->
-        </div>
 
 
 
@@ -972,9 +512,6 @@ AppAsset::register($this);
 
 
 <section class="videocontent" id="video"></section>
-
-
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -985,7 +522,6 @@ AppAsset::register($this);
 <script type="text/javascript" src="js/vendor/animate-numbers/jquery.animateNumbers.js"></script>
 <script type="text/javascript" src="js/vendor/videobackground/jquery.videobackground.js"></script>
 <script type="text/javascript" src="js/vendor/blockui/jquery.blockUI.js"></script>
-
 <script src="js/vendor/flot/jquery.flot.min.js"></script>
 <script src="js/vendor/flot/jquery.flot.time.min.js"></script>
 <script src="js/vendor/flot/jquery.flot.selection.min.js"></script>
@@ -1006,9 +542,9 @@ AppAsset::register($this);
 <script src="js/vendor/chosen/chosen.jquery.min.js"></script>
 
 <script src="js/minimal.min.js"></script>
-
-<script>
-    $(function(){
+<?php
+$this->registerJs("
+ $(function(){
 
         // Initialize card flip
         $('.card.hover').hover(function(){
@@ -1044,10 +580,10 @@ AppAsset::register($this);
             [11, 1260],
             [12, 1320]
         ];
-        var months = ["January", "February", "March", "April", "May", "Juny", "July", "August", "September", "October", "November", "December"];
+        var months = [\"January\", \"February\", \"March\", \"April\", \"May\", \"Juny\", \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"];
 
         // flot chart generate
-        var plot = $.plotAnimator($("#statistics-chart"),
+        var plot = $.plotAnimator($(\"#statistics-chart\"),
             [
                 {
                     label: 'Sales',
@@ -1056,9 +592,9 @@ AppAsset::register($this);
                     shadowSize:0,
                     color: '#ffffff'
                 },
-                { label: "Visits",
+                { label: \"Visits\",
                     data: d2,
-                    animator: {steps: 99, duration: 500, start:200, direction: "right"},
+                    animator: {steps: 99, duration: 500, start:200, direction: \"right\"},
                     lines: {
                         fill: .15,
                         lineWidth: 0
@@ -1067,13 +603,13 @@ AppAsset::register($this);
                 },{
                 label: 'Sales',
                 data: d1,
-                points: { show: true, fill: true, radius:6,fillColor:"rgba(0,0,0,.5)",lineWidth:2 },
+                points: { show: true, fill: true, radius:6,fillColor:\"rgba(0,0,0,.5)\",lineWidth:2 },
                 color: '#fff',
                 shadowSize:0
             },
-                { label: "Visits",
+                { label: \"Visits\",
                     data: d2,
-                    points: { show: true, fill: true, radius:6,fillColor:"rgba(255,255,255,.2)",lineWidth:2 },
+                    points: { show: true, fill: true, radius:6,fillColor:\"rgba(255,255,255,.2)\",lineWidth:2 },
                     color: '#fff',
                     shadowSize:0
                 }
@@ -1084,12 +620,12 @@ AppAsset::register($this);
                     tickLength: 0,
                     tickDecimals: 0,
                     min:1,
-                    ticks: [[1,"JAN"], [2, "FEB"], [3, "MAR"], [4, "APR"], [5, "MAY"], [6, "JUN"], [7, "JUL"], [8, "AUG"], [9, "SEP"], [10, "OCT"], [11, "NOV"], [12, "DEC"]],
+                    ticks: [[1,\"JAN\"], [2, \"FEB\"], [3, \"MAR\"], [4, \"APR\"], [5, \"MAY\"], [6, \"JUN\"], [7, \"JUL\"], [8, \"AUG\"], [9, \"SEP\"], [10, \"OCT\"], [11, \"NOV\"], [12, \"DEC\"]],
 
                     font :{
                         lineHeight: 24,
-                        weight: "300",
-                        color: "#ffffff",
+                        weight: \"300\",
+                        color: \"#ffffff\",
                         size: 14
                     }
                 },
@@ -1097,12 +633,12 @@ AppAsset::register($this);
                 yaxis: {
                     ticks: 4,
                     tickDecimals: 0,
-                    tickColor: "rgba(255,255,255,.3)",
+                    tickColor: \"rgba(255,255,255,.3)\",
 
                     font :{
                         lineHeight: 13,
-                        weight: "300",
-                        color: "#ffffff"
+                        weight: \"300\",
+                        color: \"#ffffff\"
                     }
                 },
 
@@ -1133,7 +669,7 @@ AppAsset::register($this);
         });
 
         $('#mmenu').on(
-            "opened.mm",
+            \"opened.mm\",
             function()
             {
                 // redraw the graph in the correctly sized div
@@ -1144,7 +680,7 @@ AppAsset::register($this);
         );
 
         $('#mmenu').on(
-            "closed.mm",
+            \"closed.mm\",
             function()
             {
                 // redraw the graph in the correctly sized div
@@ -1155,28 +691,28 @@ AppAsset::register($this);
         );
 
         // tooltips showing
-        $("#statistics-chart").bind("plothover", function (event, pos, item) {
+        $(\"#statistics-chart\").bind(\"plothover\", function (event, pos, item) {
             if (item) {
                 var x = item.datapoint[0],
                     y = item.datapoint[1];
 
-                $("#tooltip").html('<h1 style="color: #418bca">' + months[x - 1] + '</h1>' + '<strong>' + y + '</strong>' + ' ' + item.series.label)
+                $(\"#tooltip\").html('<h1 style=\"color: #418bca\">' + months[x - 1] + '</h1>' + '<strong>' + y + '</strong>' + ' ' + item.series.label)
                     .css({top: item.pageY-30, left: item.pageX+5})
                     .fadeIn(200);
             } else {
-                $("#tooltip").hide();
+                $(\"#tooltip\").hide();
             }
         });
 
 
         //tooltips options
-        $("<div id='tooltip'></div>").css({
-            position: "absolute",
-            //display: "none",
-            padding: "10px 20px",
-            "background-color": "#ffffff",
-            "z-index":"99999"
-        }).appendTo("body");
+        $(\"<div id='tooltip'></div>\").css({
+            position: \"absolute\",
+            //display: \"none\",
+            padding: \"10px 20px\",
+            \"background-color\": \"#ffffff\",
+            \"z-index\":\"99999\"
+        }).appendTo(\"body\");
 
         //generate actual pie charts
         $('.pie-chart').easyPieChart();
@@ -1193,7 +729,7 @@ AppAsset::register($this);
         }
 
         graph = new Rickshaw.Graph( {
-            element: document.querySelector("#serverload-chart"),
+            element: document.querySelector(\"#serverload-chart\"),
             height: 150,
             renderer: 'area',
             series: [
@@ -1224,17 +760,17 @@ AppAsset::register($this);
         Morris.Donut({
             element: 'browser-usage',
             data: [
-                {label: "Chrome", value: 25},
-                {label: "Safari", value: 20},
-                {label: "Firefox", value: 15},
-                {label: "Opera", value: 5},
-                {label: "Internet Explorer", value: 10},
-                {label: "Other", value: 25}
+                {label: \"Chrome\", value: 25},
+                {label: \"Safari\", value: 20},
+                {label: \"Firefox\", value: 15},
+                {label: \"Opera\", value: 5},
+                {label: \"Internet Explorer\", value: 10},
+                {label: \"Other\", value: 25}
             ],
             colors: ['#00a3d8', '#2fbbe8', '#72cae7', '#d9544f', '#ffc100', '#1693A5']
         });
 
-        $('#browser-usage').find("path[stroke='#ffffff']").attr('stroke', 'rgba(0,0,0,0)');
+        $('#browser-usage').find(\"path[stroke='#ffffff']\").attr('stroke', 'rgba(0,0,0,0)');
 
         //sparkline charts
         $('#projectbar1').sparkline('html', {type: 'bar', barColor: '#22beef', barWidth: 4, height: 20});
@@ -1257,7 +793,7 @@ AppAsset::register($this);
         });
 
         // Initialize tabDrop
-        $('.tabdrop').tabdrop({text: '<i class="fa fa-th-list"></i>'});
+        $('.tabdrop').tabdrop({text: '<i class=\"fa fa-th-list\"></i>'});
 
         //load wysiwyg editor
         $('#quick-message-content').summernote({
@@ -1276,11 +812,15 @@ AppAsset::register($this);
         });
 
         //multiselect input
-        $(".chosen-select").chosen({disable_search_threshold: 10});
+        $(\".chosen-select\").chosen({disable_search_threshold: 10});
 
-    })
+    })", \yii\web\View::POS_END);
+?>
+<script>
+
 
 </script>
+<?php $this->endBody() ?>
 </body>
 </html>
 
