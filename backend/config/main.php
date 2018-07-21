@@ -37,14 +37,23 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
         'urlManager' => [
+            // 路由路径化
             'enablePrettyUrl' => true,
+            // 隐藏入口脚本
             'showScriptName' => false,
             'rules' => [
+                'homework-group'=>'homework/group',
+                'group-member'=>'group/member',
+               'homework-personal'=>'homework/personal'
             ],
         ],
-        */
+        'urlManagerFrontend' => [
+            'class' => 'yii\web\urlManager',
+            'scriptUrl' => '/Final-Homework/backend/web/', //代替'baseUrl'
+            'enablePrettyUrl' => false,
+            'showScriptName' => true,
+        ],
     ],
     'params' => $params,
 ];
