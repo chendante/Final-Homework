@@ -7,6 +7,7 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
 use frontend\models\news\DbNews;
+use frontend\models\news\DbNewsComment;
 class NewsController extends \yii\web\Controller
 {
 //    public function behaviors()
@@ -65,6 +66,7 @@ class NewsController extends \yii\web\Controller
         $id=Yii::$app->getRequest()->get('id');
         $view->params['data1'] =DbNews::getOneNews($id);
         $view->params['data2'] =DbNews::getNews();
+        $view->params['data3'] =DbNewsComment::getNewsComments($id);
         return $this->render('article');
     }
     /**

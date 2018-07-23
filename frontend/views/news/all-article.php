@@ -59,7 +59,7 @@ $this->title = '德塔贝斯-所有文章';
                                     <?php  $i=0;
                                     foreach ($this->params['data'] as $news){
                                         $i++;?>
-                                        <li><a href="#"><span class="fa fa-hand-o-right" aria-hidden="true"  style="font-size: 11px"></span><span  style="font-size: 12px"><?= $news['Title']?></span><span style="font-size: 11px" class="fa fa-hand-o-left" aria-hidden="true"></span></a></li>
+                                        <li><a href="<?php echo Url::to(['news/article', 'id' =>$news['NID']])?>"><span class="fa fa-hand-o-right" aria-hidden="true"  style="font-size: 11px"></span><span  style="font-size: 12px"><?= $news['Title']?></span><span style="font-size: 11px" class="fa fa-hand-o-left" aria-hidden="true"></span></a></li>
                                     <?php
                                         if($i==10)
                                             break;

@@ -2,75 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402af6b9-1186-4844-8f9a-d8178bfa746e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/views/news/article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/web/images/all-article-1.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/cache/96/963454f612a8b5fb4a63ba1e97f028a1.bin" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/cache/96/963454f612a8b5fb4a63ba1e97f028a1.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b503eeea2ded.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b503eeea90b6.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b503eeeaa60f.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b503eeec0293.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b503eeec81f1.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b503eeed1ae6.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b503eef5080a.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b503eef6bec1.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b503eef847a2.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042015118b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b504201abeea.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b504204b42f8.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042071530a.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50420d2db6d.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042168cfe7.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50428907e41.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042894d234.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50428bd00c1.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50428c18dba.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042946224b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b504294b1e77.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042c4ec390.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042e230fc7.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042e9e7702.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042eb2a4d4.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042ebf0360.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042ed274e5.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042ed6311e.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042eda00b7.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50436d01ac3.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50436ea1845.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50437160232.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50437181a97.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b504377d0fdc.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043782e599.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043784c826.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50439482597.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043949e856.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50439a6c3f9.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50439abf4ef.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50439ad01fa.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043bcc3b88.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043c0b5f1c.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043c0cd7bc.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043c334bfc.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043c357cf4.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043d0bfb8b.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043d11f7f2.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043d13fa68.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043d621e3e.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043d871de2.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043da35336.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043da9f532.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043dacf651.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5043dad39a4.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b504832cc1e5.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b509127eaa52.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50912862af9.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/NewsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/news/all-article.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/news/all-article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/news/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/news/article.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,26 +31,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all-article.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="all-article.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/news/all-article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="78" column="24" lean-forward="true" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
-              <folding>
-                <element signature="n#div#1;n#section#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#1;n#!!top" />
-                <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorldCupTeamController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/controllers/WorldCupTeamController.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="DbNews.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/models/news/DbNews.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+            <state relative-caret-position="304">
+              <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="77" selection-end-column="41" />
+              <folding>
+                <element signature="e#40#48#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbNewsComment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/models/news/DbNewsComment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="87" column="120" selection-start-line="87" selection-start-column="120" selection-end-line="87" selection-end-column="120" />
               <folding>
                 <element signature="e#40#48#0#PHP" expanded="true" />
               </folding>
@@ -123,8 +72,8 @@
       <file leaf-file-name="NewsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/controllers/NewsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="66" selection-start-line="66" selection-end-line="67" />
+            <state relative-caret-position="209">
+              <caret line="68" column="66" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
               <folding>
                 <element signature="e#39#47#0#PHP" expanded="true" />
               </folding>
@@ -132,16 +81,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="article.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/views/news/article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="137" column="54" selection-start-line="137" selection-start-column="54" selection-end-line="137" selection-end-column="54" />
+            <state relative-caret-position="477">
+              <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/config/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -218,9 +174,10 @@
         <option value="$PROJECT_DIR$/frontend/views/article/AllArticle.php" />
         <option value="$PROJECT_DIR$/frontend/config/main.php" />
         <option value="$PROJECT_DIR$/frontend/models/news/DbNews.php" />
-        <option value="$PROJECT_DIR$/frontend/controllers/NewsController.php" />
-        <option value="$PROJECT_DIR$/frontend/views/news/article.php" />
         <option value="$PROJECT_DIR$/frontend/views/news/all-article.php" />
+        <option value="$PROJECT_DIR$/frontend/controllers/NewsController.php" />
+        <option value="$PROJECT_DIR$/frontend/models/news/DbNewsComment.php" />
+        <option value="$PROJECT_DIR$/frontend/views/news/article.php" />
       </list>
     </option>
   </component>
@@ -231,7 +188,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/vendor/bower/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/vendor/bower/typeahead.js/package.json" />
+      <path value="$PROJECT_DIR$/vendor/bower/yii2-pjax/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -296,13 +257,13 @@
       <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="178" />
-    <option name="y" value="16" />
-    <option name="width" value="1452" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="508" />
+    <option name="y" value="2" />
+    <option name="width" value="1456" />
+    <option name="height" value="1049" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -326,7 +287,26 @@
               <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Final-Homework" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final-Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final-Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final-Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
@@ -416,28 +396,29 @@
       <workItem from="1532106714822" duration="2189000" />
       <workItem from="1532169426349" duration="15970000" />
       <workItem from="1532268861157" duration="3773000" />
-      <workItem from="1532312068301" duration="17126000" />
+      <workItem from="1532312068301" duration="17745000" />
+      <workItem from="1532335068082" duration="108000" />
+      <workItem from="1532349993743" duration="3917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81150000" />
+    <option name="totallyTimeSpent" value="85794000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="144" y="13" width="1171" height="838" extended-state="0" />
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17624274" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21953328" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -446,6 +427,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,14 +448,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/web/assets/css/minimal.css" />
-    <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="112" column="74" selection-start-line="112" selection-start-column="74" selection-end-line="112" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -684,20 +658,10 @@
     <entry file="file://$PROJECT_DIR$/frontend/web/images/about-img.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/models/homework/DbHomeworkPersonal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
           <caret line="54" column="57" selection-start-line="52" selection-start-column="7" selection-end-line="54" selection-end-column="57" />
-          <folding>
-            <element signature="e#43#51#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,19 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="41" selection-start-line="35" selection-start-column="4" selection-end-line="41" />
-          <folding>
-            <element signature="e#38#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/models/news/DbNews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
-          <folding>
-            <element signature="e#40#48#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,37 +693,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/WorldCupTeamController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/controllers/NewsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="66" selection-start-line="66" selection-end-line="67" />
+        <state relative-caret-position="209">
+          <caret line="68" column="66" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
           <folding>
             <element signature="e#39#47#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/views/news/article.php">
+    <entry file="file://$PROJECT_DIR$/frontend/models/news/DbNews.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="137" column="54" selection-start-line="137" selection-start-column="54" selection-end-line="137" selection-end-column="54" />
+        <state relative-caret-position="304">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="77" selection-end-column="41" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#40#48#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/news/all-article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="78" column="24" lean-forward="true" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+        <state relative-caret-position="285">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models/news/DbNewsComment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="87" column="120" selection-start-line="87" selection-start-column="120" selection-end-line="87" selection-end-column="120" />
           <folding>
-            <element signature="n#div#1;n#section#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#1;n#!!top" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#40#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/news/article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
