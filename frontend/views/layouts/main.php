@@ -56,7 +56,7 @@ AppAsset::register($this);
                     <li class="active"><a href="index.html">主页</a></li>
                     <li><a href="about.html">文章</a></li>
                     <li><a href="service.html">球队信息</a></li>
-                    <li><a href="blog.html">比赛信息</a></li>
+                    <li><a href="<?php echo Url::to(['site/games']) ?>">比赛信息</a></li>
                     <?php if(\Yii::$app->user->isGuest) { ?>
 
                         <li><a href="<?php echo Url::to(['site/login']) ?>" ></span>

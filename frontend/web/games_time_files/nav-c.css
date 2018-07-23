@@ -1,0 +1,35 @@
+@charset "utf-8";
+.nav-c-wrap{ width:1240px; height: 56px;  position: relative; margin: 0 auto;}
+.nav-c{ position: absolute; top: 0px; left: 0; font:14px/56px "Microsoft YaHei","微软雅黑","SimHei","黑体",sans-serif;text-align: center;min-width: 1240px; color:#fff;z-index:999;
+    background: url(//n.sinaimg.cn/products/worldcup2018/latest/images/nav-c-bg.png) no-repeat; background-size: cover; }
+.nav-c__hd{ width: 1229px; margin: 0 20px; height: 65px; position: relative; overflow: hidden; background: url(//n.sinaimg.cn/products/worldcup2018/latest/images/nav-c-bg_cen.png) repeat-x;}
+.nav-c__hd .label{ float: left;padding-left: 20px;}
+.nav-c__links{float: left;display: inline;}
+.nav-c__links li{float: left;display: inline;font-size: 0;}
+.nav-c__links a{ color:#fff;text-decoration: none; display:inline-block; font-size:14px; font-weight: bold; line-height:56px; padding: 0 10px; vertical-align: middle;}
+.nav-c__links a:link,.nav-c__links a:visited{color:#fff; text-decoration: none;}
+.nav-c__links a:hover, .nav-c__links a:active{color:#ffd200;text-decoration: none;}
+.nav-c__links .current{ background: #11496b; color: #ffd200}
+.nav-c__links .current:link,.nav-c__links .current:visited{background:#11496b; color: #ffd200;}
+.nav-c__links .current:hover,.nav-c__links .current:active{background:#11496b; color: #ffd200;}
+/*.nav-c__links a.current:hover{cursor: default;}*/
+.nav-c__hd .more{float:right; display: inline; width:40px;height: 56px; position: relative;overflow: hidden;cursor: pointer; }
+.nav-c__hd .more i{display: block; width: 12px; height: 9px; background: url(../../../images/nav-arrow.png) no-repeat; margin: 18px 0 0 8px;}
+.nav-c__hd .more i:hover,.nav-c__hd .more i:active{cursor: default;  background-position: -15px 0}
+.nav-c__hd .selected i{  background-position: 0 -12px  }
+.nav-c__hd .selected:hover i{ background-position: -15px -12px}
+
+.nav-c__bd{width:100%;background: #19699a; overflow: hidden;line-height: 30px;position: absolute;top:56px;left:0; border-top: 1px solid #3078a4}
+.nav-c__sub-links{padding:0px 20px;white-space:nowrap; }
+/*.nav-c__links a.current, .nav-c__links a:hover, .nav-c__links a:active, .nav-c__hd a.selected{background:rgba(0,0,0, 0.2); filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#33000000', EndColorStr='#33000000');*zoom:1;} :root .nav-c__links a.current, :root .nav-c__links a:hover, :root .nav-c__links a:active, :root .nav-c__hd a.selected{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#00000000', EndColorStr='#00000000'); }
+*/
+
+/*32强补充样式*/
+.nav-c_team { background: url(//n.sinaimg.cn/products/worldcup2018/latest/images/nav-c-bg_team.png) no-repeat; background-size: cover;}
+.nav-c_team .nav-c__hd {height: 175px; width: 1210px; margin: 0 29px; background: url(//n.sinaimg.cn/products/worldcup2018/latest/images/nav-c-bg_team_cen.png) repeat-x; }
+.nav-c_team .label {width: 130px; margin-top: 14px; }
+.nav-c_team .nav-c_item {display: block; width: 130px; height: 28px; padding: 0; font-size: 14px; line-height: 28px; text-align: left;}
+.nav-c_team .nav-c_title {text-align: center;}
+.nav-c_team .nav-c_logo {float: left; width: 22px; height: 14px; margin: 6px 10px 0 0;}
+.nav-c_team .nav-c_country {display: inline-block; font-weight: bold; height: 28px; padding: 0; width: 98px; overflow: hidden; border-bottom: none; text-overflow: ellipsis;white-space: nowrap; }
+.borderRight {border-right: 1px solid #c63737; }

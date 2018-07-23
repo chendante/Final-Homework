@@ -1,0 +1,160 @@
+.clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both;}
+.clearit{clear:both;height:0;font-size:0;overflow:hidden;}
+a{color:#313131;text-decoration:none;}
+a:visited{color:#959595;}
+/* CSS3 渐进增强 */
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus {border-color: rgba(242, 145, 73, 0.8) !important;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(242, 145, 73, 0.6);outline: 0 none;}
+a:hover, a:active, a:focus {text-decoration:underline; -webkit-transition: color 0.3s ease; transition: color 0.3s ease;color:#f00;}
+h1, h2, h3, h4, h5, em {font-weight:normal; }
+/* ie debug */
+img,li {vertical-align:top;}
+.wrap {width:1240px; margin: 2px auto 0;}
+
+/* 导航 */
+.navTop{ background:#313131; margin-top:5px; height:36px; overflow:hidden; line-height:36px; font-size:14px; padding-left:35px;}
+.navTop a.rank{ margin-right:30px;}
+.navTop a:link, .navTop a:visited{color:#a0a0a0; padding:0 7px;}
+.navTop a:hover{color:#f9ee30; text-decoration:none}
+
+/* 国家对阵 */
+.contury_group {border: 1px solid #f0f0f0; padding: 3px;}
+.contury_group .gc {background: #fbfbfb;}
+.contury_group dl{ float:left; height:157px; border-left:solid 1px #f0f0f0; width:153px; overflow:hidden;}
+.contury_group .first{ border-left: none; }
+.contury_group dl.hover{ background-color:#a0a0a0}
+.contury_group dt{ font-family:Arial, Helvetica, sans-serif; font-size:22px; text-align:center; line-height:23px; padding:8px 0 0}
+.contury_group dd{ padding:0 12px; font-size:11px}
+.contury_group dd a, .contury_group dd a:visited{ text-align:center;float:left; overflow:hidden; white-space:nowrap; width:63px; height:22px; padding-top:40px; text-align:center; color:#000; background-image:url(//i2.sinaimg.cn/ty/2011hqj/20131128/images/flag_bg.jpg); background-repeat:no-repeat;
+    /*margin: 0 7px;*/}
+.contury_group dd a:hover{color:#535353; text-decoration:none}
+.contury_group dt {
+    line-height: 38px;
+    margin-top: 6px;
+}
+.contury_group dl {
+    height: 198px;
+}
+.contury_group dd a, .contury_group dd a:visited {
+    height: 62px;
+    padding-top: 0;
+    background-image: none;
+    display: inline-block;
+    padding-bottom: 12px;
+}
+.contury_group dd a span {
+    display: block;
+    margin:auto;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    background-image: url(//n.sinaimg.cn/products/worldcup2018/latest/images/flag-bg.png);
+}
+.contury_group dd a.no span:after {
+    content: '';
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("//n.sinaimg.cn/products/worldcup2018/latest/images/iconicon.png");
+}
+.contury_group dd a img {
+    width: 66px;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -33px;
+}
+.contury_group dd a p {
+    line-height: 20px;
+}
+.eluo span{  background-position: -1099px 72px;  }
+.sate span{  }
+.aiji span{  }
+.wlagui span{background-position: -483px 0px;}
+.putaoya span{background-position: -1004px 0px;}
+.xibanya span{background-position: -175px 0px;}
+.yilang span{background-position: -789px 72px;}
+.aodaliya span{background-position: -235px 72px;}
+.agenting  span{background-position: -789px 0px;}
+.keluodiya span{background-position: -81px 0px;}
+.niriliya span{background-position: -851px 72px;}
+.baxi span{background-position: -22px 0px;}
+.rishi  span{background-position: -637px 0px;}
+.geshidali   span{background-position: -543px 0px;}
+.deguo span{background-position: -944px 0px;}
+.moxige span{background-position: -21px 72px;}
+.hanguo span{background-position: -1158px 72px;}
+.bilishi span{background-position: -1098px 0;}
+.yigelan span{background-position: -481px 72px;}
+.gelunbiya span{background-position: -330px 0;}
+.riben span{background-position: -389px 72px;}
+/* ============== 横切定义 ============== */
+.topPart{ height: 600px; overflow:hidden; *position:relative; color:#313131;}
+.topPart .topMenu li{ float:left; width:177px; text-align:center; line-height: 40px; font-size:16px; font-weight:bold; color: #fff;}
+.topPart .topCont{position:relative; height:560px; overflow:hidden;}
+.topPart .bg {position: absolute; width:1240px; height: 560px; left: 0; top: 22px; background: url(//n.sinaimg.cn/products/worldcup2018/latest/images/elimLine.png) no-repeat center;}
+.topPart .menu01{ background: #ebd3b1;}
+.topPart .menu02{ background: #e9cda6;}
+.topPart .menu03{ background: #e6c79b;}
+.topPart .menu04{ background: #e3c190;}
+.topPart .item{ float:left;  text-align:center; display:inline; padding: 40px 14px; }
+.topPart .box {width:148px;  border: 1px solid #d8d8d7; background: #fff; overflow: hidden; padding-top: 10px;}
+.topPart .box-name{ height: 20px; line-height: 20px; overflow:hidden;}
+.topPart .teamlogo{ float: left; width: 18px; height: 12px; margin: 4px 10px 2px 14px;}
+.topPart .box-date{ height:30px; line-height:30px; overflow:hidden; background: #f9f9f9; margin-top: 10px;}
+.topPart .num {color: #FF0000;float: right; width: 30px;}
+.topPart h2{ width: 74px; text-align: left; border-right: 1px solid #d8d8d7; float:left; white-space:nowrap;overflow:hidden; font-size:12px;}
+
+.topPart .item01{ background: #fbf4eb;}
+.topPart .item02{ padding-top:98px; background: #f8efe0;}
+.topPart .item03{ padding-top:232px; background: #f6e9d6;}
+.topPart .item04{ padding-top:232px; background: #f4e4cc;}
+.topPart .item01 .box{ margin-bottom: 20px; border-top: 4px solid #b2dbbf;}
+.topPart .item02 .box{ margin-bottom: 175px; border-top: 4px solid #70c1b3; }
+.topPart .item03 .box{ border-top: 4px solid #247ba0;}
+.topPart .item04 .box{ margin-bottom: 100px; border-top: 4px solid #e10000; }
+.topPart a:link, .topPart a:visited, .topPart a:hover{color:#313131}
+.topPart .item01 .box.box2{margin-bottom: 60px;}
+
+/* 空白 */
+a.flag-blank{ background-position:-999em 4px}
+a.flag_baxi{ background-position:4px 4px}
+a.flag_gamai{ background-position:-46px 4px}
+a.flag_aoda{ background-position:-96px 4px}
+a.flag_agen{ background-position:-146px 4px}
+a.flag_aer{ background-position:-196px 4px}
+a.flag_meiguo{ background-position:-246px 4px}
+a.flag_ruishi{ background-position:-296px 4px}
+a.flag_xiban{ background-position:-346px 4px}
+a.flag_eluo{ background-position:-396px 4px}
+a.flag_putao{ background-position:-446px 4px}
+a.flag_niri{ background-position:-496px 4px}
+a.flag_helan{ background-position:-546px 4px}
+a.flag_moxi{ background-position:-596px 4px}
+a.flag_hanguo{ background-position:-646px 4px}
+a.flag_riben{ background-position:-696px 4px}
+a.flag_yida{ background-position:-746px 4px}
+a.flag_wula{ background-position:4px -296px}
+a.flag_bili{ background-position:-46px -296px}
+a.flag_yilang{ background-position:-96px -296px}
+a.flag_hongdu{ background-position:-146px -296px}
+a.flag_xila{ background-position:-196px -296px}
+a.flag_jiana{ background-position:-246px -296px}
+a.flag_deguo{ background-position:-296px -296px}
+a.flag_faguo{ background-position:-346px -296px}
+a.flag_yingge{ background-position:-396px -296px}
+a.flag_egua{ background-position:-446px -296px}
+a.flag_keluo{ background-position:-496px -296px}
+a.flag_kete{ background-position:-546px -296px}
+a.flag_gesi{ background-position:-596px -296px}
+a.flag_gelun{ background-position:-646px -296px}
+a.flag_zhili{ background-position:-696px -296px}
+a.flag_bohei{ background-position:-746px -296px}
+
+.topPart  .bg{display: none;}
+#bracket .item{background: none;}
+.topCont {background: url(//n.sinaimg.cn/products/worldcup2018/latest/images/elimLine1.png) no-repeat center;}
+.topPart .item01 .box1,.topPart .item01 .box:nth-of-type(2){margin-bottom: 60px;}

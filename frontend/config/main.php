@@ -44,7 +44,10 @@ return [
             'rules' => [
                 'login'=>'site/login',
                 'logout'=>'site/logout',
-                'manage'=>'site/manage'
+                'manage'=>'site/manage',
+                'games' => 'site/games',
+                'games-group' => 'site/games-group',
+                'games-time' => 'site/games-time'
             ],
            ],
         'urlManagerFrontend' => [
