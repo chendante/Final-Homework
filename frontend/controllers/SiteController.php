@@ -215,4 +215,19 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+
+    //赛程首页
+    public function actionGames(){
+        return $this->render('games');
+    }
+
+    //小组赛页面
+    public function actionGamesGroup(){
+        return $this->render('games-group');
+    }
+
+    //按时间查询
+    public function actionGamesTime(){
+        return $this->render('games-time');
+    }
 }

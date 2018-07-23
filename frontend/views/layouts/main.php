@@ -58,7 +58,7 @@ AppAsset::register($this);
 <!--                    <li><a href="about.html">文章</a></li>-->
 <!--                    <a href="--><?php //echo Url::to(['homework/personal', 'id' =>1])?><!--">-->
                     <li><a href="service.html">球队信息</a></li>
-                    <li><a href="blog.html">比赛信息</a></li>
+                    <li><a href="<?php echo Url::to(['site/games']) ?>">比赛信息</a></li>
                     <?php if(\Yii::$app->user->isGuest) { ?>
 
                         <li><a href="<?php echo Url::to(['site/login']) ?>" ></span>
