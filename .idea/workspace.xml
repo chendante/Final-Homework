@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="402af6b9-1186-4844-8f9a-d8178bfa746e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/backend/views/site/upload.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/backend/config/main.php" afterPath="$PROJECT_DIR$/backend/config/main.php" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/SiteController.php" afterPath="$PROJECT_DIR$/backend/controllers/SiteController.php" />
-      <change beforePath="$PROJECT_DIR$/backend/models/UploadedForm.php" afterPath="$PROJECT_DIR$/backend/models/UploadedForm.php" />
-      <change beforePath="$PROJECT_DIR$/backend/models/homework/DbHomeworkGroup.php" afterPath="$PROJECT_DIR$/backend/models/homework/DbHomeworkGroup.php" />
-      <change beforePath="$PROJECT_DIR$/backend/models/homework/DbHomeworkPersonal.php" afterPath="$PROJECT_DIR$/backend/models/homework/DbHomeworkPersonal.php" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/logs/app.log" afterPath="$PROJECT_DIR$/backend/runtime/logs/app.log" />
-      <change beforePath="$PROJECT_DIR$/backend/views/homework/group.php" afterPath="$PROJECT_DIR$/backend/views/homework/group.php" />
-      <change beforePath="$PROJECT_DIR$/backend/views/homework/personal.php" afterPath="$PROJECT_DIR$/backend/views/homework/personal.php" />
-      <change beforePath="$PROJECT_DIR$/backend/views/layouts/main_layout.php" afterPath="$PROJECT_DIR$/backend/views/layouts/main_layout.php" />
-      <change beforePath="$PROJECT_DIR$/backend/web/css/minimal.css" afterPath="$PROJECT_DIR$/backend/web/css/minimal.css" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b504204b42f8.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042071530a.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50420d2db6d.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042168cfe7.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50428907e41.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042894d234.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50428bd00c1.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b50428c18dba.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042946224b.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b504294b1e77.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5b5042c4ec390.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" />
-      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/layouts/main.php" afterPath="$PROJECT_DIR$/frontend/views/layouts/main.php" />
-      <change beforePath="$PROJECT_DIR$/frontend/web/.gitignore" afterPath="$PROJECT_DIR$/frontend/web/.gitignore" />
-    </list>
+    <list default="true" id="402af6b9-1186-4844-8f9a-d8178bfa746e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -339,65 +310,6 @@
               <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Final-Homework" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final-Homework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final-Homework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final-Homework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final-Homework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final-Homework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final-Homework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final-Homework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final-Homework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="yiisoft" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final-Homework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="yiisoft" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Final-Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final-Homework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="yiisoft" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -469,18 +381,17 @@
       <workItem from="1532169426349" duration="15970000" />
       <workItem from="1532189339646" duration="9126000" />
       <workItem from="1532265468356" duration="7634000" />
-      <workItem from="1532310062632" duration="16496000" />
+      <workItem from="1532310062632" duration="16620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93507000" />
+    <option name="totallyTimeSpent" value="93631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.215625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.215625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
