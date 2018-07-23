@@ -44,7 +44,9 @@ return [
             'rules' => [
                 'login'=>'site/login',
                 'logout'=>'site/logout',
-                'manage'=>'site/manage'
+                'manage'=>'site/manage',
+                'world-cup-team-data'=>'world-cup-team/world-cup-team-data',
+                'world-cup-team-info'=>'world-cup-team/world-cup-team-info'
             ],
            ],
         'urlManagerFrontend' => [
