@@ -93,22 +93,37 @@ $this->title='德塔贝斯-世界杯球队信息';
     <div class="team_statistics_cons">
         <div class="team_statistics_con current" ne-role="tab-body" style="">
             <ul class="team_statistics_schedule clearfix">
-                
+                <?php
+                $i=1;
+                foreach ($this->params['data']['games'] as $game){
+                ?>
                 <li>
                     <div class="round_type">
-                        小组赛
+                        <?= $game['round_type'] ?>
                     </div>
                     <div class="time">已结束</div>
                     <div class="groups">
-                        <div class="home_group"><a href="http://sports.163.com/special/team4694/" target="_blank">俄罗斯</a></div>
-                        <div class="home_score">5</div>
-                        <div class="away_group"><a href="http://sports.163.com/special/team4834/" target="_blank">沙特阿拉伯</a></div>
-                        <div class="away_score">0</div>
+                        <div class="home_group">
+                            <a href="http://localhost/Final-Homework/frontend/web/world-cup-team-info?id=<?= $game['team1_id']?>" target="_blank">
+                                <?= $game['team1'] ?>
+                            </a></div>
+                        <div class="home_score">
+                            <?= $game['score1'] ?>
+                        </div>
+                        <div class="away_group">
+                            <a href="http://localhost/Final-Homework/frontend/web/world-cup-team-info?id=<?= $game['team1_id']?>" target="_blank">
+                                <?= $game['team2'] ?>
+                            </a></div>
+                        <div class="away_score">
+                            <?= $game['score2'] ?>
+                        </div>
                     </div>
                     <div class="links">
                         <a>查看比赛</a>
                     </div>
                 </li>
+                    <?php }?>
+
             </ul>
         </div>
     </div>
