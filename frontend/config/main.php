@@ -45,6 +45,11 @@ return [
                 'login'=>'site/login',
                 'logout'=>'site/logout',
                 'manage'=>'site/manage',
+                'games' => 'site/games',
+                'games-group' => 'site/games-group',
+                'games-time' => 'site/games-time',
+                'article'=>'news/article',
+                'all-article'=>'news/all-article',
                 'world-cup-team-data'=>'world-cup-team/world-cup-team-data',
                 'world-cup-team-info'=>'world-cup-team/world-cup-team-info'
             ],

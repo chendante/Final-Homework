@@ -9,6 +9,7 @@ use backend\models\group\DbGroupMember;
  *
  * @property string $HomeworkName
  * @property string $Path
+ * @property string $Mark
  * @property integer $MemberID
  * @property integer $HID
  */
@@ -43,6 +44,7 @@ class DbHomeworkPersonal extends \yii\db\ActiveRecord
             'Path' => Yii::t('app', 'Path'),
             'MemberID' => Yii::t('app', 'Member ID'),
             'HID' => Yii::t('app', 'Hid'),
+            'Mark' => Yii::t('app', 'Mark'),
         ];
     }
     public function getMember()
