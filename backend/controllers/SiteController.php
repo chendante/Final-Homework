@@ -6,7 +6,8 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
-
+use backend\models\UploadedForm;
+use yii\web\UploadedFile;
 /**
  * Site controller
  */
@@ -24,7 +25,7 @@ class SiteController extends Controller
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['login', 'error'],
+                        'actions' => ['login', 'error','upload'],
                         'allow' => true,
                     ],
                     [
@@ -86,7 +87,6 @@ class SiteController extends Controller
                 'model' => $model,
             ]);
         }
-
     }
 
     /**
@@ -99,5 +99,26 @@ class SiteController extends Controller
         Yii::$app->user->logout();
 
         return $this->goHome();
+    }
+    public function actionUpload()
+    {
+
+        $this->layout="main_layout";
+        $model = new UploadedForm();
+        $view = Yii::$app->getView();
+        $view->params['IsUp']=0;
+        if(yii::$app->request->isPost){
+            $model->file=UploadedFile::getInstance($model,'file');
+            $model->category=Yii::$app->request->post('UploadedForm')['category'];
+            $model->mark=Yii::$app->request->post('UploadedForm')['mark'];
+            $model->student=Yii::$app->request->post('UploadedForm')['student'];
+            if($model->upload()){
+                $view->params['IsUp']=1;
+            }
+            else{
+                $view->params['IsUp']=2;
+            }
+        }
+        return $this->render('upload', ['model' => $model]);
     }
 }

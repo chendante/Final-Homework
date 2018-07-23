@@ -110,7 +110,6 @@ function test(id) {
     document.getElementById("preindex").style.display="none";
     document.getElementById("p"+id).style.display="";
     console.log(<?=$tpo ?>);
-
 }
 </script>
 </html>

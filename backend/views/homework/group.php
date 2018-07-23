@@ -44,10 +44,10 @@ $this->params['breadcrumbs'][] = $this->title;
                     <th class="sort-numeric">下载</th>
 
                 </tr>
+
                 </thead>
                 <tbody>
-                <?php foreach ($this->params['data'] as $homework){
-                    ?>
+                <?php foreach ($this->params['data'] as $homework){?>
                 <tr class="odd gradeX">
                     <td><?= $homework['HomeworkName']?></td>
                     <td>Internet Explorer 4.0</td>
