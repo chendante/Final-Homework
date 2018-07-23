@@ -54,7 +54,9 @@ AppAsset::register($this);
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.html">主页</a></li>
-                    <li><a href="about.html">文章</a></li>
+                    <li><a href="<?php echo Url::to('all-article')?>">文章</a></li>
+<!--                    <li><a href="about.html">文章</a></li>-->
+<!--                    <a href="--><?php //echo Url::to(['homework/personal', 'id' =>1])?><!--">-->
                     <li><a href="service.html">球队信息</a></li>
                     <li><a href="blog.html">比赛信息</a></li>
                     <?php if(\Yii::$app->user->isGuest) { ?>

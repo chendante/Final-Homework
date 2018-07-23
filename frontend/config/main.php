@@ -45,6 +45,8 @@ return [
                 'login'=>'site/login',
                 'logout'=>'site/logout',
                 'manage'=>'site/manage',
+                'article'=>'news/article',
+                'all-article'=>'news/all-article',
                 'world-cup-team-data'=>'world-cup-team/world-cup-team-data',
                 'world-cup-team-info'=>'world-cup-team/world-cup-team-info'
             ],
