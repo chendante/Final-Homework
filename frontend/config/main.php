@@ -44,7 +44,9 @@ return [
             'rules' => [
                 'login'=>'site/login',
                 'logout'=>'site/logout',
-                'manage'=>'site/manage'
+                'manage'=>'site/manage',
+                'all-article'=>'news/all-article',
+                'article'=>'news/article'
             ],
            ],
         'urlManagerFrontend' => [
