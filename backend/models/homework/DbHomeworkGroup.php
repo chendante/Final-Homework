@@ -48,7 +48,8 @@ class DbHomeworkGroup extends \yii\db\ActiveRecord
             'MemberID' => Yii::t('app', 'MemberID'),
         ];
     }
-    static public function getHomework(){
+    static public function getHomework()
+    {
         return self::find()->asArray()->all();
     }
 }

@@ -21,13 +21,14 @@ $this->title='德塔贝斯-世界杯球队信息';
     <div class="top_wrap area">
         <div class="top_wrap_con clearfix">
             <div class="img_wrap">
-                <img src="./2018世界杯专题俄罗斯详情页_files/2018%2F06%2F05%2F5911e89bf17d467fab3d5269386431c9.jpeg" alt="球队图片" onerror="javascript:this.src=&#39;http://static.ws.126.net/f2e/sports/worldcup2018/images/team_img.png&#39;;">
+                <img src="<?=$this->params['data']['teamInfo']['family'] ?>" alt="球队图片" onerror="javascript:this.src=&#39;http://static.ws.126.net/f2e/sports/worldcup2018/images/team_img.png&#39;;">
                 <div class="cont_wrap">
-                    <div class="team_logo logo_m logo_m_4694"></div>
+<!--                    <div class="team_logo logo_m logo_m_4694"></div>-->
+                    <img src="<?=$this->params['data']['scoreBoard']['logo'] ?>" style="width: 45px;height: 30px">
                     <div class="cont">
-                        <h2>俄罗斯-A组</h2>
-                        <p class="name_en">Russia</p>
+                        <h2><?=$this->params['data']['teamInfo']['team_name'] ?> <?=$this->params['data']['scoreBoard']['groups'] ?>组</h2>
                     </div>
+
                 </div>
             </div>
             <div class="base_info_wrap info_item_wrap">
@@ -38,33 +39,39 @@ $this->title='德塔贝斯-世界杯球队信息';
                 <ul>
                     <li>
                         <span class="left_title">国家：</span>
-                        <?=$this->params['data']['team_name']?>
+                        <?=$this->params['data']['teamInfo']['team_name']?>
                     </li>
                     <li>
                         <span class="left_title">主教练：</span>
-                        <?=$this->params['data']['coach']?>
+                        <?=$this->params['data']['teamInfo']['coach']?>
                     </li>
                     <li>
                         <span class="left_title">重要球星：</span>
-                        <?=$this->params['data']['king']?>
+                        <?=$this->params['data']['teamInfo']['king']?>
                     </li>
                     <li>
                         <span class="left_title">最好成绩：</span>
-                        <?=$this->params['data']['honor']?>
+                        <?=$this->params['data']['teamInfo']['honor']?>
                     </li>
                 </ul>
             </div>
             <div class="honor_info_wrap info_item_wrap">
                 <div class="title">
                     <span class="icon"></span>
-                    <span class="txt">主要荣誉</span>
+                    <span class="txt">本届表现</span>
                 </div>
                 <ul>
                     <li>
-                        1次世界杯殿军
+                        <span class="left_title">进球：</span>
+                        <?=$this->params['data']['teams']['goals']?>
                     </li>
                     <li>
-                        1次欧洲杯冠军3次亚军2次四强
+                        <span class="left_title">控球率：</span>
+                        <?=$this->params['data']['teams']['possession_percentage']?>
+                    </li>
+                    <li>
+                        <span class="left_title">小组赛净胜球：</span>
+                        <?=$this->params['data']['scoreBoard']['truegoal']?>
                     </li>
                 </ul>
                 <div class="color_icon"></div>
@@ -86,7 +93,7 @@ $this->title='德塔贝斯-世界杯球队信息';
     <div class="team_statistics_cons">
         <div class="team_statistics_con current" ne-role="tab-body" style="">
             <ul class="team_statistics_schedule clearfix">
-
+                
                 <li>
                     <div class="round_type">
                         小组赛
@@ -99,7 +106,7 @@ $this->title='德塔贝斯-世界杯球队信息';
                         <div class="away_score">0</div>
                     </div>
                     <div class="links">
-                        <a>aaaa</a>
+                        <a>查看比赛</a>
                     </div>
                 </li>
             </ul>

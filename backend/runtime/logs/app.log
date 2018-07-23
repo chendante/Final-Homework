@@ -51093,3 +51093,578 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1532269731.895
     'REQUEST_TIME' => 1532269731
 ]
+2018-07-23 15:54:47 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/Final-Homework/backend/web/assets' 
+
+in D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-07-23 15:54:47 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => '7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰‘säàìhJ	Çá=Ÿ¤¬Æh åÎdm@r]ó|ª—N\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/Final-Homework/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%89%91s%E4%E0%0D%EChJ%09%C7%7F%E1%3D%9F%A4%AC%C6h%A0%E5%CEdm%40r%5D%F3%7C%AA%97N%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Baidu\\spss\\JRE\\bin;D:\\ç™¾åº¦äº‘\\OpenVPN\\bin;D:;MATLAB\\runtime\\win64;D:\\MATLAB\\bin;D:\\MATLAB\\polyspace\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\GIT\\Git\\cmd;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\;D:\\Microsoft Visual Studio\\2017;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Microsoft VS Code\\bin;D:\\Python\\Scripts\\;D:\\Python\\;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Local\\Microsoft\\WindowsApps;;D:\\Microsoft VS Code\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/Final-Homework/backend/web/index.php'
+    'REMOTE_PORT' => '54941'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/backend/web/'
+    'SCRIPT_NAME' => '/Final-Homework/backend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532354087.46
+    'REQUEST_TIME' => 1532354087
+]
+2018-07-23 15:54:48 [::1][-][044k9fsi10jnie4ani04k2k4qh][error][yii\base\ErrorException:256] yii\base\ErrorException: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/Final-Homework/backend/web/assets' 
+
+in D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\View.php(285): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('yii\\validators\\...')
+#10 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\validators\RequiredValidator.php(91): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\widgets\ActiveField.php(763): yii\validators\RequiredValidator->clientValidateAttribute(Object(common\models\LoginForm), 'username', Object(yii\web\View))
+#12 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\widgets\ActiveField.php(230): yii\widgets\ActiveField->getClientOptions()
+#13 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\widgets\ActiveField.php(220): yii\widgets\ActiveField->begin()
+#14 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2-bootstrap\ActiveField.php(187): yii\widgets\ActiveField->render('<label class="c...')
+#15 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\widgets\ActiveField.php(176): yii\bootstrap\ActiveField->render()
+#16 D:\xampp\htdocs\Final-Homework\backend\views\site\login.php(49): yii\widgets\ActiveField->__toString()
+#17 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\View.php(330): require('D:\\xampp\\htdocs...')
+#18 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#19 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(backend\controllers\SiteController))
+#20 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('login', Array, Object(backend\controllers\SiteController))
+#21 D:\xampp\htdocs\Final-Homework\backend\controllers\SiteController.php(87): yii\base\Controller->render('login', Array)
+#22 [internal function]: backend\controllers\SiteController->actionLogin()
+#23 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#25 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#26 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/login', Array)
+#27 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 D:\xampp\htdocs\Final-Homework\backend\web\index.php(17): yii\base\Application->run()
+#29 {main} in D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\ErrorHandler.php:314
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Inva...', 'D:\\xampp\\htdocs...', 314, Array)
+#1 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\ErrorHandler.php(314): trigger_error('Exception (Inva...', 256)
+#2 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\widgets\ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidConfigException))
+#3 D:\xampp\htdocs\Final-Homework\backend\views\site\login.php(49): yii\widgets\ActiveField->__toString()
+#4 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\View.php(330): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', '[<span class="s...')
+#6 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(backend\controllers\SiteController))
+#7 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('login', Array, Object(backend\controllers\SiteController))
+#8 D:\xampp\htdocs\Final-Homework\backend\controllers\SiteController.php(87): yii\base\Controller->render('login', Array)
+#9 [internal function]: backend\controllers\SiteController->actionLogin()
+#10 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#13 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/login', Array)
+#14 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\xampp\htdocs\Final-Homework\backend\web\index.php(17): yii\base\Application->run()
+#16 {main}
+    in D:\xampp\htdocs\Final-Homework\backend\views\site\login.php:49
+    in D:\xampp\htdocs\Final-Homework\backend\controllers\SiteController.php:87
+2018-07-23 15:54:48 [::1][-][044k9fsi10jnie4ani04k2k4qh][info][application] $_COOKIE = [
+    '_csrf-frontend' => '7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰‘säàìhJ	Çá=Ÿ¤¬Æh åÎdm@r]ó|ª—N\";}'
+    'advanced-frontend' => '044k9fsi10jnie4ani04k2k4qh'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/Final-Homework/backend/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%89%91s%E4%E0%0D%EChJ%09%C7%7F%E1%3D%9F%A4%AC%C6h%A0%E5%CEdm%40r%5D%F3%7C%AA%97N%22%3B%7D; advanced-frontend=044k9fsi10jnie4ani04k2k4qh'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Baidu\\spss\\JRE\\bin;D:\\ç™¾åº¦äº‘\\OpenVPN\\bin;D:;MATLAB\\runtime\\win64;D:\\MATLAB\\bin;D:\\MATLAB\\polyspace\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\GIT\\Git\\cmd;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\;D:\\Microsoft Visual Studio\\2017;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Microsoft VS Code\\bin;D:\\Python\\Scripts\\;D:\\Python\\;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Local\\Microsoft\\WindowsApps;;D:\\Microsoft VS Code\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/Final-Homework/backend/web/index.php'
+    'REMOTE_PORT' => '54941'
+    'REDIRECT_URL' => '/Final-Homework/backend/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/backend/web/login'
+    'SCRIPT_NAME' => '/Final-Homework/backend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532354088.511
+    'REQUEST_TIME' => 1532354088
+]
+2018-07-23 15:54:49 [::1][-][044k9fsi10jnie4ani04k2k4qh][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/Final-Homework/backend/web/assets' 
+
+in D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\BaseYii.php(348): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\ErrorHandler.php(113): yii\log\Logger->flush(true)
+#15 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\ErrorHandler.php(218): yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#16 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Inva...', 'D:\\xampp\\htdocs...', 314, Array)
+#17 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\ErrorHandler.php(314): trigger_error('Exception (Inva...', 256)
+#18 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\widgets\ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidConfigException))
+#19 D:\xampp\htdocs\Final-Homework\backend\views\site\login.php(49): yii\widgets\ActiveField->__toString()
+#20 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\View.php(330): require('D:\\xampp\\htdocs...')
+#21 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', '[<span class="s...')
+#22 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(backend\controllers\SiteController))
+#23 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('login', Array, Object(backend\controllers\SiteController))
+#24 D:\xampp\htdocs\Final-Homework\backend\controllers\SiteController.php(87): yii\base\Controller->render('login', Array)
+#25 [internal function]: backend\controllers\SiteController->actionLogin()
+#26 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#27 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#28 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#29 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/login', Array)
+#30 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 D:\xampp\htdocs\Final-Homework\backend\web\index.php(17): yii\base\Application->run()
+#32 {main}
+2018-07-23 15:54:48 [::1][-][044k9fsi10jnie4ani04k2k4qh][info][application] $_COOKIE = [
+    '_csrf-frontend' => '7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰‘säàìhJ	Çá=Ÿ¤¬Æh åÎdm@r]ó|ª—N\";}'
+    'advanced-frontend' => '044k9fsi10jnie4ani04k2k4qh'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/Final-Homework/backend/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%89%91s%E4%E0%0D%EChJ%09%C7%7F%E1%3D%9F%A4%AC%C6h%A0%E5%CEdm%40r%5D%F3%7C%AA%97N%22%3B%7D; advanced-frontend=044k9fsi10jnie4ani04k2k4qh'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Baidu\\spss\\JRE\\bin;D:\\ç™¾åº¦äº‘\\OpenVPN\\bin;D:;MATLAB\\runtime\\win64;D:\\MATLAB\\bin;D:\\MATLAB\\polyspace\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\GIT\\Git\\cmd;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\;D:\\Microsoft Visual Studio\\2017;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Microsoft VS Code\\bin;D:\\Python\\Scripts\\;D:\\Python\\;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Local\\Microsoft\\WindowsApps;;D:\\Microsoft VS Code\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/Final-Homework/backend/web/index.php'
+    'REMOTE_PORT' => '54941'
+    'REDIRECT_URL' => '/Final-Homework/backend/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/backend/web/login'
+    'SCRIPT_NAME' => '/Final-Homework/backend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532354088.511
+    'REQUEST_TIME' => 1532354088
+]
+2018-07-23 16:00:46 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "form-elements.html". in D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('form-elements.h...', Array)
+#1 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\Final-Homework\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\Final-Homework\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-23 16:00:46 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => '7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰‘säàìhJ	Çá=Ÿ¤¬Æh åÎdm@r]ó|ª—N\";}'
+    '_csrf-backend' => '5dae746d4a527fd6a3db8541e7088b81f1cd52ba88b04bbf1ddab3e2fbb56db9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"õD ê¿_õ‹0ÐX…¤p<ÔÇ‰s™9£
+So\";}'
+    'advanced-frontend' => 'q51ctq72722drbf9oqk6dqccq9'
+    '_identity-frontend' => '2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/backend/web/upload-file'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%89%91s%E4%E0%0D%EChJ%09%C7%7F%E1%3D%9F%A4%AC%C6h%A0%E5%CEdm%40r%5D%F3%7C%AA%97N%22%3B%7D; _csrf-backend=5dae746d4a527fd6a3db8541e7088b81f1cd52ba88b04bbf1ddab3e2fbb56db9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%F5D%A0%EA%BF%04_%F5%8B0%11%D0X%85%1E%A4%15p%3C%D4%07%C7%89s%999%A3%0ASo%1C%08%22%3B%7D; advanced-frontend=q51ctq72722drbf9oqk6dqccq9; _identity-frontend=2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Baidu\\spss\\JRE\\bin;D:\\ç™¾åº¦äº‘\\OpenVPN\\bin;D:;MATLAB\\runtime\\win64;D:\\MATLAB\\bin;D:\\MATLAB\\polyspace\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\GIT\\Git\\cmd;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\;D:\\Microsoft Visual Studio\\2017;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Microsoft VS Code\\bin;D:\\Python\\Scripts\\;D:\\Python\\;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Local\\Microsoft\\WindowsApps;;D:\\Microsoft VS Code\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/Final-Homework/backend/web/index.php'
+    'REMOTE_PORT' => '55590'
+    'REDIRECT_URL' => '/Final-Homework/backend/web/form-elements.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/backend/web/form-elements.html'
+    'SCRIPT_NAME' => '/Final-Homework/backend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532354446.876
+    'REQUEST_TIME' => 1532354446
+]
+2018-07-23 16:00:48 [::1][2][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Response.php:412)
+2018-07-23 16:00:46 [::1][2][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => '7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰‘säàìhJ	Çá=Ÿ¤¬Æh åÎdm@r]ó|ª—N\";}'
+    '_csrf-backend' => '5dae746d4a527fd6a3db8541e7088b81f1cd52ba88b04bbf1ddab3e2fbb56db9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"õD ê¿_õ‹0ÐX…¤p<ÔÇ‰s™9£
+So\";}'
+    'advanced-frontend' => 'q51ctq72722drbf9oqk6dqccq9'
+    '_identity-frontend' => '2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/Final-Homework/backend/web/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/backend/web/upload-file'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%89%91s%E4%E0%0D%EChJ%09%C7%7F%E1%3D%9F%A4%AC%C6h%A0%E5%CEdm%40r%5D%F3%7C%AA%97N%22%3B%7D; _csrf-backend=5dae746d4a527fd6a3db8541e7088b81f1cd52ba88b04bbf1ddab3e2fbb56db9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%F5D%A0%EA%BF%04_%F5%8B0%11%D0X%85%1E%A4%15p%3C%D4%07%C7%89s%999%A3%0ASo%1C%08%22%3B%7D; advanced-frontend=q51ctq72722drbf9oqk6dqccq9; _identity-frontend=2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Baidu\\spss\\JRE\\bin;D:\\ç™¾åº¦äº‘\\OpenVPN\\bin;D:;MATLAB\\runtime\\win64;D:\\MATLAB\\bin;D:\\MATLAB\\polyspace\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\GIT\\Git\\cmd;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\;D:\\Microsoft Visual Studio\\2017;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Microsoft VS Code\\bin;D:\\Python\\Scripts\\;D:\\Python\\;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Local\\Microsoft\\WindowsApps;;D:\\Microsoft VS Code\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/Final-Homework/backend/web/index.php'
+    'REMOTE_PORT' => '55590'
+    'REDIRECT_URL' => '/Final-Homework/backend/web/form-elements.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/backend/web/form-elements.html'
+    'SCRIPT_NAME' => '/Final-Homework/backend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532354446.876
+    'REQUEST_TIME' => 1532354446
+]
+2018-07-23 16:00:50 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "form-elements.html". in D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('form-elements.h...', Array)
+#1 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\Final-Homework\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\Final-Homework\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-23 16:00:50 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => '7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰‘säàìhJ	Çá=Ÿ¤¬Æh åÎdm@r]ó|ª—N\";}'
+    '_csrf-backend' => '5dae746d4a527fd6a3db8541e7088b81f1cd52ba88b04bbf1ddab3e2fbb56db9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"õD ê¿_õ‹0ÐX…¤p<ÔÇ‰s™9£
+So\";}'
+    'advanced-frontend' => 'q51ctq72722drbf9oqk6dqccq9'
+    '_identity-frontend' => '2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/backend/web/upload-file'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%89%91s%E4%E0%0D%EChJ%09%C7%7F%E1%3D%9F%A4%AC%C6h%A0%E5%CEdm%40r%5D%F3%7C%AA%97N%22%3B%7D; _csrf-backend=5dae746d4a527fd6a3db8541e7088b81f1cd52ba88b04bbf1ddab3e2fbb56db9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%F5D%A0%EA%BF%04_%F5%8B0%11%D0X%85%1E%A4%15p%3C%D4%07%C7%89s%999%A3%0ASo%1C%08%22%3B%7D; advanced-frontend=q51ctq72722drbf9oqk6dqccq9; _identity-frontend=2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Baidu\\spss\\JRE\\bin;D:\\ç™¾åº¦äº‘\\OpenVPN\\bin;D:;MATLAB\\runtime\\win64;D:\\MATLAB\\bin;D:\\MATLAB\\polyspace\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\GIT\\Git\\cmd;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\;D:\\Microsoft Visual Studio\\2017;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Microsoft VS Code\\bin;D:\\Python\\Scripts\\;D:\\Python\\;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Local\\Microsoft\\WindowsApps;;D:\\Microsoft VS Code\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/Final-Homework/backend/web/index.php'
+    'REMOTE_PORT' => '55590'
+    'REDIRECT_URL' => '/Final-Homework/backend/web/form-elements.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/backend/web/form-elements.html'
+    'SCRIPT_NAME' => '/Final-Homework/backend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532354450.923
+    'REQUEST_TIME' => 1532354450
+]
+2018-07-23 16:00:51 [::1][2][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at D:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Response.php:412)
+2018-07-23 16:00:50 [::1][2][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => '7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰‘säàìhJ	Çá=Ÿ¤¬Æh åÎdm@r]ó|ª—N\";}'
+    '_csrf-backend' => '5dae746d4a527fd6a3db8541e7088b81f1cd52ba88b04bbf1ddab3e2fbb56db9a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"õD ê¿_õ‹0ÐX…¤p<ÔÇ‰s™9£
+So\";}'
+    'advanced-frontend' => 'q51ctq72722drbf9oqk6dqccq9'
+    '_identity-frontend' => '2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/Final-Homework/backend/web/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/backend/web/upload-file'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf-frontend=7624d7eddfad49e1044cc7864b6abd1307682c82361d2db439623f28527741f3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%89%91s%E4%E0%0D%EChJ%09%C7%7F%E1%3D%9F%A4%AC%C6h%A0%E5%CEdm%40r%5D%F3%7C%AA%97N%22%3B%7D; _csrf-backend=5dae746d4a527fd6a3db8541e7088b81f1cd52ba88b04bbf1ddab3e2fbb56db9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%F5D%A0%EA%BF%04_%F5%8B0%11%D0X%85%1E%A4%15p%3C%D4%07%C7%89s%999%A3%0ASo%1C%08%22%3B%7D; advanced-frontend=q51ctq72722drbf9oqk6dqccq9; _identity-frontend=2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Baidu\\spss\\JRE\\bin;D:\\ç™¾åº¦äº‘\\OpenVPN\\bin;D:;MATLAB\\runtime\\win64;D:\\MATLAB\\bin;D:\\MATLAB\\polyspace\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\GIT\\Git\\cmd;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\;D:\\Microsoft Visual Studio\\2017;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Microsoft VS Code\\bin;D:\\Python\\Scripts\\;D:\\Python\\;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Local\\Microsoft\\WindowsApps;;D:\\Microsoft VS Code\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\åˆ˜å­æ™¨\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/Final-Homework/backend/web/index.php'
+    'REMOTE_PORT' => '55590'
+    'REDIRECT_URL' => '/Final-Homework/backend/web/form-elements.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Final-Homework/backend/web/form-elements.html'
+    'SCRIPT_NAME' => '/Final-Homework/backend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532354450.923
+    'REQUEST_TIME' => 1532354450
+]
