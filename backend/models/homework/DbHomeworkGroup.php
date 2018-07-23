@@ -12,6 +12,8 @@ use Yii;
  * @property integer $HID
  * @property string $HomeworkName
  * @property string $Path
+ *@property string $Mark
+ * @property integer $MemberID
  */
 class DbHomeworkGroup extends \yii\db\ActiveRecord
 {
@@ -29,7 +31,7 @@ class DbHomeworkGroup extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['HomeworkName', 'Path'], 'string', 'max' => 255],
+            [['HomeworkName', 'Path','Mark'], 'string', 'max' => 255],
         ];
     }
 
@@ -42,6 +44,8 @@ class DbHomeworkGroup extends \yii\db\ActiveRecord
             'HID' => Yii::t('app', 'Hid'),
             'HomeworkName' => Yii::t('app', 'Homework Name'),
             'Path' => Yii::t('app', 'Path'),
+            'Mark' => Yii::t('app', 'Mark'),
+            'MemberID' => Yii::t('app', 'MemberID'),
         ];
     }
     static public function getHomework(){

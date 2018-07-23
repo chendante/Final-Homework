@@ -27,20 +27,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <!-- tile header -->
     <div class="tile-header transparent">
         <h1><strong>团队</strong> 作业</h1>
-        <?php
-        use yii\widgets\ActiveForm;
-        $form = ActiveForm::begin(["options" => ["enctype" => "multipart/form-data"]]);
-        ?>
-        <?= $form->field($model, "file")->fileInput() ?>
-
-
-         <button >确认上传</button>
-
-        <?php ActiveForm::end(); ?>
-       <div class="controls">
-            <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-            <a href="#" class="remove"><i class="fa fa-times"></i></a>
-        </div>
     </div>
     <!-- /tile header -->
 
@@ -58,10 +44,10 @@ $this->params['breadcrumbs'][] = $this->title;
                     <th class="sort-numeric">下载</th>
 
                 </tr>
+
                 </thead>
                 <tbody>
-                <?php foreach ($this->params['data'] as $homework){
-                    ?>
+                <?php foreach ($this->params['data'] as $homework){?>
                 <tr class="odd gradeX">
                     <td><?= $homework['HomeworkName']?></td>
                     <td>Internet Explorer 4.0</td>

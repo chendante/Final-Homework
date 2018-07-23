@@ -19,7 +19,7 @@ use common\widgets\Alert;
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Minimal 1.0 - Dashboard</title>
+    <title>德塔贝斯-后台管理系统</title>
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
@@ -261,11 +261,11 @@ use common\widgets\Alert;
                             <li class="divider"></li>
 
                             <li>
-                                <a href="#"><i class="fa fa-user"></i> Profile</a>
+                                <a href="group-member"><i class="fa fa-user"></i> 个人信息</a>
                             </li>
 
                             <li>
-                                <a href="#"><i class="fa fa-calendar"></i> Calendar</a>
+                                <a href="<?php echo Yii::$app->urlManagerBackend->createAbsoluteUrl('/') ?>"><i class="fa fa-calendar"></i> 进入前台</a>
                             </li>
 
                             <li>
@@ -368,7 +368,7 @@ use common\widgets\Alert;
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="<?php echo Url::to(['homework/personal', 'id' =>1])?>">
+                                        <a href="<?php echo Url::to(['homework/personal','id' =>1])?>">
                                             <i class="fa fa-caret-right"></i> 张缴怡
                                         </a>
                                     </li>
@@ -434,7 +434,9 @@ use common\widgets\Alert;
                             </li>
                         </ul>
                     </li>
-
+                    <li class="navigation">
+                        <a href="upload-file" class="sidebar-toggle " data-toggle="#">上传附件</a>
+                    </li>
 
                 </ul>
                 <!-- Sidebar end -->

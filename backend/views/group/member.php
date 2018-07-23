@@ -20,20 +20,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <body>
 <div class="main">
-
     <!-- row -->
     <div class="row">
-
-
-
-
         <!-- col 12 -->
         <div class="col-md-12 text-center sm-left">
-
-
-
             <h1 class="timeline-heading"><strong>德塔贝斯</strong> 成员信息</h1>
-
             <ol class="timeline">
                 <?php
                 $trans=1;

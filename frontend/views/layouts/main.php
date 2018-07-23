@@ -54,7 +54,9 @@ AppAsset::register($this);
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.html">主页</a></li>
-                    <li><a href="about.html">文章</a></li>
+                    <li><a href="<?php echo Url::to('all-article')?>">文章</a></li>
+<!--                    <li><a href="about.html">文章</a></li>-->
+<!--                    <a href="--><?php //echo Url::to(['homework/personal', 'id' =>1])?><!--">-->
                     <li><a href="service.html">球队信息</a></li>
                     <li><a href="<?php echo Url::to(['site/games']) ?>">比赛信息</a></li>
                     <?php if(\Yii::$app->user->isGuest) { ?>
@@ -75,51 +77,36 @@ AppAsset::register($this);
             </div><!--/.nav-collapse -->
         </div>
     </nav>
-<div id="slider" class="slider-container">
-    <ul class="slider">
-        <li class="slide">
-            <div class="slide-bg">
-                <img src="images/banner1.jpg" alt="An Image" draggable="false">
-            </div>
-            <div class="slide-content">
-                <h3>We Bring Fashion To Life</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <a href="about.html">Read More</a>
-            </div>
-        </li>
-        <li class="slide">
-            <div class="slide-bg">
-                <img src="images/banner2.jpg" alt="An Image" draggable="false">
-            </div>
-            <div class="slide-content">
-                <h3>The Power Of Fashion</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <a href="about.html">Read More</a>
-            </div>
-        </li>
-        <li class="slide">
-            <div class="slide-bg">
-                <img src="images/banner3.jpg" alt="An Image" draggable="false">
-            </div>
-            <div class="slide-content">
-                <h3>Fashion, See More, Do More</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <a href="about.html">Read More</a>
-            </div>
-        </li>
-    </ul>
-    <div class="slider-controls">
-        <div class="slide-nav">
-            <a href="#" class="prev"><img src="images/prev.png" alt="w3layouts"></a>
-            <a href="#" class="next"><img src="images/next.png" alt="w3layouts"></a>
-        </div>
-        <ul class="slide-list">
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
+    <div id="slider" class="slider-container2">
+        <ul class="slider">
+            <li class="slide">
+                <div class="slide-bg">
+                    <img src="images/banner1.jpg" alt="An Image" draggable="false">
+                </div>
+            </li>
+            <li class="slide">
+                <div class="slide-bg">
+                    <img src="images/banner2.jpg" alt="An Image" draggable="false">
+                </div>
+            </li>
+            <li class="slide">
+                <div class="slide-bg">
+                    <img src="images/banner3.jpg" alt="An Image" draggable="false">
+                </div>
+            </li>
         </ul>
+        <div class="slider-controls">
+            <div class="slide-nav">
+                <a href="#" class="prev"><img src="images/prev.png" alt="w3layouts"></a>
+                <a href="#" class="next"><img src="images/next.png" alt="w3layouts"></a>
+            </div>
+            <ul class="slide-list">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+            </ul>
+        </div>
     </div>
-</div>
 </div>
 <div class="main">
     <?= $content ?>

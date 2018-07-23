@@ -45,12 +45,14 @@ return [
             'rules' => [
                 'homework-group'=>'homework/group',
                 'group-member'=>'group/member',
-               'homework-personal'=>'homework/personal'
+                'homework-personal'=>'homework/personal',
+                'upload-file'=>'site/upload',
+                'login'=>'site/login'
             ],
         ],
-        'urlManagerFrontend' => [
+        'urlManagerBackend' => [
             'class' => 'yii\web\urlManager',
-            'scriptUrl' => '/Final-Homework/backend/web/', //代替'baseUrl'
+            'scriptUrl' => '/Final-Homework/frontend/web/', //代替'baseUrl'
             'enablePrettyUrl' => false,
             'showScriptName' => true,
         ],
