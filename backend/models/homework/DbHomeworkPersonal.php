@@ -9,6 +9,7 @@ use backend\models\group\DbGroupMember;
  *
  * @property string $HomeworkName
  * @property string $Path
+ * @property string $Mark
  * @property integer $MemberID
  * @property integer $HID
  */
@@ -29,7 +30,7 @@ class DbHomeworkPersonal extends \yii\db\ActiveRecord
     {
         return [
             [['MemberID'], 'integer'],
-            [['HomeworkName', 'Path'], 'string', 'max' => 255],
+            [['HomeworkName', 'Path','Mark'], 'string', 'max' => 255],
         ];
     }
 
@@ -43,6 +44,7 @@ class DbHomeworkPersonal extends \yii\db\ActiveRecord
             'Path' => Yii::t('app', 'Path'),
             'MemberID' => Yii::t('app', 'Member ID'),
             'HID' => Yii::t('app', 'Hid'),
+            'Mark' => Yii::t('app', 'Mark'),
         ];
     }
     public function getMember()
@@ -51,7 +53,7 @@ class DbHomeworkPersonal extends \yii\db\ActiveRecord
     }
     static public function getHomework($id){
         return self::find()->joinWith('member')
-            ->select(['StudentName','HomeworkName','Path','MemberID'])
+            ->select(['StudentName','HomeworkName','Path','MemberID','Mark'])
             ->where(['MemberID'=>$id])->asArray()->all();
     }
 }

@@ -19,7 +19,7 @@
 
  *Team:德塔贝斯
 
- *Codeing by XXX
+ *Coding by XXX
 
  *代码介绍
 
