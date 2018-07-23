@@ -50073,3 +50073,265 @@ $_SERVER = [
     'REQUEST_TIME' => 1532226683
 >>>>>>> origin/dev
 ]
+2018-07-23 03:48:49 [::1][2][8nspuvkuth8ua2f2vhciapcpg1][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-23 03:48:49 [::1][2][8nspuvkuth8ua2f2vhciapcpg1][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_identity' => '28482aa283d16b67af8a82981da33cd2bea8b15a38fc7a4e36aec0ab54e4011ba:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"2jf_vMxxzRGXc0cRnJwnFqzP5X9uCp2h\",2592000]\";}'
+    '_identity-frontend' => '2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+    'advanced-frontend' => '8nspuvkuth8ua2f2vhciapcpg1'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    '_csrf-frontend' => '228dfb78e4c48aed780157f181216317ca3c6a60621d03afa3f399700728095ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\">PÏÚ
+Õ8¯ëÝ>zÁÑ’ñÍ`àWn#HÌk¬\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_identity=28482aa283d16b67af8a82981da33cd2bea8b15a38fc7a4e36aec0ab54e4011ba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%222jf_vMxxzRGXc0cRnJwnFqzP5X9uCp2h%22%2C2592000%5D%22%3B%7D; _identity-frontend=2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D; advanced-frontend=8nspuvkuth8ua2f2vhciapcpg1; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; _csrf-frontend=228dfb78e4c48aed780157f181216317ca3c6a60621d03afa3f399700728095ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%3E%11P%CF%DA%14%0A%16%D58%AF%EB%DD%3E%03z%C1%D1%92%F1%CD%60%E0%1EWn%23H%CCk%10%AC%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\xampp\\mysql\\bin;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '1788'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532310529.112
+    'REQUEST_TIME' => 1532310529
+]
+2018-07-23 04:35:19 [::1][2][dsr9q5ck951te0intqchov8iqn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-23 04:35:19 [::1][2][dsr9q5ck951te0intqchov8iqn][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_identity' => '28482aa283d16b67af8a82981da33cd2bea8b15a38fc7a4e36aec0ab54e4011ba:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"2jf_vMxxzRGXc0cRnJwnFqzP5X9uCp2h\",2592000]\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    '_csrf-frontend' => '228dfb78e4c48aed780157f181216317ca3c6a60621d03afa3f399700728095ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\">PÏÚ
+Õ8¯ëÝ>zÁÑ’ñÍ`àWn#HÌk¬\";}'
+    '_csrf-backend' => 'f48f776895377d0e54ab0a84054ba1cbea91305ef6bdb57d14d368c92e16ba1aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"„Hù>!£öD—Î0z´Ñ«³<pnjj¯Ãé!eû‹¹\";}'
+    'advanced-frontend' => 'dsr9q5ck951te0intqchov8iqn'
+    '_identity-frontend' => '2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/Final-Homework/backend/web/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_identity=28482aa283d16b67af8a82981da33cd2bea8b15a38fc7a4e36aec0ab54e4011ba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%222jf_vMxxzRGXc0cRnJwnFqzP5X9uCp2h%22%2C2592000%5D%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; _csrf-frontend=228dfb78e4c48aed780157f181216317ca3c6a60621d03afa3f399700728095ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%3E%11P%CF%DA%14%0A%16%D58%AF%EB%DD%3E%03z%C1%D1%92%F1%CD%60%E0%1EWn%23H%CCk%10%AC%22%3B%7D; _csrf-backend=f48f776895377d0e54ab0a84054ba1cbea91305ef6bdb57d14d368c92e16ba1aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%84H%F9%3E%21%A3%F6%16D%97%CE0z%B4%D1%AB%B3%3Cp%8Fnjj%AF%C3%E9%21e%FB%13%8B%B9%22%3B%7D; advanced-frontend=dsr9q5ck951te0intqchov8iqn; _identity-frontend=2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\xampp\\mysql\\bin;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '2608'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532313319.214
+    'REQUEST_TIME' => 1532313319
+]
+2018-07-23 09:41:17 [::1][2][dsr9q5ck951te0intqchov8iqn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fonts/fontaweso...', Array)
+#1 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Final-Homework\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Final-Homework\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-07-23 09:41:17 [::1][2][dsr9q5ck951te0intqchov8iqn][info][application] $_GET = [
+    'v' => '4.6.2'
+]
+
+$_COOKIE = [
+    '_identity' => '28482aa283d16b67af8a82981da33cd2bea8b15a38fc7a4e36aec0ab54e4011ba:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"2jf_vMxxzRGXc0cRnJwnFqzP5X9uCp2h\",2592000]\";}'
+    'SL_G_WPT_TO' => 'zh'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    '_csrf-frontend' => '228dfb78e4c48aed780157f181216317ca3c6a60621d03afa3f399700728095ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\">PÏÚ
+Õ8¯ëÝ>zÁÑ’ñÍ`àWn#HÌk¬\";}'
+    '_csrf-backend' => 'f48f776895377d0e54ab0a84054ba1cbea91305ef6bdb57d14d368c92e16ba1aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"„Hù>!£öD—Î0z´Ñ«³<pnjj¯Ãé!eû‹¹\";}'
+    'advanced-frontend' => 'dsr9q5ck951te0intqchov8iqn'
+    '_identity-frontend' => '2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[2,\"xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/Final-Homework/backend/web/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/Final-Homework/frontend/web/css/font-awesome.min.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_identity=28482aa283d16b67af8a82981da33cd2bea8b15a38fc7a4e36aec0ab54e4011ba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%222jf_vMxxzRGXc0cRnJwnFqzP5X9uCp2h%22%2C2592000%5D%22%3B%7D; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; _csrf-frontend=228dfb78e4c48aed780157f181216317ca3c6a60621d03afa3f399700728095ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%3E%11P%CF%DA%14%0A%16%D58%AF%EB%DD%3E%03z%C1%D1%92%F1%CD%60%E0%1EWn%23H%CCk%10%AC%22%3B%7D; _csrf-backend=f48f776895377d0e54ab0a84054ba1cbea91305ef6bdb57d14d368c92e16ba1aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%84H%F9%3E%21%A3%F6%16D%97%CE0z%B4%D1%AB%B3%3Cp%8Fnjj%AF%C3%E9%21e%FB%13%8B%B9%22%3B%7D; advanced-frontend=dsr9q5ck951te0intqchov8iqn; _identity-frontend=2dd3e8412d9bc4dd49b1eeaaf91c615db1a647d9722c09883053cad7b43f8cb0a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22xM9_7DwPapgeXbEPw58YCeiNaRQMuHfd%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\xampp\\mysql\\bin;C:\\Users\\PAI\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Bandizip\\;C:\\Users\\PAI\\AppData\\Roaming\\npm;C:\\texlive\\2018\\bin\\win32;C:\\Users\\PAI\\AppData\\Local\\Programs\\Python\\Python37-32;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Final-Homework/frontend/web/index.php'
+    'REMOTE_PORT' => '5666'
+    'REDIRECT_URL' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2'
+    'REDIRECT_QUERY_STRING' => 'v=4.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.6.2'
+    'REQUEST_URI' => '/Final-Homework/frontend/web/fonts/fontawesome-webfont.woff2?v=4.6.2'
+    'SCRIPT_NAME' => '/Final-Homework/frontend/web/index.php'
+    'PHP_SELF' => '/Final-Homework/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532331677.808
+    'REQUEST_TIME' => 1532331677
+]
