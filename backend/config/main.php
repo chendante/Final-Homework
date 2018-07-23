@@ -45,7 +45,8 @@ return [
             'rules' => [
                 'homework-group'=>'homework/group',
                 'group-member'=>'group/member',
-               'homework-personal'=>'homework/personal'
+               'homework-personal'=>'homework/personal',
+                'login'=>'site/login'
             ],
         ],
         'urlManagerFrontend' => [
