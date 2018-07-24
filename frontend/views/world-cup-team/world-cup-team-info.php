@@ -132,14 +132,12 @@ $this->title='德塔贝斯-世界杯球队信息';
 
         <div class="team_statistics" ne-module="tabs" ne-state="showhide:true;events:click;">
             <div class="team_statistics_navs clearfix">
-<!--                <div class="team_statistics_nav " ne-role="tab-nav">赛程</div>-->
                 <div class="team_statistics_nav current" ne-role="tab-nav">球员统计</div>
             </div>
             <div class="team_statistics_cons">
 
                 <div class="team_statistics_con" ne-role="tab-body" style="">
                     <div class="team_statistics_box">
-                        <div class="team_statistics_players">
                             <table class="team_statistics_player">
                                 <colgroup>
                                     <col class="player_list1">
@@ -167,43 +165,40 @@ $this->title='德塔贝斯-世界杯球队信息';
                                     <th>进球</th>
                                     <th>助攻</th>
                                     <th>射门</th>
-                                    <th>射正</th>
+                                    <th>传球</th>
                                     <th>犯规</th>
                                     <th>抢断</th>
                                     <th>黄牌</th>
                                     <th>红牌</th>
                                     <th>扑救</th>
-                                    <th>失球</th>
+                                    <th>解围</th>
                                 </tr></thead>
                                 <tbody>
+                                <?php
+                                $i=1;
+                                foreach ($this->params['data']['player_datas'] as $player){
+                                    ?>
+
                                 <tr>
-                                    <td>1</td>
-                                    <td><a href="http://data.2018.163.com/player_detail.html#/13274" target="_blank"><p>阿金费耶夫</p></a></td>
-                                    <td>
-
-
-
-                                        守门员
-
-
-                                    </td>
-                                    <td>5</td>
-                                    <td>510</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>14</td>
-                                    <td>7</td>
+                                    <td><?= $i ?></td>
+                                    <td><a href="" target="_blank"><p><?= $player['player_name_cn'] ?></p></a></td>
+                                    <td> <?= $player['position_cn'] ?></td>
+                                    <td><?= $player['on_times'] ?> </td>
+                                    <td><?= $player['mins_played'] ?></td>
+                                    <td><?= $player['goals'] ?></td>
+                                    <td><?= $player['goal_assist'] ?></td>
+                                    <td><?= $player['total_scoring_att'] ?></td>
+                                    <td><?= $player['total_pass'] ?></td>
+                                    <td><?= $player['fouls'] ?></td>
+                                    <td><?= $player['won_tackle'] ?></td>
+                                    <td><?= $player['yellow'] ?></td>
+                                    <td><?= $player['red'] ?></td>
+                                    <td><?= $player['saves'] ?></td>
+                                    <td><?= $player['total_clearance'] ?></td>
                                 </tr>
-                                </tbody></table>
-
-                        </div>
-                        <div class="show_more"></div>
+                                <?php $i++;}?>
+                                </tbody>
+                            </table>
                     </div>
                 </div>
             </div>
