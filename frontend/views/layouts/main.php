@@ -57,7 +57,7 @@ AppAsset::register($this);
                             'options'=> ['class'=>yii::$app->controller->id=="world-cup-team"?"active":""],
                         ],
                         ['label' => '比赛信息', 'url' => ['/games'],
-                            'options'=> ['class'=>yii::$app->controller->id=="worldCupTeam"?"active":""],
+                            'options'=> ['class'=>yii::$app->controller->id=="games"?"active":""],
                         ],
                     ];
                     if (Yii::$app->user->isGuest) {

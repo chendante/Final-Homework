@@ -48,6 +48,7 @@ return [
                 'homework-personal'=>'homework/personal',
                 'upload-file'=>'site/upload',
                 'login'=>'site/login',
+                'games' => 'games/games',
                 'comment-manage'=>'comment/manage'
             ],
         ],

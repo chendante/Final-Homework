@@ -1,6 +1,6 @@
 .scheduleTitle{
     width:100%;height:45px; line-height: 45px; text-align: center;margin-bottom: 20px; font-size: 18px;color:#fff;
-    font-weight: bold; background: url("//n.sinaimg.cn/products/worldcup2018/latest/images/nav_title_bg.png");
+    font-weight: bold; background: #bb6161;
 }
 .nobottom{border-bottom:none !important}
 .nobg{background:none !important}
