@@ -25,6 +25,7 @@ $this->title='德塔贝斯-世界杯球队排行';
             <div data-v-e731f282="" data-v-f4a56ec4="" class="team_rank_data">
                 <table data-v-0447defa="" data-v-e731f282="" class="default_table_name data_table">
                     <tr data-v-0447defa="">
+                        <th>序号</th>
                         <th data-v-0447defa="" class="new_team">球队</th>
                         <th data-v-0447defa="" class="sort goals">进球</th>
                         <th>射门</th>
@@ -36,10 +37,12 @@ $this->title='德塔贝斯-世界杯球队排行';
                         <th>黄牌</th>
                     </tr>
                 <?php
+                $i=1;
                 foreach ($this->params['data'] as $team){
                 ?>
                     <tr>
-                        <td data-v-0447defa="" class=""><?=$team['team_name']  ?> </td>
+                        <td data-v-0447defa="" class=""><?=$i  ?> </td>
+                        <td data-v-0447defa="" class=""><a href="http://localhost/Final-Homework/frontend/web/world-cup-team-info?id=<?= $team['sl_team_id']?>"><?=$team['team_name']  ?> </a></td>
                         <td data-v-0447defa="" class=""><?=$team['goals'] ?></td>
                         <td data-v-0447defa="" class=""><?=$team['total_scoring_att']?></td>
                         <td data-v-0447defa="" class=""><?=$team['total_pass']?></td>
@@ -49,7 +52,7 @@ $this->title='德塔贝斯-世界杯球队排行';
                         <td data-v-0447defa="" class=""><?=$team['red']?></td>
                         <td data-v-0447defa="" class=""><?=$team['yellow']?></td>
                     </tr>
-                <?php }?>
+                <?php $i++;}?>
                 </table>
             </div>
         </div>
