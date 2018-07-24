@@ -65,7 +65,7 @@
                               <a target="_blank" href="http://2018.sina.com.cn/fra/"><?=$game['team1']?></a>
                           </span>
                           <span class="vs">
-                              <a href="#/zt_d/1c-2d/" target="_black">4-3</a>
+                              <a href="#/zt_d/1c-2d/" target="_black"><?=$game['score1']?>&nbsp<?= $game['score2']?></a>
                           </span>
                           <span class="tal t_c">
                               <a target="_blank" href="http://2018.sina.com.cn/arg/"><?=$game['team2']?></a>
