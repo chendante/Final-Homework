@@ -85,12 +85,13 @@ $this->title='德塔贝斯-世界杯球队信息';
 <div class="area clearfix">
 
     <div class="col_l">
+
 <div class="team_statistics" ne-module="tabs" ne-state="showhide:true;events:click;">
     <div class="team_statistics_navs clearfix">
         <div class="team_statistics_nav current" ne-role="tab-nav">赛程</div>
-        <div class="team_statistics_nav" ne-role="tab-nav">球员统计</div>
     </div>
     <div class="team_statistics_cons">
+
         <div class="team_statistics_con current" ne-role="tab-body" style="">
             <ul class="team_statistics_schedule clearfix">
                 <?php
@@ -128,5 +129,85 @@ $this->title='德塔贝斯-世界杯球队信息';
         </div>
     </div>
 </div>
+
+        <div class="team_statistics" ne-module="tabs" ne-state="showhide:true;events:click;">
+            <div class="team_statistics_navs clearfix">
+<!--                <div class="team_statistics_nav " ne-role="tab-nav">赛程</div>-->
+                <div class="team_statistics_nav current" ne-role="tab-nav">球员统计</div>
+            </div>
+            <div class="team_statistics_cons">
+
+                <div class="team_statistics_con" ne-role="tab-body" style="">
+                    <div class="team_statistics_box">
+                        <div class="team_statistics_players">
+                            <table class="team_statistics_player">
+                                <colgroup>
+                                    <col class="player_list1">
+                                    <col class="player_list2">
+                                    <col class="player_list3">
+                                    <col class="player_list4">
+                                    <col class="player_list5">
+                                    <col class="player_list6">
+                                    <col class="player_list7">
+                                    <col class="player_list8">
+                                    <col class="player_list9">
+                                    <col class="player_list10">
+                                    <col class="player_list11">
+                                    <col class="player_list12">
+                                    <col class="player_list13">
+                                    <col class="player_list14">
+                                    <col class="player_list15">
+                                </colgroup>
+                                <thead>
+                                <tr><th>号码</th>
+                                    <th>球员</th>
+                                    <th>位置</th>
+                                    <th>出场</th>
+                                    <th>时间</th>
+                                    <th>进球</th>
+                                    <th>助攻</th>
+                                    <th>射门</th>
+                                    <th>射正</th>
+                                    <th>犯规</th>
+                                    <th>抢断</th>
+                                    <th>黄牌</th>
+                                    <th>红牌</th>
+                                    <th>扑救</th>
+                                    <th>失球</th>
+                                </tr></thead>
+                                <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a href="http://data.2018.163.com/player_detail.html#/13274" target="_blank"><p>阿金费耶夫</p></a></td>
+                                    <td>
+
+
+
+                                        守门员
+
+
+                                    </td>
+                                    <td>5</td>
+                                    <td>510</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>14</td>
+                                    <td>7</td>
+                                </tr>
+                                </tbody></table>
+
+                        </div>
+                        <div class="show_more"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>

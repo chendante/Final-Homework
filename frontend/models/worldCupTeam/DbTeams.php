@@ -160,7 +160,9 @@ class DbTeams extends \yii\db\ActiveRecord
 
     public static function getAll()
     {
-        return self::find()->asArray()->all();
+        return self::find()
+            ->where(['DeleteStatus'=>1])
+            ->asArray()->all();
     }
 
     public static function getTeamInfo($id)

@@ -3,6 +3,7 @@
 namespace frontend\controllers;
 
 use frontend\models\worldCupTeam\DbGames;
+use frontend\models\worldCupTeam\DbPlayers;
 use frontend\models\worldCupTeam\DbScoreBoard;
 use frontend\models\worldCupTeam\DbTeamInfo;
 use frontend\models\worldCupTeam\DbTeams;
@@ -26,6 +27,7 @@ class WorldCupTeamController extends \yii\web\Controller
         $view->params['data']['scoreBoard']=DbScoreBoard::getTeamInfo($id);
         $view->params['data']['teams']=DbTeams::getTeamInfo($id);
         $view->params['data']['games']=DbGames::getTeamInfo($id);
+        $view->params['data']['players']=DbPlayers::getTeamInfo($id);
 
         return $this->render('world-cup-team-info');
     }

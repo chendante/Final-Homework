@@ -100,4 +100,12 @@ class DbPlayers extends \yii\db\ActiveRecord
     {
         return $this->hasOne(DbTeams::className(), ['team_name' => 'team_name']);
     }
+
+    public static function getTeamInfo($id)
+    {
+        return self::find()
+            ->where(['DeleteStatus'=>1])
+            ->andWhere(['team_id'=>$id])
+            ->asArray()->all();
+    }
 }
