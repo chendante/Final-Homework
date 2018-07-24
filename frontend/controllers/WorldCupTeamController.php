@@ -33,4 +33,9 @@ class WorldCupTeamController extends \yii\web\Controller
 
         return $this->render('world-cup-team-info');
     }
+
+    public function actionWorldCupPlayerData()
+    {
+        return $this->render('world-cup-player-data');
+    }
 }
