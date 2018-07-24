@@ -44,11 +44,17 @@ return [
             'rules' => [
                 'login'=>'site/login',
                 'logout'=>'site/logout',
+                'signup'=>'site/signup',
                 'manage'=>'site/manage',
+                'games' => 'games/games',
+                'games-group' => 'games/games-group',
+                'games-time' => 'games/games-time',
+                'games-detail' => 'games/games-detail/:id',
                 'article'=>'news/article',
                 'all-article'=>'news/all-article',
                 'world-cup-team-data'=>'world-cup-team/world-cup-team-data',
-                'world-cup-team-info'=>'world-cup-team/world-cup-team-info'
+                'world-cup-team-info'=>'world-cup-team/world-cup-team-info',
+                'world-cup-player-data'=>'world-cup-team/world-cup-player-data'
             ],
            ],
         'urlManagerFrontend' => [

@@ -1,0 +1,1546 @@
+*{
+    margin:0;
+    padding:0;
+}
+.thematic-score{
+    position:relative;
+    background: url("//n.sinaimg.cn/products/worldcup2018/latest/images/thematic_score.png");
+    width:1240px;
+    height:263px;
+    margin:0 auto;
+    margin-top:30px;
+    margin-bottom: 40px;
+}
+.thematic-score-title{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #333333;
+}
+.thematic-score-center{
+    display: inline-block;
+    height:110px;
+    line-height: 110px;
+    margin: 35px auto;
+}
+.thematic-score-center-box{
+    text-align: center;
+}
+.score-center-text1,.score-center-text2{
+    float:left;
+    font-size: 30px;
+    color: #333333;
+    font-weight: bold;
+}
+.score-center-text1{
+    margin-right: 51px;
+}
+.score-center-text2{
+    margin-left: 51px;
+}
+.score-center-pic1,.score-center-pic2{
+    float:left;
+    width:160px;
+    height:110px;
+}
+.score-center-sco{
+    float:left;
+    font-size: 80px;
+    color: #333333;
+    margin: 0 81px;
+}
+.thematic-score-nav{
+    height:20px;
+    line-height:20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.thematic-score-nav>li{
+    display:inline-block;
+    padding: 0 30px;
+    border-right: solid 2px #ba9c6a;
+    height:20px;
+}
+.thematic-score-nav>li:last-child{
+    border-right:none;
+}
+.score-nav-link{
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color .3s;
+}
+.score-nav-link:hover{
+    color: #dd0000;
+}
+.thematic-score-nav-box{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+body,
+html {
+    font: 12px/18px "microsoft yahei", Simsun, Helvetica, Arial, sans-serif
+}
+
+body,
+button,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+li,
+ol,
+p,
+td,
+textarea,
+th,
+ul {
+    padding: 0;
+    margin: 0
+}
+
+button,
+input,
+label,
+option,
+select,
+textarea {
+    font: 12px/18px "microsoft yahei", Simsun, Helvetica, Arial, sans-serif
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400
+}
+
+ul {
+    list-style: none
+}
+
+img {
+    border: none;
+    display: block
+}
+
+button {
+    cursor: pointer
+}
+
+input,
+textarea {
+    font-size: 12px
+}
+
+a {
+    text-decoration: none;
+    color: #333
+}
+
+a:hover {
+    text-decoration: none;
+    color: #bd0a01
+}
+
+::selection {
+    background-color: #690;
+    color: #fff
+}
+
+::-moz-selection {
+    background-color: #690;
+    color: #fff
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.dis {
+    display: block
+}
+
+.undis {
+    display: none
+}
+
+.zwsj {
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    font-size: 16px;
+    text-align: center
+}
+
+.zwsj2 {
+    text-align: center;
+    line-height: 258px;
+    color: #bdceed;
+    font-size: 30px
+}
+
+.clientLog {
+    width: 100%;
+    height: 113px;
+    overflow: hidden;
+    position: relative;
+    margin-top: -10px;
+    background: url(../images/qt03-27f6285650.png) no-repeat center top
+}
+
+.clientLog .logimg {
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    margin-left: 431px;
+    display: block
+}
+
+.clientLog .logh3 {
+    position: absolute;
+    top: 44px;
+    left: 0;
+    margin-left: 431px;
+    display: block;
+    font-size: 38px;
+    color: #3a5bca;
+    font-weight: 600;
+    height: 38px;
+    line-height: 38px
+}
+
+.bannerW {
+    width: 100%;
+    padding-top: 45px
+}
+
+.bannerW .banner {
+    display: block;
+    width: 1240px;
+    height: 90px;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.bannerW .banner img {
+    width: 100%
+}
+
+.contTopW {
+    width: 100%;
+    height: auto;
+    padding-bottom: 63px
+}
+
+.contTopW .conttop {
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 28px
+}
+
+.contTopW .conttop .conttopTime {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #dadada
+}
+
+.contTopW .conttop .conttopTime>span {
+    font-size: 28px;
+    color: #545454;
+    float: left
+}
+
+.contTopW .conttop .contCount {
+    width: 100%;
+    min-height: 208px;
+    text-align: center
+}
+
+.contTopW .conttop .contCount .spanCount {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 36px;
+    color: #545454;
+    margin-top: 80px
+}
+
+.contTopW .conttop .contCount .spanCount1 {
+    float: left;
+    width: 360px;
+    text-align: right;
+    margin-left: 0
+}
+
+.contTopW .conttop .contCount .spanCount2 {
+    float: right;
+    width: 403px;
+    text-align: left;
+    margin-right: 0
+}
+
+.contTopW .conttop .contCount p {
+    display: inline-block;
+    width: 78px;
+    height: 78px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #d4d4d4
+}
+
+.contTopW .conttop .contCount p>img {
+    width: 78px
+}
+
+.contTopW .conttop .contCount .contimg1 {
+    float: left;
+    margin-top: 68px;
+    margin-left: 30px
+}
+
+.contTopW .conttop .contCount .contimg2 {
+    float: right;
+    margin-top: 68px;
+    margin-right: 30px
+}
+
+.contTopW .conttop .contCount .spanvs {
+    width: 194px;
+    height: 208px;
+    line-height: 208px;
+    font-size: 40px;
+    color: #545454;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    display: inline-block
+}
+
+.contTopW .conttop .contCount .spanvs .spandq {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    line-height: 14px;
+    bottom: 0;
+    left: 0;
+    font-weight: 400
+}
+
+.contTopW .conttop .contCount .spanvs2 {
+    height: 150px
+}
+
+.contTopW .conttop .contStat {
+    width: 100%;
+    height: 90px
+}
+
+.contTopW .conttop .contStat .homeName {
+    border-left: 2px solid #2d66d8;
+    padding-left: 10px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    float: left
+}
+
+.contTopW .conttop .contStat .timeBag {
+    width: 100%;
+    height: 52px;
+    float: left;
+    position: relative
+}
+
+.contTopW .conttop .contStat .timeBag .linebg {
+    background-color: #2d66d8;
+    width: 100%;
+    height: 4px;
+    margin-top: 31px;
+    float: left
+}
+
+.contTopW .conttop .contStat .timeBag .hollow,
+.contTopW .conttop .contStat .timeBag .solid {
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    border-radius: 50%;
+    top: 27px
+}
+
+.contTopW .conttop .contStat .timeBag .hollow .spantop,
+.contTopW .conttop .contStat .timeBag .solid .spantop {
+    position: absolute;
+    top: -22px;
+    left: -5px;
+    font-size: 18px;
+    color: #2d66d8
+}
+
+.contTopW .conttop .contStat .timeBag .hollow:first-child .spantop,
+.contTopW .conttop .contStat .timeBag .solid:first-child .spantop {
+    position: absolute;
+    top: -22px;
+    left: 0;
+    font-size: 18px;
+    color: #2d66d8
+}
+
+.contTopW .conttop .contStat .timeBag .hollow:last-child .spantop,
+.contTopW .conttop .contStat .timeBag .solid:last-child .spantop {
+    position: absolute;
+    top: -22px;
+    left: -10px;
+    font-size: 18px;
+    color: #2d66d8
+}
+
+.contTopW .conttop .contStat .timeBag .hollow {
+    border: 1px solid #2d66d8;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 99
+}
+
+.contTopW .conttop .contStat .timeBag .solid {
+    background-color: #2d66d8
+}
+
+.contTopW .conttop .contStat .timeBag .solid1 {
+    left: 0
+}
+
+.contTopW .conttop .contStat .timeBag .solid2 {
+    left: 50%;
+    margin-left: -5px
+}
+
+.contTopW .conttop .contStat .timeBag .solid3 {
+    right: 0
+}
+
+.contTopW .conttop .contStat .timeBag .hollow1 {
+    left: 125px
+}
+
+.contTopW .conttop .contStat .timeBag .hollow2 {
+    left: 290px
+}
+
+.contTopW .conttop .contStat .timeBag .hollow3 {
+    left: 368px
+}
+
+.contTopW .conttop .contStat .timeBag .hollow4 {
+    left: 778px
+}
+
+.contTopW .conttop .contStat .timeBag .hollow5 {
+    left: 797px
+}
+
+.contTopW .conttop .contStat .timeBag .hollow6 {
+    left: 922px
+}
+
+.contTopW .conttop .contStat .timeBag .hollow7 {
+    left: 977px
+}
+
+.contTopW .conttop .contStat .timeBag .hollow8 {
+    left: 1040px
+}
+
+.contTopW .conttop .contStat .timeBag .hollow9 {
+    left: 1130px
+}
+
+.contTopW .conttop .contStat .awayName {
+    border-left: 2px solid #2d66d8;
+    padding-left: 10px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    float: left
+}
+
+.contTopW .conttop .forW {
+    width: 1240px;
+    overflow: hidden;
+    padding-top: 46px
+}
+
+.contTopW .conttop .forW .fortit {
+    width: 1240px;
+    height: 61px;
+    float: left;
+    background: green;
+}
+
+.contTopW .conttop .forW .fortit>span {
+    font-size: 20px;
+    line-height: 61px;
+    color: #fff;
+    display: inline-block
+}
+
+.contTopW .conttop .forW .fortit .fortitl {
+    float: left;
+    font-weight: 600;
+    margin-left: 26px
+}
+
+.contTopW .conttop .forW .fortit .fortitr {
+    float: left;
+    margin-left: 26px
+}
+
+.contTopW .conttop .forW .fortit .fortitl2 {
+    float: right;
+    font-weight: 600;
+    margin-right: 26px
+}
+
+.contTopW .conttop .forW .fortit .fortitr2 {
+    float: right;
+    margin-right: 26px
+}
+
+.contTopW .conttop .forW .fortCont {
+    width: 1240px;
+    float: left
+}
+
+.contTopW .conttop .forW .fortCont .fortLeft {
+    width: 220px;
+    height: 640px;
+    float: left;
+    margin-top: 14px
+}
+
+.contTopW .conttop .forW .fortCont .fortLeft>li {
+    float: left
+}
+
+.contTopW .conttop .forW .fortCont .fortLeft>li:nth-child(2n) .shirts {
+    background-color: #fff
+}
+
+.contTopW .conttop .forW .fortCont .fortLeft>li:nth-child(2n) .position {
+    background-color: #fff
+}
+
+.contTopW .conttop .forW .fortCont .fortLeft>li:nth-child(2n) .fname {
+    background-color: #fff
+}
+
+.contTopW .conttop .forW .fortCont .fortLeft>li.li_item .shirts {
+    color: #979797
+}
+
+.contTopW .conttop .forW .fortCont .fortLeft>li.li_item .position {
+    color: #979797
+}
+
+.contTopW .conttop .forW .fortCont .fortLeft>li.li_item .fname {
+    color: #979797
+}
+
+.contTopW .conttop .forW .fortCont .fortLeft .shirts {
+    width: 43px;
+    height: 40px;
+    color: #2d66d8;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    margin-left: 0;
+    line-height: 40px;
+    background-color: #ebf2ff
+}
+
+.contTopW .conttop .forW .fortCont .fortLeft .position {
+    width: 54px;
+    height: 40px;
+    color: #2d66d8;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    margin-left: 2px;
+    line-height: 40px;
+    background-color: #ebf2ff
+}
+
+.contTopW .conttop .forW .fortCont .fortLeft .fname {
+    width: 172px;
+    height: 40px;
+    color: #545454;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    margin-left: 2px;
+    line-height: 40px;
+    background-color: #ebf2ff
+}
+
+.contTopW .conttop .forW .fortCont .fortcent {
+    width: 767px;
+    height: 527px;
+    float: left;
+    margin-left: 12px;
+    margin-top: 14px;
+    background: url(../../images/background.jpg) no-repeat center top;
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortleftc {
+    width: 380px;
+    height: 528px;
+    float: left;
+    box-sizing: border-box
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortleftc .playul {
+    width: 346px;
+    height: 472px;
+    margin-left: 26px;
+    padding-left: 10px;
+    margin-top: 26px
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortleftc .playul .playli {
+    width: 52px;
+    height: 472px;
+    float: right
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortleftc .playul .playli .playli2 {
+    width: 52px;
+    height: 50px
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortleftc .playul .playli .playli2 .forW2 {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #dcbe89;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortleftc .playul .playli .playli2 .forW2>img {
+    width: 100%
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortleftc .playul .playli .playli2 .forW3 {
+    width: 100%;
+    height: 12px;
+    background: url(images/sjx2_07-2557f61104.png) no-repeat center top
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortleftc .playul .playli .playli2 .forW4 {
+    width: 48px;
+    font-size: 12px;
+    color: #545454;
+    background-color: #fff;
+    line-height: 18px;
+    text-align: center;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin-left: -3px
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortrgc {
+    width: 380px;
+    height: 528px;
+    float: right;
+    box-sizing: border-box;
+    position: relative
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortrgc .playul {
+    width: 346px;
+    height: 472px;
+    padding-right: 10px;
+    margin-top: 26px
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortrgc .playul .playli {
+    width: 52px;
+    height: 472px;
+    float: left
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortrgc .playul .playli .playli2 {
+    width: 52px;
+    height: 50px
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortrgc .playul .playli .playli2 .forW2 {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #dcbe89;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortrgc .playul .playli .playli2 .forW2>img {
+    width: 100%
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortrgc .playul .playli .playli2 .forW3 {
+    width: 100%;
+    height: 12px;
+    background: url(images/sjx2_07-2557f61104.png) no-repeat center top
+}
+
+.contTopW .conttop .forW .fortCont .fortcent .fortrgc .playul .playli .playli2 .forW4 {
+    width: 48px;
+    font-size: 12px;
+    color: #545454;
+    background-color: #fff;
+    line-height: 18px;
+    text-align: center;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin-left: -3px
+}
+
+.contTopW .conttop .forW .fortCont .fortRig {
+    width: 220px;
+    height: 640px;
+    float: left;
+    margin-top: 14px;
+    float: right
+}
+
+.contTopW .conttop .forW .fortCont .fortRig>li {
+    float: left
+}
+
+.contTopW .conttop .forW .fortCont .fortRig>li:nth-child(2n) .shirts {
+    background-color: #fff
+}
+
+.contTopW .conttop .forW .fortCont .fortRig>li:nth-child(2n) .position {
+    background-color: #fff
+}
+
+.contTopW .conttop .forW .fortCont .fortRig>li:nth-child(2n) .fname {
+    background-color: #fff
+}
+
+.contTopW .conttop .forW .fortCont .fortRig>li.li_item .shirts {
+    color: #979797
+}
+
+.contTopW .conttop .forW .fortCont .fortRig>li.li_item .position {
+    color: #979797
+}
+
+.contTopW .conttop .forW .fortCont .fortRig>li.li_item .fname {
+    color: #979797
+}
+
+.contTopW .conttop .forW .fortCont .fortRig .shirts {
+    width: 43px;
+    height: 40px;
+    color: #2d66d8;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    margin-left: 0;
+    line-height: 40px;
+    background-color: #ebf2ff
+}
+
+.contTopW .conttop .forW .fortCont .fortRig .position {
+    width: 54px;
+    height: 40px;
+    color: #2d66d8;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    margin-left: 2px;
+    line-height: 40px;
+    background-color: #ebf2ff
+}
+
+.contTopW .conttop .forW .fortCont .fortRig .fname {
+    width: 172px;
+    height: 40px;
+    color: #545454;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    margin-left: 2px;
+    line-height: 40px;
+    background-color: #ebf2ff
+}
+
+.contTopW .conttop .forW .fortCont .fortRig .fname {
+    margin-left: 0
+}
+
+.contTopW .conttop .forW .fortCont .fortRig .shirts {
+    float: right;
+    margin-left: 2px
+}
+
+.contTopW .conttop .Chart {
+    width: 1240px;
+    margin-top: 80px;
+    overflow: Hidden;
+    border-top: 1px solid #dadada
+}
+
+.contTopW .conttop .Chart .statCont {
+    width: 100%;
+    overflow: hidden;
+    height: 599px;
+    position: relative
+}
+
+.contTopW .conttop .Chart .statCont .simgCont {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .simgtab {
+    width: 100%;
+    color: #545454;
+    font-size: 12px;
+    overflow: hidden;
+    margin-top: 20px
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .simgtab>li {
+    height: 14px;
+    line-height: 14px;
+    padding: 0 9px;
+    float: left;
+    cursor: pointer;
+    border-left: 1px solid #545454
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .simgtab>li:first-child {
+    padding-left: 0;
+    border-left: 0
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .simgtab>.licur {
+    color: #d93e49
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .ccTime,
+.contTopW .conttop .Chart .statCont .simgCont .gr {
+    width: 576px;
+    height: 510px;
+    margin-top: 45px;
+    float: left
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .gr {
+    width: 662px;
+    position: relative
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .bf {
+    position: absolute;
+    color: #2d66d8;
+    font-size: 18px
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .bf1 {
+    left: 240px;
+    top: 188px;
+    font-size: 26px;
+    display: none
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .bf2 {
+    left: 546px;
+    top: 188px;
+    font-size: 26px;
+    display: none
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .bf3 {
+    left: 227px;
+    top: 245px;
+    color: #a69c90;
+    display: none
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .bf4 {
+    left: 532px;
+    top: 245px;
+    color: #a69c90;
+    display: none
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .gr1 {
+    width: 600px;
+    height: 448px;
+    float: left;
+    margin-left: 62px;
+    padding-bottom: 10px
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .gr2 {
+    width: 600px;
+    height: 52px;
+    float: left;
+    margin-left: 128px;
+    border-top: 1px solid #dadada;
+    line-height: 42px
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .gr2>li {
+    cursor: pointer;
+    display: inline-block;
+    width: 68px;
+    height: 35px;
+    color: #2a2a2a;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 13px;
+    margin: 0 13px;
+    font-size: 20px;
+    margin-top: 10px
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .gr2>li:first-child {
+    margin-left: 158px
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .gr2 .curli {
+    background: #2d66d8;
+    color: #fff
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .ccTime {
+    border-right: 1px solid #dadada
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .statimg {
+    width: 100%;
+    height: 392px;
+    float: left;
+    margin-top: 28px;
+    border-top: 1px solid #dadada
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .statimg .hotimg,
+.contTopW .conttop .Chart .statCont .simgCont .statimg .route {
+    width: 577px;
+    height: 392px;
+    float: left
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .statimg .hotimg .routeTit,
+.contTopW .conttop .Chart .statCont .simgCont .statimg .route .routeTit {
+    width: 100%;
+    height: 57px;
+    line-height: 57px;
+    font-size: 20px;
+    color: #2d66d8;
+    font-weight: 600
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .statimg .hotimg .routeImg,
+.contTopW .conttop .Chart .statCont .simgCont .statimg .route .routeImg {
+    width: 575px;
+    height: 333px;
+    overflow: hidden;
+    border: 1px solid #b41e1c
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .statimg .hotimg .routeImg img,
+.contTopW .conttop .Chart .statCont .simgCont .statimg .route .routeImg img {
+    width: 576px;
+    height: 333px
+}
+
+.contTopW .conttop .Chart .statCont .simgCont .statimg .hotimg {
+    float: right
+}
+
+.contTopW .conttop .awayData,
+.contTopW .conttop .homeData {
+    width: 100%;
+    padding-top: 40px;
+    overflow: hidden
+}
+
+.contTopW .conttop .awayData .homedatat,
+.contTopW .conttop .homeData .homedatat {
+    font-size: 20px;
+    color: #2d66d8;
+    height: 60px;
+    line-height: 60px;
+    font-weight: 600
+}
+
+.contTopW .conttop .awayData .stabCont,
+.contTopW .conttop .homeData .stabCont {
+    width: 100%;
+    height: 367px;
+    color: #fff;
+    font-size: 12px
+}
+
+.contTopW .conttop .awayData .stabCont .stabtit,
+.contTopW .conttop .homeData .stabCont .stabtit {
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    background: #2d66d8;
+    float: left;
+    font-size: 14px;
+    margin-top: 8px
+}
+
+.contTopW .conttop .awayData .stabCont .stabtit>div,
+.contTopW .conttop .homeData .stabCont .stabtit>div {
+    float: left;
+    text-align: center
+}
+
+.contTopW .conttop .awayData .stabCont .stabtit .Appear,
+.contTopW .conttop .awayData .stabCont .stabtit .Goals,
+.contTopW .conttop .awayData .stabCont .stabtit .Save,
+.contTopW .conttop .awayData .stabCont .stabtit .Shooting,
+.contTopW .conttop .awayData .stabCont .stabtit .ball,
+.contTopW .conttop .awayData .stabCont .stabtit .foul,
+.contTopW .conttop .awayData .stabCont .stabtit .number,
+.contTopW .conttop .homeData .stabCont .stabtit .Appear,
+.contTopW .conttop .homeData .stabCont .stabtit .Goals,
+.contTopW .conttop .homeData .stabCont .stabtit .Save,
+.contTopW .conttop .homeData .stabCont .stabtit .Shooting,
+.contTopW .conttop .homeData .stabCont .stabtit .ball,
+.contTopW .conttop .homeData .stabCont .stabtit .foul,
+.contTopW .conttop .homeData .stabCont .stabtit .number {
+    background-color: #2d66d8
+}
+
+.contTopW .conttop .awayData .stabCont .stabUl,
+.contTopW .conttop .homeData .stabCont .stabUl {
+    width: 100%;
+    float: left;
+    border: 1px solid #2d66d8;
+    box-sizing: border-box;
+    overflow: hidden
+}
+
+.contTopW .conttop .awayData .stabCont .stabUl>li,
+.contTopW .conttop .homeData .stabCont .stabUl>li {
+    float: left;
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    font-size: 14px
+}
+
+.contTopW .conttop .awayData .stabCont .stabUl>li>div,
+.contTopW .conttop .homeData .stabCont .stabUl>li>div {
+    float: left;
+    color: #545454;
+    text-align: center
+}
+
+.contTopW .conttop .awayData .stabCont .stabUl>li>div>span,
+.contTopW .conttop .homeData .stabCont .stabUl>li>div>span {
+    color: #d52a36
+}
+
+.contTopW .conttop .awayData .stabCont .number,
+.contTopW .conttop .homeData .stabCont .number {
+    width: 60px;
+    background-color: #ebf2ff
+}
+
+.contTopW .conttop .awayData .stabCont .position,
+.contTopW .conttop .homeData .stabCont .position {
+    width: 106px
+}
+
+.contTopW .conttop .awayData .stabCont .PlayerN,
+.contTopW .conttop .homeData .stabCont .PlayerN {
+    width: 122px
+}
+
+.contTopW .conttop .awayData .stabCont .Appear,
+.contTopW .conttop .homeData .stabCont .Appear {
+    width: 82px;
+    background-color: #ebf2ff
+}
+
+.contTopW .conttop .awayData .stabCont .AppearT,
+.contTopW .conttop .homeData .stabCont .AppearT {
+    width: 87px
+}
+
+.contTopW .conttop .awayData .stabCont .Goals,
+.contTopW .conttop .homeData .stabCont .Goals {
+    width: 82px;
+    background-color: #ebf2ff
+}
+
+.contTopW .conttop .awayData .stabCont .Assists,
+.contTopW .conttop .homeData .stabCont .Assists {
+    width: 90px
+}
+
+.contTopW .conttop .awayData .stabCont .ball,
+.contTopW .conttop .homeData .stabCont .ball {
+    width: 82px;
+    background-color: #ebf2ff
+}
+
+.contTopW .conttop .awayData .stabCont .Shoot,
+.contTopW .conttop .homeData .stabCont .Shoot {
+    width: 90px
+}
+
+.contTopW .conttop .awayData .stabCont .Shooting,
+.contTopW .conttop .homeData .stabCont .Shooting {
+    width: 82px;
+    background-color: #ebf2ff
+}
+
+.contTopW .conttop .awayData .stabCont .Positive,
+.contTopW .conttop .homeData .stabCont .Positive {
+    width: 90px
+}
+
+.contTopW .conttop .awayData .stabCont .foul,
+.contTopW .conttop .homeData .stabCont .foul {
+    width: 82px;
+    background-color: #ebf2ff
+}
+
+.contTopW .conttop .awayData .stabCont .guilty,
+.contTopW .conttop .homeData .stabCont .guilty {
+    width: 90px
+}
+
+.contTopW .conttop .awayData .stabCont .Save,
+.contTopW .conttop .homeData .stabCont .Save {
+    width: 82px;
+    background-color: #ebf2ff
+}
+
+.Goalstatus {
+    width: 100%;
+    height: 51px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-size: 16px;
+    color: #545454
+}
+
+.Goalstatus .GoalstatusL {
+    width: 500px;
+    min-height: 52px;
+    float: left;
+    padding-right: 102px
+}
+
+.Goalstatus .GoalstatusL .goalname {
+    padding: 0 18px;
+    height: 16px;
+    margin-top: 8px;
+    float: right;
+    border-left: 1px solid #2d66d8
+}
+
+.Goalstatus .GoalstatusL .goalname>span {
+    margin-left: 4px
+}
+
+.Goalstatus .GoalstatusL .goalname .span1 {
+    color: #77a3fc
+}
+
+.Goalstatus .GoalstatusL .goalname:nth-child(3n) {
+    border: 0
+}
+
+.Goalstatus .Goalstatusr {
+    width: 500px;
+    min-height: 52px;
+    float: left;
+    padding-left: 102px
+}
+
+.Goalstatus .Goalstatusr .goalname {
+    padding: 0 18px;
+    height: 16px;
+    margin-top: 8px;
+    float: left;
+    border-right: 1px solid #2d66d8
+}
+
+.Goalstatus .Goalstatusr .goalname>span {
+    margin-left: 4px
+}
+
+.Goalstatus .Goalstatusr .goalname .span1 {
+    color: #77a3fc
+}
+
+.Goalstatus .Goalstatusr .goalname:nth-child(3n) {
+    border: 0
+}
+
+#contStat2 {
+    height: 163px;
+    margin-top: 80px
+}
+
+#contStat2 .timeBag {
+    height: 108px
+}
+
+#contStat2 .timeBag .bottom .Oolong {
+    top: 16px
+}
+
+#contStat2 .timeBag .bottom .sj {
+    top: 38px;
+    background: url(../images/sjx2_07-2557f61104.png) no-repeat center top
+}
+
+#contStat2 .timeBag .bottom .textW {
+    top: 45px
+}
+
+#contStat2 .timeBag .bottom .Yellow {
+    top: 20px
+}
+
+#contStat2 .timeBag .bottom .black {
+    top: 16px
+}
+
+#contStat2 .timeBag .bottom .red {
+    top: 20px
+}
+
+#contStat2 .timeBag .bottom .bluetop {
+    top: 22px
+}
+
+#contStat2 .timeBag .bottom .bluetop2 {
+    top: 22px
+}
+
+#contStat2 .timeBag .bottom .yellotop {
+    top: 22px
+}
+
+#contStat2 .linebg {
+    margin-top: 50px
+}
+
+#contStat2 .hollow,
+#contStat2 .solid {
+    top: 45px
+}
+
+#contStat2 .solid2 {
+    left: 466px
+}
+
+#contStat2 .solid4 {
+    left: 923px
+}
+
+#contStat2 .hollow10 {
+    left: 368px
+}
+
+#contStat2 .hollow6 {
+    left: 918px
+}
+
+#contStat2 .hollow11 {
+    left: 910px
+}
+
+#contStat2 .Oolong {
+    width: 18px;
+    height: 18px;
+    background: url(../images/process06-d0ec998180.png) no-repeat center top;
+    position: absolute;
+    top: -22px;
+    left: -4px
+}
+
+#contStat2 .sj {
+    width: 10px;
+    height: 8px;
+    background: url(../images/sjx2_03-02cdceda7c.png) no-repeat center top;
+    position: absolute;
+    top: -36px;
+    left: -1px
+}
+
+#contStat2 .textW {
+    background-color: #e5e5e5;
+    padding: 8px 8px;
+    color: #545454;
+    border-radius: 4px;
+    font-size: 16px;
+    min-width: 132px;
+    position: absolute;
+    top: -70px;
+    left: -12px
+}
+
+#contStat2 .Yellow {
+    width: 12px;
+    height: 18px;
+    background: url(../images/process_08-27e51d48dd.png) no-repeat center top;
+    position: absolute;
+    top: -22px;
+    left: -2px
+}
+
+#contStat2 .black {
+    width: 18px;
+    height: 18px;
+    background: url(../images/process_10-7de97eed65.png) no-repeat center top;
+    position: absolute;
+    top: -22px;
+    left: -4px
+}
+
+#contStat2 .red {
+    width: 12px;
+    height: 18px;
+    background: url(../images/process_24-414bbff5c5.png) no-repeat center top;
+    position: absolute;
+    top: -22px;
+    left: -2px
+}
+
+#contStat2 .bluetop {
+    width: 12px;
+    height: 22px;
+    background: url(../images/process_03-b0f773cec8.png) no-repeat center top;
+    position: absolute;
+    top: -26px;
+    left: -2px
+}
+
+#contStat2 .bluetop2 {
+    width: 12px;
+    height: 22px;
+    background: url(../images/process_032-fb28b6ad3c.png) no-repeat center top;
+    position: absolute;
+    top: -26px;
+    left: -2px
+}
+
+#contStat2 .yellotop {
+    width: 12px;
+    height: 18px;
+    background: url(../images/process_15-dc09be0289.png) no-repeat center top;
+    position: absolute;
+    top: -26px;
+    left: -2px
+}
+
+.Grbz {
+    width: 100%;
+    height: 40px;
+    line-height: 16px;
+    margin-bottom: 10px
+}
+
+.Grbz .i1 {
+    display: inline-block;
+    width: 142px;
+    font-size: 18px;
+    color: #2a2a2a;
+    font-style: normal;
+    text-align: center;
+    margin-left: 38px
+}
+
+.Grbz .i2 {
+    display: inline-block;
+    font-size: 18px;
+    color: #2a2a2a;
+    width: 124px;
+    font-style: normal;
+    text-align: center
+}
+
+.Grbz>.span1 {
+    display: inline-block;
+    margin-right: 10px;
+    color: #b31917
+}
+
+.Grbz>span {
+    color: #2a2a2a;
+    font-size: 36px
+}
+
+.Grbz>.span2 {
+    display: inline-block;
+    color: #044a8a
+}
+
+.tabUl1 {
+    width: 186px;
+    float: left
+}
+
+.tabUl3 .tabli_body {
+    float: right !important
+}
+
+.tabUl3 .tabli_tit {
+    float: left !important
+}
+
+.tabUlfloat1 {
+    margin-left: 69px
+}
+
+.tabUl2 {
+    width: 92px;
+    float: left
+}
+
+.tabUl2>.tabli1 {
+    width: 100%;
+    height: 10px;
+    font-size: 14px;
+    float: left;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    text-align: center;
+    line-height: 10px
+}
+
+.tabli1 {
+    width: 100%;
+    height: 10px;
+    font-size: 14px;
+    float: left;
+    line-height: 10px;
+    margin-top: 18px;
+    margin-bottom: 18px
+}
+
+.tabli1 .tabli_tit {
+    width: 40px;
+    color: #d93e49;
+    height: 14px;
+    text-align: center;
+    margin-bottom: 12px;
+    float: right
+}
+
+.tabli1 .tabli_tit2 {
+    float: left
+}
+
+.tabli1 .tabli_body {
+    width: 132px;
+    height: 13px;
+    background: #ececec;
+    border-radius: 8px;
+    position: relative;
+    float: left
+}
+
+.tabli1 .tabli_body .tabli_cont {
+    width: 0;
+    height: 13px;
+    background: #d93e49;
+    border-top: 0;
+    border-bottom: 0;
+    box-sizing: border-box;
+    position: absolute;
+    max-height: 184px;
+    border-radius: 0 5px 5px 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer
+}
+
+.tabli1 .tabli_body .borradius {
+    border-radius: 5px
+}
+
+.tabli1 .tabli_body2 {
+    float: right
+}
+
+.tabli1 .tabli_foo {
+    width: 100%;
+    text-align: center;
+    color: #545454;
+    height: 14px;
+    font-weight: 600;
+    margin-top: 10px
+}
+
+.scrollTop {
+    width: 58px;
+    height: 58px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: 670px;
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    display: none
+}
+
+.scrollTop .scrollTopa {
+    width: 58px;
+    height: 58px;
+    display: block;
+    cursor: pointer;
+    background: url(../images/scrolltop-f24e6d7965.png) no-repeat center top
+}
+
+.scrollTop:hover {
+    background-color: #2d66d8
+}

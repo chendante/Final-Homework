@@ -158,8 +158,15 @@ class DbTeams extends \yii\db\ActiveRecord
         return $this->hasMany(FUsers::className(), ['prefer_team_id' => 'sl_team_id', 'prefer_team' => 'team_name']);
     }
 
-    public  static function getAll()
+    public static function getAll()
     {
-        return self::find()->asArray()->all();
+        return self::find()
+            ->where(['DeleteStatus'=>1])
+            ->asArray()->all();
+    }
+
+    public static function getTeamInfo($id)
+    {
+        return self::findOne(['sl_team_id'=>$id]);
     }
 }

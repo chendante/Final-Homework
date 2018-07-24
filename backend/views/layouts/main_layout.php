@@ -326,7 +326,7 @@ use common\widgets\Alert;
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="ui-elements.html">
+                                        <a href="<?php echo Url::to(['comment/manage','id' =>Yii::$app->user->identity->getId()])?>">
                                             <i class="fa fa-caret-right"></i> 收到的留言
                                         </a>
                                     </li>
@@ -421,7 +421,7 @@ use common\widgets\Alert;
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="ui-elements.html">
+                                        <a href="<?php echo Url::to(['games/games'])?>">
                                             <i class="fa fa-caret-right"></i> 赛程管理
                                         </a>
                                     </li>
