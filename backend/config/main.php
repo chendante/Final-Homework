@@ -48,11 +48,8 @@ return [
                 'homework-personal'=>'homework/personal',
                 'upload-file'=>'site/upload',
                 'login'=>'site/login',
-<<<<<<< HEAD
-                'games' => 'games/games'
-=======
+                'games' => 'games/games',
                 'comment-manage'=>'comment/manage'
->>>>>>> dbdb3c5b004dc28402f677fee8e0ff79c99fa51f
             ],
         ],
         'urlManagerBackend' => [
