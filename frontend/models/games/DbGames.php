@@ -123,4 +123,12 @@ class DbGames extends \yii\db\ActiveRecord
         $three = self::find()->where(['round' => 7,'DeleteStatus' => 1])->orderBy('date asc')->asArray()->all();
         return ['小组赛' => $group,'1/8决赛' => $eight,'1/4决赛' => $four,'1/2决赛' => $two,'冠军赛' => $champion,'季军赛' => $three];
     }
+
+    // 获取某一场比赛的详细信息
+    public static function getGameDetail($id){
+        $match = self::find()->where(['DeleteStatus' => 1,'game_id' => $id])->asArray()->all();
+        $teamid1 = $match['team1_id'];
+        $teamid2 = $match['team2_id'];
+       
+    }
 }

@@ -31,9 +31,9 @@ class GamesController extends \yii\web\Controller
     }
 
     //比赛详情页面
-    public function actionGamesDetail(){
+    public function actionGamesDetail($id){
         $view = Yii::$app->getView();
-        $view->params['games_time'] = DbGames::getTimeGames();
+        $view->params['game_detail'] = DbGames::getTimeGames($id);
         return $this->render('games-detail');
     }
 }
