@@ -1,9 +1,8 @@
 <?php
 
-namespace frontend\models\news;
+namespace backend\models\news;
 
 use Yii;
-use common\models\User;
 
 /**
  * This is the model class for table "db_news_comment".
@@ -11,7 +10,7 @@ use common\models\User;
  * @property integer $CID
  * @property integer $NID
  * @property integer $UserID
- * @property string $Content
+ * @property string $CommentContent
  * @property string $CommentTime
  * @property boolean $Type
  * @property boolean $DeleteStatus
@@ -77,35 +76,5 @@ class DbNewsComment extends \yii\db\ActiveRecord
     public function getUser()
     {
         return $this->hasOne(User::className(), ['id' => 'UserID']);
-    }
-
-    static public function getNewsComments($id){
-        return self::find()
-            ->joinWith('n')
-            ->joinWith('user')
-            ->where(['db_news_comment.DeleteStatus'=>1])
-            ->andWhere(['db_news_comment.NID'=>$id])
-            ->orderBy('CommentTime DESC')
-            ->select(['db_news_comment.NID','CID','username','db_news_comment.CommentContent','CommentTime','CommentName','UserID','Type'])
-            ->asArray()->all();
-    }
-    //新增评论
-    public static function postComment($data)
-    {
-        $comment = new DbNewsComment();
-        $comment->load($data, '');
-        var_dump( $data['CommentContent']);
-//        $comment['Content'] = $data['Content'];
-//        var_dump($comment['Content']);die;
-
-        yii::getLogger()->log($data['CommentContent'],4);
-        yii::getLogger()->log($comment,4);
-        if (!$comment->save()) {//若保存不成功，则data记录错误信息
-            $res = 2;
-            return $res;
-        } else {
-            $res= 1;
-            return $res;
-        }
     }
 }

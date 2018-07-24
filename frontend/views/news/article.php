@@ -9,9 +9,9 @@ $this->title = '德塔贝斯-文章';
 <!DOCTYPE html>
 <html>
 <body>
-<?php if($this->params['IsSuccess']==1){echo "<script>alert('上传成功')</script>";} ?>
+<?php if($this->params['IsSuccess']==1){echo "<script>alert('评论成功')</script>";} ?>
 
-<?php if($this->params['IsSuccess']==2){echo "<script>alert('上传失败')</script>";} ?>
+<?php if($this->params['IsSuccess']==2){echo "<script>alert('评论失败')</script>";} ?>
 
 <section class="blog-post">
     <!-- Page Content -->
@@ -56,7 +56,7 @@ $this->title = '德塔贝斯-文章';
                         ])?>
                         <h4>留言</h4>
                             <div class="form-group">
-                                <?= $form->field($model, 'com',['labelOptions' => ['label' => '请输入内容：']]);?>
+                                <?= $form->field($model, 'CommentContent',['labelOptions' => ['label' => '']]);?>
                             </div>
                             <button type="submit" class="btn btn-primary">提交</button>
                         <?php ActiveForm::end(); ?>
@@ -64,7 +64,6 @@ $this->title = '德塔贝斯-文章';
 
 
                 <hr>
-
                 <!-- Posted Comments -->
                 <?php foreach ($this->params['data3'] as $comments){
                     ?>.
@@ -86,7 +85,7 @@ $this->title = '德塔贝斯-文章';
                                 <?php if($comments['Type']!=0){?><?= $comments['CommentName']?><?php }?></small>
                             <small><?= $comments['CommentTime']?></small>
                         </h4>
-                        <p class="blogpost-agileits"><?= $comments['Content']?></p>
+                        <p class="blogpost-agileits"><?= $comments['CommentContent']?></p>
                     </div>
                 </div><hr>
                 <?php }?>

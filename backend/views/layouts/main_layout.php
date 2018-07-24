@@ -308,7 +308,7 @@ use common\widgets\Alert;
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="form-elements.html">
+                                        <a href="<?php echo Url::to(['news/my-articles', 'id' =>Yii::$app->user->identity->getId()])?>">
                                             <i class="fa fa-caret-right"></i> 我发布的文章
                                         </a>
                                     </li>
