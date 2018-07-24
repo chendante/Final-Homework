@@ -25,6 +25,8 @@ class DbNewsComment extends \yii\db\ActiveRecord
     /**
      * @inheritdoc
      */
+    public $com;
+    public $IsSuccess;
     public static function tableName()
     {
         return 'db_news_comment';
@@ -37,9 +39,10 @@ class DbNewsComment extends \yii\db\ActiveRecord
     {
         return [
             [['NID', 'UserID', 'Content', 'CommentTime'], 'required'],
-            [['NID', 'UserID', 'CommentID'], 'integer'],
+            [['NID', 'UserID'], 'integer'],
             [['Content'], 'string'],
             [['CommentTime'], 'safe'],
+            [['CommentName'], 'string', 'max' => 255],
             [['Type', 'DeleteStatus'], 'boolean'],
             [['NID'], 'exist', 'skipOnError' => true, 'targetClass' => DbNews::className(), 'targetAttribute' => ['NID' => 'NID']],
             [['UserID'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['UserID' => 'id']],
@@ -59,7 +62,7 @@ class DbNewsComment extends \yii\db\ActiveRecord
             'CommentTime' => Yii::t('app', 'Comment Time'),
             'Type' => Yii::t('app', 'Type'),
             'DeleteStatus' => Yii::t('app', 'Delete Status'),
-            'CommentID' => Yii::t('app', 'Comment ID'),
+            'CommentName' => Yii::t('app', 'Comment Name'),
         ];
     }
 
@@ -85,7 +88,20 @@ class DbNewsComment extends \yii\db\ActiveRecord
             ->where(['db_news_comment.DeleteStatus'=>1])
             ->andWhere(['db_news_comment.NID'=>$id])
             ->orderBy('CommentTime')
-            ->select(['db_news_comment.NID','CID','username','db_news_comment.Content','CommentTime','CommentID','UserID'])
+            ->select(['db_news_comment.NID','CID','username','db_news_comment.Content','CommentTime','CommentName','UserID','Type'])
             ->asArray()->all();
+    }
+    //新增评论
+    public static function postComment($data)
+    {
+        $comment = new DbNewsComment();
+        $comment->load($data, '');
+        if (!$comment->save()) {//若保存不成功，则data记录错误信息
+            $res = 2;
+            return $res;
+        } else {
+            $res= 1;
+            return $res;
+        }
     }
 }

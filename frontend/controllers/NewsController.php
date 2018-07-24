@@ -67,8 +67,18 @@ class NewsController extends \yii\web\Controller
         $view->params['data1'] =DbNews::getOneNews($id);
         $view->params['data2'] =DbNews::getNews();
         $view->params['data3'] =DbNewsComment::getNewsComments($id);
-        return $this->render('article');
+        $model=new DbNewsComment();
+
+        $view->params['IsSuccess']=0;
+        if(yii::$app->request->isPost) {
+            $data=Yii::$app->request->post('DbNewsComment');
+            $view->params['IsSuccess']=DbNewsComment::postComment($data);
+        }
+        return $this->render('article',['model'=>$model]);
+
     }
+
+
     /**
      * Login action.
      *

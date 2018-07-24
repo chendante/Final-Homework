@@ -3,11 +3,15 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Url;
+use yii\bootstrap\ActiveForm;
 $this->title = '德塔贝斯-文章';
 ?>
 <!DOCTYPE html>
 <html>
 <body>
+<?php if($this->params['IsSuccess']==1){echo "<script>alert('上传成功')</script>";} ?>
+
+<?php if($this->params['IsSuccess']==2){echo "<script>alert('上传失败')</script>";} ?>
 
 <section class="blog-post">
     <!-- Page Content -->
@@ -47,15 +51,17 @@ $this->title = '德塔贝斯-文章';
                 <!-- Blog Comments -->
 
                 <!-- Comments Form -->
-                <div class="well">
-                    <h4>留言:</h4>
-                    <form action="#" method="post" role="form">
-                        <div class="form-group">
-                            <textarea class="form-control" rows="3" id="comments" name="comments"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">提交</button>
-                    </form>
-                </div>
+                    <div class="well">
+                        <?php $form=ActiveForm::begin([
+                        ])?>
+                        <h4>留言</h4>
+                            <div class="form-group">
+                                <?= $form->field($model, 'com',['labelOptions' => ['label' => '请输入内容：']]);?>
+                            </div>
+                            <button type="submit" class="btn btn-primary">提交</button>
+                        <?php ActiveForm::end(); ?>
+                    </div>
+
 
                 <hr>
 
@@ -64,7 +70,7 @@ $this->title = '德塔贝斯-文章';
                     ?>.
                 <!-- Comment -->
                 <div class="media">
-                    <a class="pull-left" href="#">
+                    <a class="pull-left">
                         <div class="hover01 column">
                             <div>
                                 <figure><img class="media-object" src="images/timg.jpg" alt=""></figure>
@@ -73,18 +79,20 @@ $this->title = '德塔贝斯-文章';
                     </a>
                     <div class="media-body">
                         <h4 class="media-heading"><?= $comments['username']?>
+                            <small> 回复 </small>
+                            <small>
+                                <?php if($comments['Type']==0){?>本文<?php }?></small>
+                            <small>
+                                <?php if($comments['Type']!=0){?><?= $comments['CommentName']?><?php }?></small>
                             <small><?= $comments['CommentTime']?></small>
                         </h4>
                         <p class="blogpost-agileits"><?= $comments['Content']?></p>
                     </div>
-                </div>
+                </div><hr>
                 <?php }?>
             </div>
-
-            </div>
-
             <!-- Blog Sidebar Widgets Column -->
-            <div class="col-md-4">
+            <div class="col-md-4" style="float: right">
                 <section class="blogwell-w3ls">
                     <!-- Blog Categories Well -->
                     <div class="well">
@@ -108,6 +116,8 @@ $this->title = '德塔贝斯-文章';
                     </div>
                 </section>
             </div>
+            </div>
+
         </div>
         <!-- /.row -->
 
