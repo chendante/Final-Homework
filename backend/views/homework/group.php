@@ -64,9 +64,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
     </div>
     <!-- /tile body -->
-
-
-
 </section>
 <!-- Javascript -->
 

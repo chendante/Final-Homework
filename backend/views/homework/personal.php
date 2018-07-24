@@ -83,7 +83,9 @@ $this->params['breadcrumbs'][] = $this->title;
                                 <ul class="attachments">
                                     <li><span class="label label-warning">zip</span> <em>zipped_file.zip (2,9MB) <span class="att-actions"><i class="fa fa-download att-download"></i></span></em></li>
                                 </ul>
-                            </div></div></div>
+                            </div>
+                        </div>
+                </div>
                     <?php $tpo++;}?>
             </div>
         </div>

@@ -8,7 +8,7 @@ a:hover, a:active, a:focus {text-decoration:underline; -webkit-transition: color
 h1, h2, h3, h4, h5, em {font-weight:normal; }
 /* ie debug */
 img,li {vertical-align:top;}
-.wrap {width:1240px; margin: 2px auto 0;}
+.wrap1 {width:1240px; margin: 2px auto 0;}
 
 /* 导航 */
 .navTop{ background:#313131; margin-top:5px; height:36px; overflow:hidden; line-height:36px; font-size:14px; padding-left:35px;}

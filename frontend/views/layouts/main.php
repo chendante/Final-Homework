@@ -25,13 +25,14 @@ AppAsset::register($this);
 
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    <link href="css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
+<!--    editor:吴轩羽-->
+<!--    谷歌字体在国内可能无法访问-->
+<!--    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>-->
+<!--    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>-->
     <!-- /fonts -->
     <!-- css -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/typo.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/trend.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/info.css" rel="stylesheet" type="text/css" media="all" />
@@ -40,43 +41,42 @@ AppAsset::register($this);
 <body>
 
 <div class="wrap">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><h1>德塔贝斯</h1></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">主页</a></li>
-                    <li><a href="<?php echo Url::to('all-article')?>">文章</a></li>
-<!--                    <li><a href="about.html">文章</a></li>-->
-<!--                    <a href="--><?php //echo Url::to(['homework/personal', 'id' =>1])?><!--">-->
-                    <li><a href="service.html">球队信息</a></li>
-                    <li><a href="<?php echo Url::to(['site/games']) ?>">比赛信息</a></li>
-                    <?php if(\Yii::$app->user->isGuest) { ?>
-
-                        <li><a href="<?php echo Url::to(['site/login']) ?>" ></span>
-                            Login
-                        </a></li>
-                    <?php }else{?>
-
-                    <li><a href="<?php echo Yii::$app->urlManagerFrontend->createAbsoluteUrl('/') ?>" ><span class="fa fa-home" aria-hidden="true"></span>
-                        <?=\YII::$app->user->identity->username ?></a></li>
-
-                    <li><a href="<?php echo Url::to(['site/logout']) ?>"><span class="fa fa-shield" aria-hidden="true"></span>logout</a></li>
-
-                    <?php } ?>
-
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </nav>
+                    <?php
+                    NavBar::begin([
+                        'brandLabel' => '德塔贝斯',
+                        'brandUrl' => Yii::$app->homeUrl,
+                        'options' => [
+                            'class' => 'navbar-inverse navbar-default navbar-fixed-top',
+                        ],
+                    ]);
+                    $menuItems = [
+                        ['label' => '文章', 'url' => ['/all-article'],
+                        'options'=> ['class'=>yii::$app->controller->id=="news"?"active":""],
+                        ],
+                        ['label' => '球队信息', 'url' => ['/world-cup-team-data'],
+                            'options'=> ['class'=>yii::$app->controller->id=="world-cup-team"?"active":""],
+                        ],
+                        ['label' => '比赛信息', 'url' => ['/games'],
+                            'options'=> ['class'=>yii::$app->controller->id=="games"?"active":""],
+                        ],
+                    ];
+                    if (Yii::$app->user->isGuest) {
+                        $menuItems[] = ['label' => 'Signup', 'url' => ['/signup']];
+                        $menuItems[] = ['label' => 'Login', 'url' => ['/login']];
+                    } else {
+                        $menuItems[] = [
+                            'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
+                            'url' => ['/logout'],
+                            'linkOptions' => ['data-method' => 'post']
+                        ];
+                    }
+                    echo Nav::widget([
+                        'options' => ['class' => 'navbar-nav navbar-right'],
+                        'items' => $menuItems,
+                    ]);
+                    NavBar::end();
+                    ?>
+</div>
     <div id="slider" class="slider-container2">
         <ul class="slider">
             <li class="slide">

@@ -37,7 +37,6 @@ $this->params['breadcrumbs'][] = $this->title;
                     </div>
                 </div>
                 <?php if($this->params['IsUp']==1){echo "<script>alert('上传成功')</script>";} ?>
-
                 <?php if($this->params['IsUp']==2){echo "<script>alert('上传失败')</script>";} ?>
                 <!-- /tile header -->
                 <!-- tile body -->
@@ -76,6 +75,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                 <span class="fileupload-process"></span>
 
                             </div>
+
 
                             <!-- The global progress state -->
                             <div class="col-lg-5 fileupload-progress fade">
