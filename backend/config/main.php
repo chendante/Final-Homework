@@ -47,7 +47,8 @@ return [
                 'group-member'=>'group/member',
                 'homework-personal'=>'homework/personal',
                 'upload-file'=>'site/upload',
-                'login'=>'site/login'
+                'login'=>'site/login',
+                'comment-manage'=>'comment/manage'
             ],
         ],
         'urlManagerBackend' => [
