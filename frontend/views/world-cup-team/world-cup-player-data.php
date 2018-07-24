@@ -30,18 +30,46 @@ $this->title='德塔贝斯-世界杯射手榜';
             </tr>
             </thead>
             <tbody id="scorer">
+
+            <?php
+            foreach ($this->params['data'] as $player){
+                ?>
+
             <tr class="gp-one gp-grey">
-                <td>1</td>
-                <td><a class="scorer" target="_blank" href="http://2018.sina.com.cn/ballgame/player.shtml?id=78830">凯恩</a></td>
-                <td><a class="scorer" target="_blank" href="http://2018.sina.com.cn/eng/">英格兰</a></td>
-                <td>6</td>
-                <td>0</td>
-                <td>573</td>
-                <td>3</td>
-                <td>0</td>
+                <td><?= $player['row_id'] ?></td>
+                <td><a class="scorer" target="_blank" href="http://localhost/Final-Homework/frontend/web/world-cup-team-info?id=<?= $player['sl_team_id']?>"><?= $player['player_name'] ?></a></td>
+                <td><a class="scorer" target="_blank" href="http://localhost/Final-Homework/frontend/web/world-cup-team-info?id=<?= $player['sl_team_id']?>"><?= $player['team_name'] ?></a></td>
+                <td><?= $player['goals'] ?></td>
+                <td><?= $player['assists'] ?></td>
+                <td><?= $player['minutes'] ?></td>
+                <td><?= $player['penalty'] ?></td>
+                <td><?= $player['owngoal'] ?></td>
             </tr>
+
+            <?php }?>
+
             </tbody>
         </table>
     </div>
     <!-- int-box-one end -->
 </div>
+
+<!--<tbody id="scorer">-->
+<?php
+//foreach ($this->params['data'] as $player){
+//    ?>
+<!--    <tr class="gp-one gp-grey">-->
+<!--        <td>--><?//= $player['row_id'] ?><!--</td>-->
+<!--        <td><a class="scorer" target="_blank" href="http://2018.sina.com.cn/ballgame/player.shtml?id=78830">-->
+<!--                --><?//= $player['player_name'] ?>
+<!--            </a></td>-->
+<!--        <td><a class="scorer" target="_blank" href="http://2018.sina.com.cn/eng/">--><?//= $player['team_name'] ?>
+<!--            </a></td>-->
+<!--        <td>--><?//= $player['goals '] ?><!--</td>-->
+<!--        <td>--><?//= $player['assists'] ?><!--</td>-->
+<!--        <td>--><?//= $player['minutes'] ?><!--</td>-->
+<!--        <td>--><?//= $player['penalty'] ?><!--</td>-->
+<!--        <td>--><?//= $player['owngoal'] ?><!--</td>-->
+<!--    </tr>-->
+<!--    --><?php;//}?>
+<!--</tbody>-->

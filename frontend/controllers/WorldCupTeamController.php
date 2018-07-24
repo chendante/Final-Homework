@@ -8,6 +8,7 @@ use frontend\models\worldCupTeam\DbPlayers;
 use frontend\models\worldCupTeam\DbScoreBoard;
 use frontend\models\worldCupTeam\DbTeamInfo;
 use frontend\models\worldCupTeam\DbTeams;
+use frontend\models\worldCupTeam\DbTopScorer;
 use Yii;
 
 class WorldCupTeamController extends \yii\web\Controller
@@ -36,6 +37,9 @@ class WorldCupTeamController extends \yii\web\Controller
 
     public function actionWorldCupPlayerData()
     {
+        $view = Yii::$app->getView();
+        $view->params['data'] = DbTopScorer::getAllPlayer();
+
         return $this->render('world-cup-player-data');
     }
 }
