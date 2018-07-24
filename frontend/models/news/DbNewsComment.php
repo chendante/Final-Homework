@@ -94,7 +94,6 @@ class DbNewsComment extends \yii\db\ActiveRecord
     {
         $comment = new DbNewsComment();
         $comment->load($data, '');
-        var_dump( $data['CommentContent']);
 //        $comment['Content'] = $data['Content'];
 //        var_dump($comment['Content']);die;
 

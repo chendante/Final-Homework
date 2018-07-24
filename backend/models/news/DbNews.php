@@ -4,7 +4,7 @@ namespace backend\models\news;
 
 use Yii;
 use common\models\User;
-
+use yii\data\Pagination;
 /**
  * This is the model class for table "db_news".
  *
@@ -80,11 +80,21 @@ class DbNews extends \yii\db\ActiveRecord
         return $this->hasMany(DbNewsComment::className(), ['NID' => 'NID']);
     }
 
-    static public function getMyArticles($id){
+    static public function getMyArticles($id){;
         return self::find()
             ->joinWith('author')
             ->where(['DeleteStatus'=>1])
             ->andWhere(['AuthorID'=>$id])
+            ->orderBy('PublishTime DESC')
+            ->select(['NID','Title','Keywords','AuthorID','username','PublishTime','Content'])
+            ->asArray()->all();
+    }
+
+    static public function getOneArticle($id){
+        return self::find()
+            ->joinWith('author')
+            ->where(['DeleteStatus'=>1])
+            ->andWhere(['NID'=>$id])
             ->select(['NID','Title','Keywords','AuthorID','username','PublishTime','Content'])
             ->asArray()->all();
     }
