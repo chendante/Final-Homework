@@ -120,7 +120,7 @@ $this->title='德塔贝斯-世界杯球队信息'.'--'.$this->params['data']['te
                         </div>
                     </div>
                     <div class="links">
-                        <a>查看比赛</a>
+                        <a href="http://localhost/Final-Homework/frontend/web/games-detail?id=<?= $game['game_id']?>">查看比赛</a>
                     </div>
                 </li>
                     <?php }?>
