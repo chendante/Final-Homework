@@ -54,7 +54,6 @@ class UploadedForm extends Model
                         $model = new DbHomeworkPersonal();
                         $model->HomeworkName = $this->fileName;
                         $model->Mark = $this->mark;
-
                         $model->MemberID = $this->student;
                         $model->Path = $path;
                         if ($model->save()) {

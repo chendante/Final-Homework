@@ -44,8 +44,7 @@ class DbHomeworkGroup extends \yii\db\ActiveRecord
             'HID' => Yii::t('app', 'Hid'),
             'HomeworkName' => Yii::t('app', 'Homework Name'),
             'Path' => Yii::t('app', 'Path'),
-            'Mark' => Yii::t('app', 'Mark'),
-            'MemberID' => Yii::t('app', 'MemberID'),
+            'Mark' => Yii::t('app', 'Mark')
         ];
     }
     static public function getHomework()

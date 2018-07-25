@@ -52,6 +52,7 @@ return [
             'rules' => [
                 'homework-group'=>'homework/group',
                 'group-member'=>'group/member',
+                'group-edit'=>'group/edit',
                 'homework-personal'=>'homework/personal',
                 'upload-file'=>'site/upload',
                 'login'=>'site/login',
