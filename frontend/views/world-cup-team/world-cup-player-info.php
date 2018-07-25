@@ -100,22 +100,6 @@ $this->title='德塔贝斯-世界杯球员信息';
             <td data-v-0447defa="" class=""><?= $player['saves'] ?></td>
             <td data-v-0447defa="" class=""><?= $player['total_clearance'] ?></td>
         </tr>
-
-<!--        <tr data-v-0447defa="">-->
-<!--            <td data-v-0447defa="" class="">-->
-<!--                <a href="http://2018.163.com/special/team4729/" target="_blank">突尼斯</a> 1-2 <a href="http://2018.163.com/special/team4713/" target="_blank">英格兰</a>-->
-<!--            </td>-->
-<!--            <td data-v-0447defa="" class="">90'</td>-->
-<!--            <td data-v-0447defa="" class="">2</td>-->
-<!--            <td data-v-0447defa="" class="">0</td>-->
-<!--            <td data-v-0447defa="" class="">2</td>-->
-<!--            <td data-v-0447defa="" class="">1</td>-->
-<!--            <td data-v-0447defa="" class="">4</td>-->
-<!--            <td data-v-0447defa="" class="">0</td>-->
-<!--            <td data-v-0447defa="" class="">0</td>-->
-<!--            <td data-v-0447defa="" class="">0</td>-->
-<!--            <td data-v-0447defa="" class="">1</td>-->
-<!--        </tr>-->
         <?php }?>
 
     </table>

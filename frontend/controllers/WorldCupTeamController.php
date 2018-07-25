@@ -2,7 +2,7 @@
 
 namespace frontend\controllers;
 
-use frontend\models\worldCupTeam\DbGames;
+use frontend\models\games\DbGames;
 use frontend\models\worldCupTeam\DbPlayerDatas;
 use frontend\models\worldCupTeam\DbPlayers;
 use frontend\models\worldCupTeam\DbScoreBoard;
