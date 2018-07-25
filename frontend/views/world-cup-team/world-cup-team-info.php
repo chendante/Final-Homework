@@ -112,7 +112,7 @@ $this->title='德塔贝斯-世界杯球队信息'.'--'.$this->params['data']['te
                             <?= $game['score1'] ?>
                         </div>
                         <div class="away_group">
-                            <a href="http://localhost/Final-Homework/frontend/web/world-cup-team-info?id=<?= $game['team1_id']?>" target="_blank">
+                            <a href="http://localhost/Final-Homework/frontend/web/world-cup-team-info?id=<?= $game['team2_id']?>" target="_blank">
                                 <?= $game['team2'] ?>
                             </a></div>
                         <div class="away_score">
