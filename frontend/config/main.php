@@ -47,6 +47,7 @@ return [
                 'signup'=>'site/signup',
                 'manage'=>'site/manage',
                 'games' => 'games/games',
+                'index' => 'site/index',
                 'games-group' => 'games/games-group',
                 'games-time' => 'games/games-time',
                 'games-detail' => 'games/games-detail/:id',
