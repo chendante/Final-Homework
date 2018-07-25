@@ -13,7 +13,6 @@ use yii\bootstrap\ActiveForm;
         <?php $article=null ;$po=0;?>
         <ul class="inbox" id="mail-inbox">
             <li class="heading"><h1>文章</h1></li>
-<!--            <li class="search"><i class="fa fa-search"></i> <input type="text" placeholder="Search in inbox..." /></li>-->
             <?php foreach ($this->params['data'] as $news){?>
             <li class="msg" id="home<?= $po?>" onclick="test(id)">
 
@@ -61,21 +60,11 @@ use yii\bootstrap\ActiveForm;
                         <li>发布日期： <em><?= $news['PublishTime']?></em></li>
                     </ul>
 
-<!--                    <div class="actions">-->
-<!--                        <div class="btn-group">-->
-<!--                            <button type="button" class="btn btn-default"><i class="fa fa-reply"></i></button>-->
-<!--                            <button type="button" class="btn btn-default"><i class="fa fa-mail-reply-all"></i></button>-->
-<!--                            <button type="button" class="btn btn-default"><i class="fa fa-share"></i></button>-->
-<!--                        </div>-->
-<!--                    </div>-->
                     <div class="btn-group">
-                        <form>
-                            <div id="message-wysiwyg"></div>
+                        <div id="message-wysiwyg"></div>
                             <div class="col-md-8">
-                            <button type="submit" class="btn btn-greensea">编辑</button></div>
-                            <button type="button" class="btn btn-default pull-right"
-                                    ><i class="fa fa-trash-o"></i></button>
-                        </form>
+                            <a href=" <?php echo Url::to(['news/edit-article','id' =>$news['NID']]) ?>" class="btn btn-greensea">编辑</a></div>
+
                     </div>
                 </div>
 
@@ -102,10 +91,8 @@ function test(id) {
     for(var i=0;i<p;i++){
     document.getElementById("phome"+i).style.display="none";
     }
-    console.log("p"+id);
     document.getElementById("preindex").style.display="none";
     document.getElementById("p"+id).style.display="";
-    console.log(<?=$tpo ?>);
 }
 
 </script>
