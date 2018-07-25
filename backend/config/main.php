@@ -11,7 +11,14 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+    'modules' => [
+        'redactor' => [
+            'class' => 'yii\redactor\RedactorModule',
+            'uploadDir' => '',
+            'uploadUrl' => '',
+            'imageAllowExtensions'=>['jpg','png','gif']
+        ],
+    ],
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
@@ -51,6 +58,7 @@ return [
                 'my-articles'=>'news/my-articles',
                 'games' => 'games/games',
                 'new-article'=>'news/new-article',
+                'edit-article'=>'news/edit-article',
                 'comment-manage'=>'comment/manage'
             ],
         ],

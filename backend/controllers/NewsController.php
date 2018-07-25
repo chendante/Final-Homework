@@ -16,15 +16,16 @@ class NewsController extends \yii\web\Controller
     public function actionMyArticles(){
         $view = Yii::$app->getView();
         $id=Yii::$app->getRequest()->get('id');
-        $view->params['data'] = DbNews::getMyArticles($id);
+        $model=$view->params['data'] = DbNews::getMyArticles($id);
         $view->params['IsSuccess']=0;
-        if (yii::$app->request->isPut) {
-            $data['CommentContent']=Yii::$app->request->post('DbNewsComment')['CommentContent'];
-            $data['NID']=$view->params['data1'][0]['NID'];
-            $view->params['IsSuccess']=DbNews::updataArticle($data);
-            $view->params['data'] =DbNews::getMyArticles($id);
-        }
-        return $this->render('my-articles');
+//        if (yii::$app->request->isPut) {
+//            $data['CommentContent']=Yii::$app->request->post('DbNewsComment')['CommentContent'];
+//            $data['NID']=$view->params['data1'][0]['NID'];
+//            $view->params['IsSuccess']=DbNews::updataArticle($data);
+//            $model=$view->params['data'] =DbNews::getMyArticles($id);
+//            return $this->render('my-articles',['model'=>$model]);
+//        }
+        return $this->render('my-articles',['model'=>$model]);
     }
 
     public function actionNewArticle(){
@@ -44,6 +45,28 @@ class NewsController extends \yii\web\Controller
             $view->params['IsSuccess']=DbNews::postArticle($data);
         }
         return $this->render('new-article',['model'=>$model]);
+    }
+    public function actionEditArticle(){
+        $id=Yii::$app->getRequest()->get('id');
+        $model=DbNews::getEditArticle($id);
+        $view = Yii::$app->getView();
+        $view->params['IsSuccess']=0;
+        if(yii::$app->request->isPost) {
+            $model->load(Yii::$app->request->post());
+            $model['AuthorID']=Yii::$app->user->identity->getId();
+            date_default_timezone_set('PRC');
+            $model['PublishTime'] = date('Y-m-d H:i:s', time());
+            Yii::getLogger()->log(  $model,4);
+            if($model->save()){
+                $view->params['IsSuccess']=1;
+            }
+            else{
+                $view->params['IsSuccess']=2;
+            }
+            Yii::getLogger()->log(  $view->params['IsSuccess'],4);
+        }
+        return $this->render('new-article', [
+            'model' => $model]);
     }
 
 //    public function actionArticle($id)
@@ -68,4 +91,33 @@ class NewsController extends \yii\web\Controller
 //        }
 //        return $this->render('article',['model'=>$model]);
 //    }
+    public function actionNewArticleEditor()
+
+    {
+//
+//        $this->layout='main';
+        $model = new DbNews();
+
+
+
+        if ($model->load(Yii::$app->request->post())) {
+
+            if ($model->validate()) {
+
+                // form inputs are valid, do something here
+                return;
+
+            }
+
+        }
+
+
+
+        return $this->render('new-article-editor', [
+
+            'model' => $model,
+
+        ]);
+
+    }
 }

@@ -95,8 +95,11 @@ class DbNews extends \yii\db\ActiveRecord
             ->joinWith('author')
             ->where(['DeleteStatus'=>1])
             ->andWhere(['NID'=>$id])
-            ->select(['NID','Title','Keywords','AuthorID','username','PublishTime','Content'])
-            ->asArray()->all();
+            ->select(['NID','Title','Keywords','AuthorID','username','PublishTime','Content'])->asArray()->all();
+    }
+
+    static public function getEditArticle($id){
+        return self::findOne(['NID'=>$id]);
     }
 
     //更新文章
@@ -131,5 +134,9 @@ class DbNews extends \yii\db\ActiveRecord
             $res= 1;
             return $res;
         }
+
     }
+
+
+
 }
