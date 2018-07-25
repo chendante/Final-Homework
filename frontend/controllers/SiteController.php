@@ -12,6 +12,7 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
+use frontend\models\group\DbGroupMember;
 
 /**
  * Site controller
@@ -72,6 +73,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $view = Yii::$app->getView();
+        $view->params['data'] = DbGroupMember::getGroupMember();
         return $this->render('index');
     }
 
