@@ -25,6 +25,22 @@ class GroupController extends \yii\web\Controller
         $view->params['data'] = DbGroupMember::getGroupMember();
         return $this->render('member');
     }
-
+    public function actionEdit(){
+        $id=Yii::$app->getRequest()->get('id');
+        $model=DbGroupMember::getEditMember($id);
+        $view = Yii::$app->getView();
+        $view->params['IsSuccess']=0;
+        if(yii::$app->request->isPost) {
+            $model->load(Yii::$app->request->post());
+            if($model->save()){
+                $view->params['IsSuccess']=1;
+            }
+            else{
+                $view->params['IsSuccess']=2;
+            }
+        }
+        return $this->render('edit', [
+            'model' => $model]);
+    }
 
 }

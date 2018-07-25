@@ -68,4 +68,7 @@ class DbGroupMember extends \yii\db\ActiveRecord
     static public function getGroupMember(){
         return self::find()->asArray()->all();
     }
+    static public function getEditMember($id){
+        return self::findOne(['StudentID'=>$id]);
+    }
 }

@@ -39,8 +39,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 <tr>
                     <th class="sort-alpha">文档名称</th>
                     <th class="sort-alpha">简介</th>
-                    <th class="sort-amount">大小</th>
-                    <th class="sort-numeric">预览</th>
                     <th class="sort-numeric">下载</th>
 
                 </tr>
@@ -50,12 +48,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 <?php foreach ($this->params['data'] as $homework){?>
                 <tr class="odd gradeX">
                     <td><?= $homework['HomeworkName']?></td>
-                    <td>Internet Explorer 4.0</td>
-                    <td>Win 95+</td>
-                    <td class="text-center"> 4</td>
-
-                    <td>    <a href= <?= dirname(dirname(Yii::$app->getHomeUrl())). $this->params['data'][0]['Path'] ?> >下载</a>
-                    </td>
+                    <td><?= $homework['Mark']?></td>
+                    <td>    <a href= <?=$homework['Path'] ?> >下载</a></td>
                 </tr>
                 <?php }?>
                 </tbody>
