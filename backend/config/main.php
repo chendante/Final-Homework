@@ -60,7 +60,9 @@ return [
                 'games-update' => 'games/game-update',
                 'new-article'=>'news/new-article',
                 'edit-article'=>'news/edit-article',
-                'comment-manage'=>'comment/manage'
+                'comment-manage'=>'comment/manage',
+                'team-list'=>'team/team-list',
+                'player-list'=>'team/player-list'
             ],
         ],
         'urlManagerBackend' => [

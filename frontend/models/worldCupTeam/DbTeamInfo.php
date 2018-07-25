@@ -70,4 +70,13 @@ class DbTeamInfo extends \yii\db\ActiveRecord
     {
         return self::findOne(['tid'=>$id]);
     }
+
+    public static function getTeamList()
+    {
+        return self::find()
+//            ->innerJoin('db_teams','db_teams.sl_team_id=db_team_info.tid')
+//            ->select(['db_team_info.*','db_teams.team_name'])
+            ->where(['DeleteStatus'=>1])
+            ->asArray()->all();
+    }
 }

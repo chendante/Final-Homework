@@ -53,7 +53,6 @@
             </thead>
             <tbody>
                 <?php foreach($this->params['games'] as $game) {
-                    $url="games/games-update/"+$game['game_id'];
                     ?>
                 <tr>
                     <td><?=$game['game_id']?></td>

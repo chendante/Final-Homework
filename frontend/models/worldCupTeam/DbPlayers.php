@@ -113,4 +113,13 @@ class DbPlayers extends \yii\db\ActiveRecord
     {
         return self::findOne(['player_id'=>$id]);
     }
+
+    public static function getPlayerList()
+    {
+        return self::find()
+            ->innerJoin('db_teams','db_teams.sl_team_id=db_players.team_id')
+            ->select(['db_players.*','db_teams.team_name'])
+            ->where(['db_players.DeleteStatus'=>1])
+            ->asArray()->all();
+    }
 }
