@@ -41,7 +41,7 @@
 			<?php foreach($this->params['games_time'] as $key => $games) {?>
         <div class="title-c layout-mb-b">
           <h3 class="label">
-            <a href="#/schedule/group.shtml#url" target="_blank"><?=$key?></a>
+            <a style="color:#bb6161" target="_blank"><?=$key?></a>
           </h3>
           <span class="extra"></span>
         </div>
@@ -62,18 +62,18 @@
                       <td><?=$game['time']?></td>
                       <td>
                           <span class="tar t_c">
-                              <a target="_blank" href="http://2018.sina.com.cn/fra/"><?=$game['team1']?></a>
+                              <a target="_blank" href="<?php echo Url::to(['world-cup-team/world-cup-team-info','id'=>$game['team1_id']]) ?>"><?=$game['team1']?></a>
                           </span>
                           <span class="vs">
-                              <a href="#/zt_d/1c-2d/" target="_black"><?=$game['score1']?>&nbsp<?= $game['score2']?></a>
+                              <a href="<?php echo Url::to(['games-detail','id'=>$game['game_id']]) ?>" target="_black"><?=$game['score1']?>&nbsp<?= $game['score2']?></a>
                           </span>
                           <span class="tal t_c">
-                              <a target="_blank" href="http://2018.sina.com.cn/arg/"><?=$game['team2']?></a>
+                              <a target="_blank" href="<?php echo Url::to(['world-cup-team/world-cup-team-info','id'=>$game['team2_id']]) ?>"><?=$game['team2']?></a>
                           </span>
                       </td>
                       <td class="tal"><?=$game['matchcity']?></td>
                       <td class="tal gray">
-                          <a href="#/fra/2018-06-30/doc-ihespqrx7173896.shtml" style="" target="_blank">战报 </a>
+                          <a href="<?php echo Url::to(['games-detail','id'=>$game['game_id']]) ?>" style="" target="_blank">战报 </a>
                       </td>
                   </tr>
                   <?php $count++;} ?>

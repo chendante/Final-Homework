@@ -1,7 +1,8 @@
 <?php
 
 namespace frontend\models\games;
-
+use frontend\models\worldCupTeam\DbTeams;
+use frontend\models\worldCupTeam\DbPlayers;
 use Yii;
 
 /**
@@ -127,8 +128,16 @@ class DbGames extends \yii\db\ActiveRecord
     // 获取某一场比赛的详细信息
     public static function getGameDetail($id){
         $match = self::find()->where(['DeleteStatus' => 1,'game_id' => $id])->asArray()->all();
-        $teamid1 = $match['team1_id'];
-        $teamid2 = $match['team2_id'];
-       
+        $teamid1 = $match[0]['team1_id'];
+        $teamid2 = $match[0]['team2_id'];
+        $team1_player = DbPlayers::getTeamInfo($teamid1);
+        $team2_player = DbPlayers::getTeamInfo($teamid2);
+        return ['match' => $match,'team1_player' => $team1_player,'team2_player' => $team2_player];
+    }
+
+    //更新比赛信息
+    public static function updateGame($data){
+        $model = self::findOne($data['game_id']);
+        $model->load($data, '');
     }
 }

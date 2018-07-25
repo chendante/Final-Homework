@@ -49,7 +49,7 @@ return [
                 'games' => 'games/games',
                 'games-group' => 'games/games-group',
                 'games-time' => 'games/games-time',
-                'games-detail' => 'games/games-detail/:id',
+                'games-detail' => 'games/games-detail',
                 'article'=>'news/article',
                 'all-article'=>'news/all-article',
                 'world-cup-team-data'=>'world-cup-team/world-cup-team-data',

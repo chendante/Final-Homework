@@ -49,6 +49,7 @@ return [
                 'upload-file'=>'site/upload',
                 'login'=>'site/login',
                 'games' => 'games/games',
+                'games-update' => 'games/game-update',
                 'comment-manage'=>'comment/manage'
             ],
         ],

@@ -425,11 +425,6 @@ use common\widgets\Alert;
                                             <i class="fa fa-caret-right"></i> 赛程管理
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="typography.html">
-                                            <i class="fa fa-caret-right"></i> 央视名嘴
-                                        </a>
-                                    </li>
                                 </ul>
                             </li>
                         </ul>
