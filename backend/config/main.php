@@ -57,6 +57,7 @@ return [
                 'login'=>'site/login',
                 'my-articles'=>'news/my-articles',
                 'games' => 'games/games',
+                'games-update' => 'games/game-update',
                 'new-article'=>'news/new-article',
                 'edit-article'=>'news/edit-article',
                 'comment-manage'=>'comment/manage'
