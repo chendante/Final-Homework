@@ -54,7 +54,8 @@ return [
                 'all-article'=>'news/all-article',
                 'world-cup-team-data'=>'world-cup-team/world-cup-team-data',
                 'world-cup-team-info'=>'world-cup-team/world-cup-team-info',
-                'world-cup-player-data'=>'world-cup-team/world-cup-player-data'
+                'world-cup-player-data'=>'world-cup-team/world-cup-player-data',
+                'world-cup-player-info'=>'world-cup-team/world-cup-player-info'
             ],
            ],
         'urlManagerFrontend' => [

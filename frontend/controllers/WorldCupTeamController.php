@@ -42,4 +42,16 @@ class WorldCupTeamController extends \yii\web\Controller
 
         return $this->render('world-cup-player-data');
     }
+
+    public function actionWorldCupPlayerInfo()
+    {
+        $view = Yii::$app->getView();
+        $id=Yii::$app->getRequest()->get('id');
+
+        $view->params['data']['players']=DbPlayers::getPlayerInfo($id);
+        $view->params['data']['player_datas']=DbPlayerDatas::getPlayerInfo($id);
+        $view->params['data']['detail']=DbPlayerDatas::getPlayerDetailInfo($id);
+
+        return $this->render('world-cup-player-info');
+    }
 }
