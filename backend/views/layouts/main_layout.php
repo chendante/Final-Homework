@@ -313,8 +313,8 @@ use common\widgets\Alert;
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="validation-elements.html">
-                                            <i class="fa fa-caret-right"></i> 新建文章
+                                        <a href="<?php echo Url::to(['news/new-article', 'id' =>Yii::$app->user->identity->getId()])?>">
+                                        <i class="fa fa-caret-right"></i> 新建文章
                                         </a>
                                     </li>
                                 </ul>

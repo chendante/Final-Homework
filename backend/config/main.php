@@ -50,6 +50,7 @@ return [
                 'login'=>'site/login',
                 'my-articles'=>'news/my-articles',
                 'games' => 'games/games',
+                'new-article'=>'news/new-article',
                 'comment-manage'=>'comment/manage'
             ],
         ],

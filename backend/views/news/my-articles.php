@@ -1,12 +1,19 @@
+<?php
+
+/* @var $this yii\web\View */
+
+use yii\helpers\Url;
+use yii\bootstrap\ActiveForm;
+?>
+<?php if($this->params['IsSuccess']==1){echo "<script>alert('编辑成功')</script>";} ?>
+
+<?php if($this->params['IsSuccess']==2){echo "<script>alert('编辑失败')</script>";} ?>
 <div class="row">
-
-
-
     <div class="col-md-4">
         <?php $article=null ;$po=0;?>
         <ul class="inbox" id="mail-inbox">
             <li class="heading"><h1>文章</h1></li>
-            <li class="search"><i class="fa fa-search"></i> <input type="text" placeholder="Search in inbox..." /></li>
+<!--            <li class="search"><i class="fa fa-search"></i> <input type="text" placeholder="Search in inbox..." /></li>-->
             <?php foreach ($this->params['data'] as $news){?>
             <li class="msg" id="home<?= $po?>" onclick="test(id)">
 
@@ -66,10 +73,13 @@
                             <div id="message-wysiwyg"></div>
                             <div class="col-md-8">
                             <button type="submit" class="btn btn-greensea">编辑</button></div>
-                            <button type="button" class="btn btn-default pull-right"><i class="fa fa-trash-o"></i></button>
+                            <button type="button" class="btn btn-default pull-right"
+                                    ><i class="fa fa-trash-o"></i></button>
                         </form>
                     </div>
                 </div>
+
+
 
                 <div class="content">
                     <p><?= $news['Content']?></p>
@@ -97,4 +107,5 @@ function test(id) {
     document.getElementById("p"+id).style.display="";
     console.log(<?=$tpo ?>);
 }
+
 </script>

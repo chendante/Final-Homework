@@ -56,7 +56,7 @@ $this->title = '德塔贝斯-文章';
                         ])?>
                         <h4>留言</h4>
                             <div class="form-group">
-                                <?= $form->field($model, 'CommentContent',['labelOptions' => ['label' => '']]);?>
+                                <?= $form->field($model, 'CommentContent',['labelOptions' => ['label' => '']])->textarea();?>
                             </div>
                             <button type="submit" class="btn btn-primary">提交</button>
                         <?php ActiveForm::end(); ?>

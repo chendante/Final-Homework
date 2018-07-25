@@ -99,4 +99,37 @@ class DbNews extends \yii\db\ActiveRecord
             ->asArray()->all();
     }
 
+    //更新文章
+    public static function updataArticle($data)
+    {
+        $art = self::findOne(['NID' => $data['NID']]);
+        if ($art == NULL) {
+            $res = 2;
+            return $res;
+        }
+        $res['success'] = true;
+        if (!$art->load($data, '')) {
+            $res = 2;
+            return $res;
+        } else{
+            $res= 1;
+            return $res;
+        }
+    }
+
+    //新增文章
+    public static function postArticle($data)
+    {
+        $article = new DbNews();
+        $article->load($data, '');
+//        yii::getLogger()->log($data['CommentContent'],4);
+//        yii::getLogger()->log($comment,4);
+        if (!$article->save()) {//若保存不成功，则data记录错误信息
+            $res = 2;
+            return $res;
+        } else {
+            $res= 1;
+            return $res;
+        }
+    }
 }
