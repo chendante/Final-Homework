@@ -32,7 +32,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <ul class="inbox" id="mail-inbox">
                 <li class="heading"><h1><?=$this->params['data'][0]['StudentName'] ?></h1></li>
-                <li class="search"><i class="fa fa-search"></i> <input type="text" placeholder="Search in inbox..." /></li>
                 <?php foreach ($this->params['data'] as $homework){?>
                     <li class="msg" id="home<?= $po?>" onclick="test(id)">
                         <a href="#"  class="mail-favourite active"><i class="fa fa-star-o"></i></a>
@@ -75,13 +74,11 @@ $this->params['breadcrumbs'][] = $this->title;
                                 </strong></h1>
                         </div>
                         <div class="content">
-                            <p><?=$homework['Mark']?>
-                                  </p>
-
+                            <p><?=$homework['Mark']?></p>
                             <h4 class="filled"><i class="icon-tags"></i> Attachments</h4>
                             <div class="filled">
                                 <ul class="attachments">
-                                    <li><span class="label label-warning">zip</span> <em>zipped_file.zip (2,9MB) <span class="att-actions"><i class="fa fa-download att-download"></i></span></em></li>
+                                    <li><span class="label label-warning">文件</span><?=$homework['HomeworkName']?> <em><span class="att-actions"><a href="<?=$homework['Path'] ?>" class="fa fa-download att-download"></a></span></em></li>
                                 </ul>
                             </div>
                         </div>

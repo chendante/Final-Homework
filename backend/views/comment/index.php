@@ -23,7 +23,7 @@ $this->title = 'My Yii Application';
     <div class="row">
                 <div class="col-md-4">
                     <!-- tile -->
-                    <section class="tile color blue">
+                    <section class="tile color transparent-white">
 
 
                         <!-- tile header -->
