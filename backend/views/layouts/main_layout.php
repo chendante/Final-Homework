@@ -401,12 +401,12 @@ AppAsset::register($this);
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="form-elements.html">
+                                        <a href="<?php echo Url::to(['team-list'])?>">
                                             <i class="fa fa-caret-right"></i> 球队信息管理
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="validation-elements.html">
+                                        <a href="<?php echo Url::to(['player-list'])?>">
                                             <i class="fa fa-caret-right"></i> 球员信息管理
                                         </a>
                                     </li>

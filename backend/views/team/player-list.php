@@ -5,6 +5,8 @@
  * Date: 2018/7/25
  * Time: 23:12
  */
+
+use yii\helpers\Url;
 $this->title='德塔贝斯-球员列表'
 ?>
 
@@ -54,7 +56,7 @@ $this->title='德塔贝斯-球员列表'
                     <td><?=$game['weight']?></td>
                     <td><?=$game['height']?></td>
                     <td><?=$game['jersey_num']?></td>
-                    <td><a href="">更新</a></td>
+                    <td><a href="<?php echo Url::to(["player-update",'id' => $game['player_id']])?>">更新</a></td>
                 </tr>
             <?php } ?>
             </tbody>

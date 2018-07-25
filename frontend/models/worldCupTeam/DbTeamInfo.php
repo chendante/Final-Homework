@@ -79,4 +79,18 @@ class DbTeamInfo extends \yii\db\ActiveRecord
             ->where(['DeleteStatus'=>1])
             ->asArray()->all();
     }
+
+    public static function updateTeamInfo($Query)
+    {
+        $model=self::findOne(['tid'=>$Query['tid']]);
+        $model->coach=$Query['coach'];
+        $model->king=$Query['king'];
+        $model->honor=$Query['honor'];
+        if($model->save())
+        {
+            return true;
+        }
+        else
+            return false;
+    }
 }

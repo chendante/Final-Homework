@@ -62,7 +62,9 @@ return [
                 'edit-article'=>'news/edit-article',
                 'comment-manage'=>'comment/manage',
                 'team-list'=>'team/team-list',
-                'player-list'=>'team/player-list'
+                'player-list'=>'team/player-list',
+                'team-update'=>'team/team-update',
+                'player-update'=>'team/player-update'
             ],
         ],
         'urlManagerBackend' => [
