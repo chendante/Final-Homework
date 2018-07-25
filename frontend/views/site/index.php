@@ -133,17 +133,18 @@ $this->title = '德塔贝斯';
         <h2 class="text-center">团队成员信息</h2>
         <p class="text-center">The real happiness, is optimistic about life, happy to work, enthusiasm for the cause.</p>
         <div class="container">
-            <div class="row">
+            <div class="row"><?php $i=0;?>
                 <?php foreach ($this->params['data'] as $info){
-                ?>
+                        $i++;
+                    ?>
                 <div class="col-lg-3 col-md-3 col-sm-6 info-w3l">
                     <ul class="ch-grid">
                         <li>
-                            <div class="ch-item ch-img-1">
+                            <div class="ch-item ch-img-<?= $i?>">
                                 <div class="ch-info-wrap">
                                     <div class="ch-info">
-                                        <div class="ch-info-front ch-img-1"></div>
-                                        <div class="ch-info-back1">
+                                        <div class="ch-info-front ch-img-<?= $i?>"></div>
+                                        <div class="ch-info-back<?= $i?>">
                                             <h4><?= $info['StudentName']?></h4>
                                             <p class="info-w3lsagile"><?= $info['StudentID']?></p>
                                         </div>
