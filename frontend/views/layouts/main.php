@@ -50,14 +50,20 @@ AppAsset::register($this);
                         ],
                     ]);
                     $menuItems = [
+                        ['label' => '主页', 'url' => ['/'],
+                            'options'=> ['class'=>yii::$app->controller->id=="site"?"active":""],
+                        ],
                         ['label' => '文章', 'url' => ['/all-article'],
                         'options'=> ['class'=>yii::$app->controller->id=="news"?"active":""],
                         ],
                         ['label' => '球队信息', 'url' => ['/world-cup-team-data'],
-                            'options'=> ['class'=>yii::$app->controller->id=="world-cup-team"?"active":""],
+                            'options'=> ['class'=>yii::$app->controller->action->id=="world-cup-team-data"?"active":""],
                         ],
                         ['label' => '比赛信息', 'url' => ['/games'],
                             'options'=> ['class'=>yii::$app->controller->id=="games"?"active":""],
+                        ],
+                        ['label' => '射手榜', 'url' => ['/world-cup-player-data'],
+                            'options'=> ['class'=>yii::$app->controller->action->id=='world-cup-player-data'?"active":""],
                         ],
                     ];
                     if (Yii::$app->user->isGuest) {
@@ -69,6 +75,7 @@ AppAsset::register($this);
                             'url' => ['/logout'],
                             'linkOptions' => ['data-method' => 'post']
                         ];
+                        $menuItems[] = ['label' => '进入后台', 'url' =>  Yii::$app->urlManagerFrontend->createAbsoluteUrl('/')];
                     }
                     echo Nav::widget([
                         'options' => ['class' => 'navbar-nav navbar-right'],
