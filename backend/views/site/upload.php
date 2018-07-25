@@ -76,6 +76,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                             </div>
 
+
                             <!-- The global progress state -->
                             <div class="col-lg-5 fileupload-progress fade">
                                 <!-- The global progress bar -->

@@ -7,6 +7,7 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
 use frontend\models\news\DbNews;
+use frontend\models\news\DbNewsComment;
 class NewsController extends \yii\web\Controller
 {
 //    public function behaviors()
@@ -65,8 +66,24 @@ class NewsController extends \yii\web\Controller
         $id=Yii::$app->getRequest()->get('id');
         $view->params['data1'] =DbNews::getOneNews($id);
         $view->params['data2'] =DbNews::getNews();
-        return $this->render('article');
+        $view->params['data3'] =DbNewsComment::getNewsComments($id);
+        $model=new DbNewsComment();
+        $view->params['IsSuccess']=0;
+        if(yii::$app->request->isPost) {
+            $data['CommentContent']=Yii::$app->request->post('DbNewsComment')['CommentContent'];
+            $data['NID']=$view->params['data1'][0]['NID'];
+            $data['UserID']=Yii::$app->user->identity->getId();
+            $data['Type']=0;
+            date_default_timezone_set('PRC');
+            $data['CommentTime'] = date('Y-m-d H:i:s', time());
+            yii::getLogger()->log($data,4);
+            $view->params['IsSuccess']=DbNewsComment::postComment($data);
+            $view->params['data3'] =DbNewsComment::getNewsComments($id);
+        }
+        return $this->render('article',['model'=>$model]);
     }
+
+
     /**
      * Login action.
      *

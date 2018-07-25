@@ -2,7 +2,7 @@
 
 namespace frontend\controllers;
 
-use frontend\models\worldCupTeam\DbGames;
+use frontend\models\games\DbGames;
 use frontend\models\worldCupTeam\DbPlayerDatas;
 use frontend\models\worldCupTeam\DbPlayers;
 use frontend\models\worldCupTeam\DbScoreBoard;
@@ -41,5 +41,17 @@ class WorldCupTeamController extends \yii\web\Controller
         $view->params['data'] = DbTopScorer::getAllPlayer();
 
         return $this->render('world-cup-player-data');
+    }
+
+    public function actionWorldCupPlayerInfo()
+    {
+        $view = Yii::$app->getView();
+        $id=Yii::$app->getRequest()->get('id');
+
+        $view->params['data']['players']=DbPlayers::getPlayerInfo($id);
+        $view->params['data']['player_datas']=DbPlayerDatas::getPlayerInfo($id);
+        $view->params['data']['detail']=DbPlayerDatas::getPlayerDetailInfo($id);
+
+        return $this->render('world-cup-player-info');
     }
 }

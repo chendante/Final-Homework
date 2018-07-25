@@ -6,7 +6,7 @@
  * Time: 14:46
  */
 
-$this->title='德塔贝斯-世界杯球队信息';
+$this->title='德塔贝斯-世界杯球队信息'.'--'.$this->params['data']['teamInfo']['team_name'];
 ?>
 <head>
     <link href="css/world-cup-team/team_logo.css" rel="stylesheet" type="text/css" media="all" />
@@ -112,7 +112,7 @@ $this->title='德塔贝斯-世界杯球队信息';
                             <?= $game['score1'] ?>
                         </div>
                         <div class="away_group">
-                            <a href="http://localhost/Final-Homework/frontend/web/world-cup-team-info?id=<?= $game['team1_id']?>" target="_blank">
+                            <a href="http://localhost/Final-Homework/frontend/web/world-cup-team-info?id=<?= $game['team2_id']?>" target="_blank">
                                 <?= $game['team2'] ?>
                             </a></div>
                         <div class="away_score">
@@ -181,7 +181,7 @@ $this->title='德塔贝斯-世界杯球队信息';
 
                                 <tr>
                                     <td><?= $i ?></td>
-                                    <td><a href="" target="_blank"><p><?= $player['player_name_cn'] ?></p></a></td>
+                                    <td><a href="http://localhost/Final-Homework/frontend/web/world-cup-player-info?id=<?= $player['player_id']?>" target="_blank"><p><?= $player['player_name_cn'] ?></p></a></td>
                                     <td> <?= $player['position_cn'] ?></td>
                                     <td><?= $player['on_times'] ?> </td>
                                     <td><?= $player['mins_played'] ?></td>

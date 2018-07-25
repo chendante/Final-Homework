@@ -140,4 +140,25 @@ class DbGames extends \yii\db\ActiveRecord
         $model = self::findOne($data['game_id']);
         $model->load($data, '');
     }
+
+    public static function getTeamInfo($id)
+    {
+        $data= self::find()
+            ->where(['or',['team1_id'=>$id],['team2_id'=>$id]])
+            ->asArray()->all();
+
+        foreach ($data as &$value)
+        {
+            if($value['groups']!=NULL)
+            {
+                $value['round_type']='小组赛';
+            }
+            else
+            {
+                $value['round_type']='淘汰赛';
+            }
+        }
+
+        return $data;
+    }
 }

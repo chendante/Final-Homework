@@ -110,4 +110,27 @@ class DbPlayerDatas extends \yii\db\ActiveRecord
 
         return $data;
     }
+
+    public static function getPlayerInfo($id)
+    {
+        $data=self::find()
+            ->innerJoin('db_players','db_players.player_id=db_player_datas.player_id')
+            ->where(['db_players.DeleteStatus'=>1,'db_players.player_id'=>$id])
+            ->select(['db_players.player_id','position_cn','jersey_num','db_player_datas.player_id','player_name_cn','sum( goals ) as goals',
+                'sum(goal_assist) as goal_assist','sum(total_scoring_att) as total_scoring_att','sum(total_pass) as total_pass',
+                'sum(fouls) as fouls','sum(won_tackle) as won_tackle','sum(yellow) as yellow','sum(red) as red','sum(total_clearance) as total_clearance',
+                'sum(saves) as saves','sum(mins_played) as mins_played','count(db_players.player_id) as on_times'])
+            ->groupBy(['db_players.player_id','db_player_datas.player_id','position_cn','jersey_num','player_name_cn'])
+            ->asArray()->all();
+
+        return $data[0];
+    }
+
+    public static function getPlayerDetailInfo($id)
+    {
+        $data=self::find()
+            ->where(['player_id'=>$id,'DeleteStatus'=>1])
+            ->asArray()->all();
+        return $data;
+    }
 }

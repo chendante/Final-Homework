@@ -17,7 +17,7 @@ $this->title = '德塔贝斯-所有文章';
             <div class="col-lg-12">
                 <h2 class="page-header text-center">文章</h2>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">主页</a>
+                    <li><a href="index">主页</a>
                     </li>
                     <li class="active">所有文章</li>
                 </ol>
@@ -28,16 +28,24 @@ $this->title = '德塔贝斯-所有文章';
             <!-- Blog Entries Column -->
             <div class="col-md-8">
                 <!-- First Blog Post -->
+                <?php $i=0;$image1="images/all-article-1.jpeg";$image2="images/all-article-2.png";$image3="images/all-article-3.jpg";?>
                 <?php foreach ($this->params['data'] as $news){
+                    if($i%3==0)
+                        $image=$image1;
+                    else if($i%3==1)
+                        $image=$image2;
+                    else
+                        $image=$image3;
+                    $i++;
                     ?>
                     <h3><a href="<?php echo Url::to(['news/article', 'id' =>$news['NID']])?>"><?= $news['Title']?></a></h3>
-                    <p class="lead">by <a></a><?= $news['username']?></a></p>
+                    <p class="lead">by <a><?= $news['username']?></a></p>
                     <p class="blog-agile1"><i class="fa fa-clock-o"></i> 发布于 <?= $news['PublishTime']?></p>
                     <hr>
-                    <a href="blog-post.html">
+                    <a href="<?php echo Url::to(['news/article', 'id' =>$news['NID']])?>">
                         <div class="hover01 column">
                             <div>
-                                <figure><img class="img-responsive img-hover" src="images/all-article-1.jpeg" alt=""></figure>
+                                <figure><img class="img-responsive img-hover" src="<?= $image ?>" alt=""></figure>
                             </div>
                         </div>
                     </a>
@@ -59,24 +67,20 @@ $this->title = '德塔贝斯-所有文章';
                                     <?php  $i=0;
                                     foreach ($this->params['data'] as $news){
                                         $i++;?>
-                                        <li><a href="#"><span class="fa fa-hand-o-right" aria-hidden="true"  style="font-size: 11px"></span><span  style="font-size: 12px"><?= $news['Title']?></span><span style="font-size: 11px" class="fa fa-hand-o-left" aria-hidden="true"></span></a></li>
+                                        <li><a href="<?php echo Url::to(['news/article', 'id' =>$news['NID']])?>"><span class="fa fa-hand-o-right" aria-hidden="true"  style="font-size: 14px"></span><span  style="font-size: 14px"><?= $news['Title']?></span><span style="font-size: 14px" class="fa fa-hand-o-left" aria-hidden="true"></span></a></li>
                                     <?php
                                         if($i==10)
                                             break;
                                     }?>
                                     </ul>
                             </div>
-                            <!-- /.col-lg-6 -->
                         </div>
-                        <!-- /.row -->
                     </div>
                 </section>
             </div>
         </div>
-        <!-- /.row -->
         <hr>
     </div>
-    <!-- /.container -->
 </section>
 <!-- js files -->
 <script src="js/jquery.min.js"></script>

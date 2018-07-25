@@ -108,4 +108,9 @@ class DbPlayers extends \yii\db\ActiveRecord
             ->andWhere(['team_id'=>$id])
             ->asArray()->all();
     }
+
+    public static function getPlayerInfo($id)
+    {
+        return self::findOne(['player_id'=>$id]);
+    }
 }
