@@ -36,6 +36,6 @@ class GamesController extends \yii\web\Controller
     //接受赛程信息并更新
     public function actionGameUpdateForm(){
         $Query=Yii::$app->request->getQueryParams();
-        DbGames::updateGame($Query);
+        var_dump(DbGames::updateGame($Query));
     }
 }

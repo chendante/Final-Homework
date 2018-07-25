@@ -139,6 +139,11 @@ class DbGames extends \yii\db\ActiveRecord
     public static function updateGame($data){
         $model = self::findOne($data['game_id']);
         $model->load($data, '');
+        if($model -> save()){
+            return 'success';
+        }else{
+            return 'fail';
+        }
     }
 
     public static function getTeamInfo($id)
