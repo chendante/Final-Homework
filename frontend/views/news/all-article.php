@@ -17,7 +17,7 @@ $this->title = '德塔贝斯-所有文章';
             <div class="col-lg-12">
                 <h2 class="page-header text-center">文章</h2>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">主页</a>
+                    <li><a href="index">主页</a>
                     </li>
                     <li class="active">所有文章</li>
                 </ol>
