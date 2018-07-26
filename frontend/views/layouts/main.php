@@ -101,6 +101,11 @@ AppAsset::register($this);
                     <img src="images/banner3.jpg" alt="An Image" draggable="false">
                 </div>
             </li>
+            <li class="slide">
+                <div class="slide-bg">
+                    <img src="images/banner4.jpg" alt="An Image" draggable="false">
+                </div>
+            </li>
         </ul>
         <div class="slider-controls">
             <div class="slide-nav">
@@ -111,6 +116,7 @@ AppAsset::register($this);
                 <li><a href="#">1</a></li>
                 <li><a href="#">2</a></li>
                 <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
             </ul>
         </div>
     </div>
