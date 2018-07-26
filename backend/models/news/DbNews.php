@@ -119,7 +119,6 @@ class DbNews extends \yii\db\ActiveRecord
             return $res;
         }
     }
-
     //新增文章
     public static function postArticle($data)
     {

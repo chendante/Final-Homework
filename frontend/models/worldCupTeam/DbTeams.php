@@ -169,4 +169,16 @@ class DbTeams extends \yii\db\ActiveRecord
     {
         return self::findOne(['sl_team_id'=>$id]);
     }
+
+    public static function updateTeam($Query)
+    {
+        $model=self::findOne(['sl_team_id'=>$Query['tid']]);
+        $model->team_name=$Query['team_name'];
+        if($model->save())
+        {
+            return true;
+        }
+        else
+            return false;
+    }
 }

@@ -11,7 +11,7 @@
 /* @var $model \common\models\LoginForm */
 
 use yii\helpers\Html;
-
+use yii\helpers\Url;
 $this->title = '成员展示';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -38,9 +38,15 @@ $this->params['breadcrumbs'][] = $this->title;
                         <div class="el-container">
                             <div class="side bg-greensea"><i class="fa fa-user"></i></div>
                             <div class="content">
-                                <h1><strong><?=$member['StudentName'] ?></strong> </h1>
+
+                                <h1><strong><?=$member['StudentName'] ?></strong> <a href="<?php echo Url::to(['group-edit', 'id' => $member["StudentID"] ])?>"  class="btn small button btn-slategray">编辑</a></h1>
+
                                 <p>来自<?=$member['StudentMajor'] ?>专业,负责<?=$member['ResponsiblePart'] ?></p>
-                                <p><?=$member['PersonalProfile'] ?></div>
+
+                                <p><?=$member['PersonalProfile'] ?>
+
+                            </div>
+
                         </div>
                     </li>
                     <?php $trans++;} else{?>
@@ -51,7 +57,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             <div class="el-container">
                                 <div class="side"><img src="images/carousel/carousel1.jpg" alt></div>
                                 <div class="content">
-                                    <h1><strong><?=$member['StudentName'] ?></strong> </h1>
+                                    <h1><strong><?=$member['StudentName'] ?></strong> <a href="<?php echo Url::to(['edit', 'id' => $member["StudentID"] ])?>" class="btn small button btn-slategray">编辑</a></h1>
                                     <p>来自<?=$member['StudentMajor'] ?>专业,负责<?=$member['ResponsiblePart'] ?></p>
                                     <p><?=$member['PersonalProfile'] ?></p>
                                 </div>

@@ -83,7 +83,10 @@ class DbTopScorer extends \yii\db\ActiveRecord
     public static function getAllPlayer()
     {
         return self::find()
-            ->where(['DeleteStatus'=>1])
+            ->innerJoin('db_players','db_players.player_id=db_top_scorer.player_id')
+            ->innerJoin('db_teams','db_players.team_id=db_teams.sl_team_id')
+            ->select(['db_top_scorer.*','db_teams.team_name','db_players.player_name','db_teams.sl_team_id'])
+            ->where(['db_players.DeleteStatus'=>1])
             ->orderBy('row_id')
             ->asArray()->all();
     }

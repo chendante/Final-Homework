@@ -48,6 +48,7 @@ use yii\bootstrap\ActiveForm;
             </div>
         </section>
     </div>
+</div>
     <!-- /col 12 -->
 </body>
 </html>

@@ -87,155 +87,16 @@ AppAsset::register($this);
             <div class="navbar-collapse">
 
                 <!-- Page refresh -->
-                <ul class="nav navbar-nav refresh">
-                    <li class="divided">
-                        <a href="#" class="page-refresh"><i class="fa fa-refresh"></i></a>
-                    </li>
-                </ul>
-                <!-- /Page refresh -->
 
-                <!-- Search -->
-                <div class="search" id="main-search">
-                    <i class="fa fa-search"></i> <input type="text" placeholder="Search...">
-                </div>
                 <!-- Search end -->
 
                 <!-- Quick Actions -->
                 <ul class="nav navbar-nav quick-actions">
 
-                    <li class="dropdown divided">
-
-                        <a class="dropdown-toggle button" data-toggle="dropdown" href="#">
-                            <i class="fa fa-tasks"></i>
-                            <span class="label label-transparent-black">2</span>
-                        </a>
-
-                        <ul class="dropdown-menu wide arrow nopadding bordered">
-                            <li><h1>You have <strong>2</strong> new tasks</h1></li>
-                            <li>
-                                <a href="#">
-                                    <div class="task-info">
-                                        <div class="desc">Layout</div>
-                                        <div class="percent">80%</div>
-                                    </div>
-                                    <div class="progress progress-striped progress-thin">
-                                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                            <span class="sr-only">40% Complete (success)</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="task-info">
-                                        <div class="desc">Schemes</div>
-                                        <div class="percent">15%</div>
-                                    </div>
-                                    <div class="progress progress-striped active progress-thin">
-                                        <div class="progress-bar progress-bar-cyan" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
-                                            <span class="sr-only">45% Complete</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="task-info">
-                                        <div class="desc">Forms</div>
-                                        <div class="percent">5%</div>
-                                    </div>
-                                    <div class="progress progress-striped progress-thin">
-                                        <div class="progress-bar progress-bar-orange" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 5%">
-                                            <span class="sr-only">5% Complete (warning)</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="task-info">
-                                        <div class="desc">JavaScript</div>
-                                        <div class="percent">30%</div>
-                                    </div>
-                                    <div class="progress progress-striped progress-thin">
-                                        <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-                                            <span class="sr-only">30% Complete (danger)</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="task-info">
-                                        <div class="desc">Dropdowns</div>
-                                        <div class="percent">60%</div>
-                                    </div>
-                                    <div class="progress progress-striped progress-thin">
-                                        <div class="progress-bar progress-bar-amethyst" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                            <span class="sr-only">60% Complete</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li><a href="#">Check all tasks <i class="fa fa-angle-right"></i></a></li>
-                        </ul>
-
-                    </li>
-
-                    <li class="dropdown divided">
-
-                        <a class="dropdown-toggle button" data-toggle="dropdown" href="#">
-                            <i class="fa fa-envelope"></i>
-                            <span class="label label-transparent-black">1</span>
-                        </a>
-                        <ul class="dropdown-menu wider arrow nopadding messages">
-                            <li><h1>You have <strong>1</strong> new message</h1></li>
-                            <li>
-                                <a class="orange" href="#">
-                                    <div class="profile-photo">
-                                        <img src="images/george-avatar.jpg" alt />
-                                    </div>
-                                    <div class="message-info">
-                                        <span class="sender">George McCain</span>
-                                        <span class="time">6 hours</span>
-                                        <div class="message-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
-                                    </div>
-                                </a>
-                            </li>
-
-
-                            <li class="topborder"><a href="#">Check all messages <i class="fa fa-angle-right"></i></a></li>
-                        </ul>
-
-                    </li>
-
-                    <li class="dropdown divided">
-
-                        <a class="dropdown-toggle button" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i>
-                            <span class="label label-transparent-black">3</span>
-                        </a>
-
-                        <ul class="dropdown-menu wide arrow nopadding bordered">
-                            <li><h1>You have <strong>3</strong> new notifications</h1></li>
-<!--消息示例-->
-                            <li>
-                                <a href="#">
-                                    <span class="label label-green"><i class="fa fa-user"></i></span>
-                                    New user registered.
-                                    <span class="small">18 mins</span>
-                                </a>
-                            </li>
-
-
-                            <li><a href="#">Check all notifications <i class="fa fa-angle-right"></i></a></li>
-                        </ul>
-
-                    </li>
 
                     <li class="dropdown divided user" id="current-user">
                         <div class="profile-photo">
-                            <img src="images/profile-photo.jpg" alt />
+                            <img src="images/head.jpg" alt />
                         </div>
                         <a class="dropdown-toggle options" data-toggle="dropdown" href="#">
                             <?= Yii::$app->user->identity->username ?> <i class="fa fa-caret-down"></i>
@@ -267,7 +128,7 @@ AppAsset::register($this);
                             </li>
 
                             <li>
-                                <a href="#"><i class="fa fa-envelope"></i> Inbox <span class="badge badge-red" id="user-inbox">3</span></a>
+                                <a href="<?php echo Url::to(['comment/manage','id' =>Yii::$app->user->identity->getId()])?>"><i class="fa fa-envelope"></i> Inbox <span  id="user-inbox"></span></a>
                             </li>
 
                             <li class="divider"></li>
@@ -278,9 +139,7 @@ AppAsset::register($this);
                         </ul>
                     </li>
 
-                    <li>
-                        <a href="#mmenu"><i class="fa fa-comments"></i></a>
-                    </li>
+
                 </ul>
                 <!-- /Quick Actions -->
 
@@ -326,11 +185,6 @@ AppAsset::register($this);
                                     <li>
                                         <a href="<?php echo Url::to(['comment/manage','id' =>Yii::$app->user->identity->getId()])?>">
                                             <i class="fa fa-caret-right"></i> 收到的留言
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="typography.html">
-                                            <i class="fa fa-caret-right"></i> 给好友留言
                                         </a>
                                     </li>
                                 </ul>
@@ -401,12 +255,12 @@ AppAsset::register($this);
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="form-elements.html">
+                                        <a href="<?php echo Url::to(['team-list'])?>">
                                             <i class="fa fa-caret-right"></i> 球队信息管理
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="validation-elements.html">
+                                        <a href="<?php echo Url::to(['player-list'])?>">
                                             <i class="fa fa-caret-right"></i> 球员信息管理
                                         </a>
                                     </li>
@@ -421,11 +275,6 @@ AppAsset::register($this);
                                     <li>
                                         <a href="<?php echo Url::to(['games/games'])?>">
                                             <i class="fa fa-caret-right"></i> 赛程管理
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="typography.html">
-                                            <i class="fa fa-caret-right"></i> 央视名嘴
                                         </a>
                                     </li>
                                 </ul>
@@ -470,15 +319,7 @@ AppAsset::register($this);
 
 
             <!-- page header -->
-            <div class="pageheader">
 
-
-                <h2><i class="fa fa-tachometer"></i> 欢迎老师
-                    <span>莅临后台</span></h2>
-
-
-
-            </div>
             <!-- /page header -->
 
 
