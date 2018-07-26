@@ -128,7 +128,7 @@ AppAsset::register($this);
                 <div class="footer-addr">
                     <div>
                         <span class="fa fa-map" aria-hidden="true"></span>
-                        <p class="footer-p">Database Team</p>
+                        <p class="footer-p"> Team Database</p>
                     </div>
                     <div>
                         <span class="fa fa-map-signs" aria-hidden="true"></span>
@@ -159,6 +159,7 @@ AppAsset::register($this);
                     <li><a href="all-article"><span class="fa fa-shield" aria-hidden="true"></span> <p>文章</p></a></li>
                     <li><a href="world-cup-team-data"><span class="fa fa-cogs" aria-hidden="true"></span> <p>球队信息</p></a></li>
                     <li><a href="games"><span class="fa fa-pencil-square-o" aria-hidden="true"></span> <p>比赛信息</p></a></li>
+                    <li><a href="world-cup-player-data"><span class="fa fa-globe" aria-hidden="true"></span> <p>射手榜</p></a></li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 footer-blog">
@@ -206,7 +207,7 @@ AppAsset::register($this);
     <div class="container">
         <hr>
         <div class="copyright">
-            <p>Copyright &copy; 2018. Database Team. All rights reserved. <a href="" target="_blank" title="德塔贝斯">德塔贝斯</a>
+            <p>Copyright &copy; 2018.  Team Database. All rights reserved. <a href="" target="_blank" title="德塔贝斯">德塔贝斯</a>
         </div>
     </div>
 </section>

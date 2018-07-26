@@ -42,7 +42,7 @@ $this->title='德塔贝斯-世界杯球队排行';
                 ?>
                     <tr>
                         <td data-v-0447defa="" class=""><?=$i  ?> </td>
-                        <td data-v-0447defa="" class=""><a href="http://localhost/Final-Homework/frontend/web/world-cup-team-info?id=<?= $team['sl_team_id']?>"><?=$team['team_name']  ?> </a></td>
+                        <td data-v-0447defa="" class=""><a href="world-cup-team-info?id=<?= $team['sl_team_id']?>"><?=$team['team_name']  ?> </a></td>
                         <td data-v-0447defa="" class=""><?=$team['goals'] ?></td>
                         <td data-v-0447defa="" class=""><?=$team['total_scoring_att']?></td>
                         <td data-v-0447defa="" class=""><?=$team['total_pass']?></td>
