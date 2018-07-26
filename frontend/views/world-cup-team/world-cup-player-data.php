@@ -37,8 +37,8 @@ $this->title='德塔贝斯-世界杯射手榜';
 
             <tr class="gp-one gp-grey">
                 <td><?= $player['row_id'] ?></td>
-                <td><a class="scorer" target="_blank" href="http://localhost/Final-Homework/frontend/web/world-cup-player-info?id=<?= $player['player_id']?>"><?= $player['player_name'] ?></a></td>
-                <td><a class="scorer" target="_blank" href="http://localhost/Final-Homework/frontend/web/world-cup-team-info?id=<?= $player['sl_team_id']?>"><?= $player['team_name'] ?></a></td>
+                <td><a class="scorer" target="_blank" href="world-cup-player-info?id=<?= $player['player_id']?>"><?= $player['player_name'] ?></a></td>
+                <td><a class="scorer" target="_blank" href="world-cup-team-info?id=<?= $player['sl_team_id']?>"><?= $player['team_name'] ?></a></td>
                 <td><?= $player['goals'] ?></td>
                 <td><?= $player['assists'] ?></td>
                 <td><?= $player['minutes'] ?></td>

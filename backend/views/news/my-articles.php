@@ -16,9 +16,9 @@ use yii\bootstrap\ActiveForm;
             <?php foreach ($this->params['data'] as $news){?>
             <li class="msg" id="home<?= $po?>" onclick="test(id)">
 
-                <a href="#" class="mail-favourite active"><i class="fa fa-star-o"></i></a>
+                <a href="#" class="mail-favourite acti
+ve"><i class="fa fa-star-o"></i></a>
                 <div>
-
                     <h5><strong><?= $news['Title']?></strong> </h5>
                     <p><?= $news['Keywords']?></p>
                     <span class="delivery-time"><?= $news['PublishTime']?></span>
@@ -62,9 +62,12 @@ use yii\bootstrap\ActiveForm;
 
                     <div class="btn-group">
                         <div id="message-wysiwyg"></div>
-                            <div class="col-md-8">
-                            <a href=" <?php echo Url::to(['news/edit-article','id' =>$news['NID']]) ?>" class="btn btn-greensea">编辑</a></div>
+                            <div class="col-md-4">
+                                <a href=" <?php echo Url::to(['news/edit-article','id' =>$news['NID']]) ?>" class="btn btn-greensea">编辑</a></div>
+                        <div class="col-md-4">
+                                <button type="submit" class="btn btn-primary">删除</button>
 
+                        </div>
                     </div>
                 </div>
 
@@ -94,5 +97,4 @@ function test(id) {
     document.getElementById("preindex").style.display="none";
     document.getElementById("p"+id).style.display="";
 }
-
 </script>

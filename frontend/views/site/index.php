@@ -12,25 +12,38 @@ $this->title = '德塔贝斯';
         <p class="text-center">Nothing is impossible.</p>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="grid1">
-                        <figure class="effect-duke1">
-                            <a href="world-cup-team-data">
-                            <img src="images/port-img1.jpg" alt="img27" class="img-responsive"/>
-                            <figcaption>
-                                <h4>球队信息</h4>
-                                <p class="port-w3ls">在本模块中您可以查看世界杯所有球队的相关信息（如：进球数、控球率、红黄牌数等）以及排名，
-                                    并通过点击队名课进一步查看该球队的详细信息以及相关赛程。</p>
-                            </figcaption>
-                            </a>
-                        </figure>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 port-agile">
+                    <div class="grid2">
+                        <a href="world-cup-team-data">
+                            <figure class="effect-duke2">
+                                <img src="images/port-img-1.jpg" alt="img27" class="img-responsive"/>
+                                <figcaption>
+                                    <h4>球队信息</h4>
+                                    <p class="port-w3ls">在本模块中您可查看世界杯所有球队的相关信息，
+                                        并点击队名查看该球队的详细信息以及相关赛程。</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 port-agile">
+                    <div class="grid2">
+                        <a href="world-cup-player-data">
+                            <figure class="effect-duke2">
+                                <img src="images/port-img-2.jpg" alt="img27" class="img-responsive"/>
+                                <figcaption>
+                                    <h4>射手榜</h4>
+                                    <p class="port-w3ls">在本模块中您可以查看射手榜、球员具体信息、球员所属球队信息。</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 port-agile">
                     <div class="grid2">
                         <a href="all-article">
                         <figure class="effect-duke2">
-                            <img src="images/port-img3.jpg" alt="img27" class="img-responsive"/>
+                            <img src="images/port-img-3.jpg" alt="img27" class="img-responsive"/>
                             <figcaption>
                                 <h4>世界杯相关文章</h4>
                                 <p class="port-w3ls">在本模块中您可以查看所有用户发布的文章（按最新发布时间显示排序），并进行评论。</p>
@@ -43,7 +56,7 @@ $this->title = '德塔贝斯';
                     <div class="grid2">
                         <a href="games">
                         <figure class="effect-duke2">
-                            <img src="images/port-img4.jpg" alt="img27" class="img-responsive"/>
+                            <img src="images/port-img-4.jpg" alt="img27" class="img-responsive"/>
                             <figcaption>
                                 <h4>比赛信息</h4>
                                 <p class="port-w3ls">在本模块中您可以查看淘汰赛赛程、小组赛赛程，以及按时间查询所有比赛。</p>
@@ -66,7 +79,7 @@ $this->title = '德塔贝斯';
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-6 trend-w3layouts">
                     <div class="view view-seventh">
-                        <img src="images/trend-img1.jpg" alt="w3layouts" class="img-responsive"/>
+                        <img src="images/trend-img-1.jpg" alt="w3layouts" class="img-responsive"/>
                         <div class="mask">
                             <h4>Team Name</h4>
                             <p>DataBase<br>
@@ -80,7 +93,7 @@ $this->title = '德塔贝斯';
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 trend-w3layouts">
                     <div class="view view-seventh">
-                        <img src="images/trend-img2.jpg" alt="w3layouts" class="img-responsive"/>
+                        <img src="images/trend-img-2.jpg" alt="w3layouts" class="img-responsive"/>
                         <div class="mask">
                             <h4>Team Members</h4>
                             <p>Xuanyu Wu<br>
@@ -95,7 +108,7 @@ $this->title = '德塔贝斯';
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 trend-w3layouts">
                     <div class="view view-seventh">
-                        <img src="images/trend-img3.jpg" alt="w3layouts" class="img-responsive"/>
+                        <img src="images/trend-img-3.jpg" alt="w3layouts" class="img-responsive"/>
                         <div class="mask">
                             <h4>Team Direction</h4>
                             <p>Chasing in computer science and technology, obsessing at the forefront of science and technology,
@@ -111,15 +124,14 @@ $this->title = '德塔贝斯';
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 trend-w3layouts">
                     <div class="view view-seventh">
-                        <img src="images/trend-img4.jpg" alt="w3layouts" class="img-responsive"/>
+                        <img src="images/trend-img-4.jpeg" alt="w3layouts" class="img-responsive"/>
                         <div class="mask">
-                            <h4>Latest Trends</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <a href="blog-post.html" class="info">Read More</a>
+                            <h4>Director</h4>
+                            <p>Peng Nie<br>Database & Information System Lab</p>
                         </div>
                     </div>
-                    <h5>Lorem Ipsum</h5>
-                    <p class="trend-w3ls">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <h5>指导老师</h5>
+                    <p class="trend-w3ls">乜鹏<br>数据库与信息系统研究室</p>
                 </div>
             </div>
         </div>

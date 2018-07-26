@@ -73,7 +73,7 @@ AppAsset::register($this);
 
             <!-- Branding -->
             <div class="navbar-header col-md-2">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index">
                     <strong>德塔贝斯</strong>后台管理
                 </a>
                 <div class="sidebar-collapse">
