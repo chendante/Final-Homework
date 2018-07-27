@@ -24,7 +24,7 @@ ve"><i class="fa fa-star-o"></i></a>
                     <span class="delivery-time"><?= $news['PublishTime']?></span>
                     <div class="mail-label bg-red"></div>
                     <div class="mail-actions">
-                        <a href="#" class="delete"><i class="fa fa-trash-o"></i></a>
+                        <a href="<?php echo Url::to(['news/delete-article','id' =>$news['NID'],'UserID'=>Yii::$app->user->getId()]) ?>" class="delete"><i class="fa fa-trash-o"></i></a>
                     </div>
                 </div>
             </li><?php $po++;}?>
