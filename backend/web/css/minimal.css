@@ -12818,7 +12818,7 @@ body #content .mail-content {
             color: white; }
     body #content .mail-content .message .content {
       padding: 40px 20px 20px 20px;
-      overflow: hidden;
+      overflow: auto;
       background-color: white; }
       body #content .mail-content .message .content p {
         color: #717171;
@@ -13548,10 +13548,11 @@ body #content.full-page.error .search {
 /**************************************/
 /************* RESPONSIVE *************/
 /**************************************/
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 2000px) {
   /* mail */
   .mail-content .message .content {
-    max-height: 845px; } }
+    max-height: 2000px;
+  } }
 @media only screen and (max-width: 1024px) {
   body {
     /* navbar */ }
