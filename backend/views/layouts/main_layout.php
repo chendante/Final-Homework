@@ -255,12 +255,12 @@ AppAsset::register($this);
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="<?php echo Url::to(['team/team-list'])?>">
+                                        <a href="team-list">
                                             <i class="fa fa-caret-right"></i> 球队信息管理
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo Url::to(['team/player-list'])?>">
+                                        <a href="player-list">
                                             <i class="fa fa-caret-right"></i> 球员信息管理
                                         </a>
                                     </li>

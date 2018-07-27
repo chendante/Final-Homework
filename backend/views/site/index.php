@@ -7,26 +7,25 @@ $this->title = 'My Yii Application';
 
 
 <!-- work section -->
-<section id="work">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <div class="section-title">
-                    <h1 class="heading bold">Welcome to the background management system</h1>
+
+    <div class="col-md-12">
+
+        <section id="work" class="col-md-12">
+        <div class="row col-md-12">
+                    <h1 class="heading bold">Welcome to the background system</h1>
                     <hr>
-                </div>
-            </div>
+        </div>
+        <div class="row">
             <a href="<?php echo Url::to(['news/my-articles', 'id' =>Yii::$app->user->identity->getId()])?>">
             <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-                <img src="images/0.png">
-
+                <h2><i class="fa fa-file-text"></i></h2>
                 <h3>查看发布的文章</h3>
                 <hr>
                 <p>可以查看您发布的文章，并进行修改、删除或新建。</p>
             </div></a>
             <a href="<?php echo Url::to(['comment/manage','id' =>Yii::$app->user->identity->getId()])?>">
             <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-                <img src="images/0.png">
+                <h2><i class="fa fa-keyboard-o"></i></h2>
                 <h3>查看留言</h3>
                 <hr>
                 <p> 您可以查看您发布的所有文章收到的留言。</p>
@@ -35,7 +34,7 @@ $this->title = 'My Yii Application';
 
             <a href="group-member">
             <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-                <img src="images/0.png">
+                <h2><i class="fa fa-user"></i></h2>
                 <h3>团队介绍</h3>
                 <hr>
                 <p> 在本模块中，您可以查看德塔贝斯团队相关信息。</p>
@@ -44,30 +43,28 @@ $this->title = 'My Yii Application';
 
             <a href="homework-group">
             <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-                <img src="images/0.png">
+                <h2><i class="fa fa-tachometer"></i></h2>
                 <h3>团队作业</h3>
                 <hr>
                 <p>在本模块中，您可以查看德塔贝斯团队的作业，并进行下载或预览。</p>
             </div>
             </a>
             <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-                <img src="images/0.png">
+                <h2><i class="fa fa-pencil-square"></i></h2>
                 <h3>球队</h3>
                 <hr>
                 <p>在本模块中，您可以查看球队相关的信息，并对其进行相应的操作。您的操作均会修改数据库相关内容，并改变前台显示的内容。</p>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-                <img src="images/0.png">
+                <h2><i class="fa fa-folder"></i></h2>
                 <h3>赛程</h3>
                 <hr>
                 <p>在本模块中，您可以查看赛程相关信息，并对其进行相应操作。您的操作均会修改数据库相关内容，并改变前台显示的内容。</p>
             </div>
         </div>
+
+        </section>
     </div>
-</section>
-
- /tile
-
 
 <style>
     #work {
@@ -108,5 +105,3 @@ $this->title = 'My Yii Application';
         color:black;
     }
    </style>
-
-<script src="js/main.js" type="text/javascript"></script>
