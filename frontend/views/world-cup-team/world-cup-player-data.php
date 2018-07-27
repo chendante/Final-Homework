@@ -12,8 +12,9 @@ $this->title='德塔贝斯-世界杯射手榜';
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 
-<div class="scoreboard-page">
-    <p class="scoreTitle scoreboardTitle">射手榜</p>
+<div class="scoreboard-page" >
+<!--    <p class="scoreTitle scoreboardTitle">射手榜</p>-->
+    <h2 class="page-header text-center">射手榜</h2>
     <!-- int-box-one -->
     <div class="int-box-one clearfix">
         <table class="gp-content bg" style="">
