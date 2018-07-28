@@ -39,7 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             <div class="side bg-greensea"><i class="fa fa-user"></i></div>
                             <div class="content">
 
-                                <h1><strong><?=$member['StudentName'] ?></strong> <a href="<?php echo Url::to(['group-edit', 'id' => $member["StudentID"] ])?>"  class="btn small button btn-slategray">编辑</a></h1>
+                                <h1><strong><?=$member['StudentName'] ?></strong> <a href="<?php echo Url::to(['group/edit', 'id' => $member["StudentID"] ])?>"  class="btn small button btn-slategray">编辑</a></h1>
 
                                 <p>来自<?=$member['StudentMajor'] ?>专业,负责<?=$member['ResponsiblePart'] ?></p>
 
