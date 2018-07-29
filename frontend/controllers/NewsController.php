@@ -72,7 +72,10 @@ class NewsController extends \yii\web\Controller
         if(yii::$app->request->isPost) {
             $data['CommentContent']=Yii::$app->request->post('DbNewsComment')['CommentContent'];
             $data['NID']=$view->params['data1'][0]['NID'];
-            $data['UserID']=Yii::$app->user->identity->getId();
+            if(Yii::$app->user->isGuest)
+                $data['UserID']=-1;
+            else
+                $data['UserID']=Yii::$app->user->identity->getId();
             $data['Type']=0;
             date_default_timezone_set('PRC');
             $data['CommentTime'] = date('Y-m-d H:i:s', time());

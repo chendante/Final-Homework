@@ -11,7 +11,7 @@ $this->title = '德塔贝斯';
         <h3 class="text-center">主要模块</h3>
         <p class="text-center">Nothing is impossible.</p>
         <div class="container">
-            <div class="row">
+           
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 port-agile">
                     <div class="grid2">
                         <a href="world-cup-team-data">
@@ -39,19 +39,7 @@ $this->title = '德塔贝斯';
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 port-agile">
-                    <div class="grid2">
-                        <a href="all-article">
-                        <figure class="effect-duke2">
-                            <img src="images/port-img-3.jpg" alt="img27" class="img-responsive"/>
-                            <figcaption>
-                                <h4>世界杯相关文章</h4>
-                                <p class="port-w3ls">在本模块中您可以查看所有用户发布的文章（按最新发布时间显示排序），并进行评论。</p>
-                            </figcaption>
-                        </figure>
-                        </a>
-                    </div>
-                </div>
+  
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 port-agile">
                     <div class="grid2">
                         <a href="games">
@@ -65,8 +53,21 @@ $this->title = '德塔贝斯';
                         </a>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 port-agile">
+                    <div class="grid2">
+                        <a href="all-article">
+                        <figure class="effect-duke2">
+                            <img src="images/port-img-3.jpg" alt="img27" class="img-responsive"/>
+                            <figcaption>
+                                <h4>世界杯相关文章</h4>
+                                <p class="port-w3ls">在本模块中您可以查看所有用户发布的文章（按最新发布时间显示排序），并进行评论。</p>
+                            </figcaption>
+                        </figure>
+                        </a>
+                    </div>
+                </div>
                 <div class="clearfix"></div>
-            </div>
+   
         </div>
     </section>
     <!-- portfolio section -->
