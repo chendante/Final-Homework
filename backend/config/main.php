@@ -11,7 +11,14 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+    'modules' => [
+        'redactor' => [
+            'class' => 'yii\redactor\RedactorModule',
+            'uploadDir' => '',
+            'uploadUrl' => '',
+            'imageAllowExtensions'=>['jpg','png','gif']
+        ],
+    ],
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
@@ -45,9 +52,22 @@ return [
             'rules' => [
                 'homework-group'=>'homework/group',
                 'group-member'=>'group/member',
+                'group-edit'=>'group/edit',
                 'homework-personal'=>'homework/personal',
                 'upload-file'=>'site/upload',
-                'login'=>'site/login'
+                'login'=>'site/login',
+                'my-articles'=>'news/my-articles',
+                'games' => 'games/games',
+                'index'=>'site/index',
+                'games-update' => 'games/game-update',
+                'new-article'=>'news/new-article',
+                'edit-article'=>'news/edit-article',
+                'delete-article'=>'news/delete-article',
+                'comment-manage'=>'comment/manage',
+                'team-list'=>'team/team-list',
+                'player-list'=>'team/player-list',
+                'team-update'=>'team/team-update',
+                'player-update'=>'team/player-update'
             ],
         ],
         'urlManagerBackend' => [

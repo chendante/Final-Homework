@@ -25,13 +25,14 @@ AppAsset::register($this);
 
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    <link href="css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
+<!--    editor:吴轩羽-->
+<!--    谷歌字体在国内可能无法访问-->
+<!--    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>-->
+<!--    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>-->
     <!-- /fonts -->
     <!-- css -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/typo.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/trend.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/info.css" rel="stylesheet" type="text/css" media="all" />
@@ -40,41 +41,49 @@ AppAsset::register($this);
 <body>
 
 <div class="wrap">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><h1>德塔贝斯</h1></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">主页</a></li>
-                    <li><a href="about.html">文章</a></li>
-                    <li><a href="service.html">球队信息</a></li>
-                    <li><a href="blog.html">比赛信息</a></li>
-                    <?php if(\Yii::$app->user->isGuest) { ?>
-
-                        <li><a href="<?php echo Url::to(['site/login']) ?>" ></span>
-                            Login
-                        </a></li>
-                    <?php }else{?>
-
-                    <li><a href="<?php echo Yii::$app->urlManagerFrontend->createAbsoluteUrl('/') ?>" ><span class="fa fa-home" aria-hidden="true"></span>
-                        <?=\YII::$app->user->identity->username ?></a></li>
-
-                    <li><a href="<?php echo Url::to(['site/logout']) ?>"><span class="fa fa-shield" aria-hidden="true"></span>logout</a></li>
-
-                    <?php } ?>
-
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </nav>
+                    <?php
+                    NavBar::begin([
+                        'brandLabel' => '德塔贝斯',
+                        'brandUrl' => Yii::$app->homeUrl,
+                        'options' => [
+                            'class' => 'navbar-inverse navbar-default navbar-fixed-top',
+                        ],
+                    ]);
+                    $menuItems = [
+                        ['label' => '主页', 'url' => ['/'],
+                            'options'=> ['class'=>yii::$app->controller->id=="site"?"active":""],
+                        ],
+                        ['label' => '文章', 'url' => ['/all-article'],
+                        'options'=> ['class'=>yii::$app->controller->id=="news"?"active":""],
+                        ],
+                        ['label' => '球队信息', 'url' => ['/world-cup-team-data'],
+                            'options'=> ['class'=>yii::$app->controller->action->id=="world-cup-team-data"?"active":""],
+                        ],
+                        ['label' => '比赛信息', 'url' => ['/games'],
+                            'options'=> ['class'=>yii::$app->controller->id=="games"?"active":""],
+                        ],
+                        ['label' => '射手榜', 'url' => ['/world-cup-player-data'],
+                            'options'=> ['class'=>yii::$app->controller->action->id=='world-cup-player-data'?"active":""],
+                        ],
+                    ];
+                    if (Yii::$app->user->isGuest) {
+                        $menuItems[] = ['label' => 'Signup', 'url' => ['/signup']];
+                        $menuItems[] = ['label' => 'Login', 'url' => ['/login']];
+                    } else {
+                        $menuItems[] = [
+                            'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
+                            'url' => ['/logout'],
+                            'linkOptions' => ['data-method' => 'post']
+                        ];
+                        $menuItems[] = ['label' => '进入后台', 'url' =>  Yii::$app->urlManagerFrontend->createAbsoluteUrl('/')];
+                    }
+                    echo Nav::widget([
+                        'options' => ['class' => 'navbar-nav navbar-right'],
+                        'items' => $menuItems,
+                    ]);
+                    NavBar::end();
+                    ?>
+</div>
     <div id="slider" class="slider-container2">
         <ul class="slider">
             <li class="slide">
@@ -92,6 +101,11 @@ AppAsset::register($this);
                     <img src="images/banner3.jpg" alt="An Image" draggable="false">
                 </div>
             </li>
+            <li class="slide">
+                <div class="slide-bg">
+                    <img src="images/banner4.jpg" alt="An Image" draggable="false">
+                </div>
+            </li>
         </ul>
         <div class="slider-controls">
             <div class="slide-nav">
@@ -102,6 +116,7 @@ AppAsset::register($this);
                 <li><a href="#">1</a></li>
                 <li><a href="#">2</a></li>
                 <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
             </ul>
         </div>
     </div>
@@ -113,90 +128,92 @@ AppAsset::register($this);
 <section class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-6 footer-contact">
+            <div class="col-lg-4 col-md-4 col-sm-4 footer-contact">
                 <h3>Our Contacts</h3>
                 <hr>
                 <div class="footer-addr">
                     <div>
                         <span class="fa fa-map" aria-hidden="true"></span>
-                        <p class="footer-p">Company Name</p>
+                        <p class="footer-p"> Team Database</p>
                     </div>
                     <div>
                         <span class="fa fa-map-signs" aria-hidden="true"></span>
-                        <p class="footer-p">Street Name & Number,</p>
+                        <p class="footer-p">Computer Science and Technology</p>
                     </div>
                     <div>
                         <span class="fa fa-map-marker" aria-hidden="true"></span>
-                        <p class="footer-p">Town, Zip Code</p>
+                        <p class="footer-p">Nankai University</p>
                     </div>
                     <div>
                         <span class="fa fa-phone" aria-hidden="true"></span>
-                        <p class="footer-p">0101010101010</p>
+                        <p class="footer-p">530530530</p>
                     </div>
                     <div>
                         <a href="mailto:#">
                             <span class="fa fa-envelope-o" aria-hidden="true"></span>
-                            <p class="footer-p">mail@example.com</p>
+                            <p class="footer-p">459294193@qq.com</p>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-3 col-sm-6 footer-links">
+            <div class="col-lg-4 col-md-4 col-sm-4 footer-links">
                 <h3>Quick Links</h3>
                 <hr>
                 <ul class="footer-links-w3ls">
-                    <li><a href="index.html"><span class="fa fa-home" aria-hidden="true"></span> <p>Home</p></a></li>
-                    <li><a href="about.html"><span class="fa fa-shield" aria-hidden="true"></span> <p>About</p></a></li>
-                    <li><a href="service.html"><span class="fa fa-cogs" aria-hidden="true"></span> <p>Services</p></a></li>
-                    <li><a href="blog.html"><span class="fa fa-pencil-square-o" aria-hidden="true"></span> <p>Blog</p></a></li>
-                    <li><a href="contact.html"><span class="fa fa-globe" aria-hidden="true"></span> <p>Contact</p></a></li>
+                    <li><a href="#"><span class="fa fa-home" aria-hidden="true"></span> <p>Home</p></a></li>
+                    <li><a href="all-article"><span class="fa fa-shield" aria-hidden="true"></span> <p>文章</p></a></li>
+                    <li><a href="world-cup-team-data"><span class="fa fa-cogs" aria-hidden="true"></span> <p>球队信息</p></a></li>
+                    <li><a href="games"><span class="fa fa-pencil-square-o" aria-hidden="true"></span> <p>比赛信息</p></a></li>
+                    <li><a href="world-cup-player-data"><span class="fa fa-globe" aria-hidden="true"></span> <p>射手榜</p></a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 footer-blog">
-                <h3>From The Blog</h3>
+            <div class="col-lg-4 col-md-4 col-sm-4 footer-blog">
+                <h3>Related websites</h3>
                 <hr>
-                <div class="footer-blog-w3ls">
-                    <h4>Lorem Ipsum Dolor</h4>
-                    <p class="footer-blog1">Friday, 6th April 2016</p>
-                    <p class="footer-blog2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 footer-subsc">
-                <h3>Keep In Touch</h3>
-                <hr>
-                <div class="footer-subsc-w3ls">
-                    <form action="#" method="post" class="form-horizontal" role="form">
-                        <div class="form-group">
-                            <div class="col-lg-12">
-                                <input type="email" class="form-control" name="email" id="inputEmail1" placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-lg-12">
-                                <input type="text" class="form-control" name="name" id="text1" placeholder="Your Name" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-lg-12">
-                                <button type="submit" class="btn-outline">Subscribe</button>
-                            </div>
-                        </div>
-                    </form><!-- form -->
-                </div>
-                <ul class="social-icons2">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <ul class="footer-links-w3ls">
+                    <li><a href="https://cc.nankai.edu.cn"><span class="fa fa-home" aria-hidden="true"></span> <p>计算机学院</p></a></li>
+                    <li><a href="http://cc.nankai.edu.cn/dbis/frontend/web"><span class="fa fa-shield" aria-hidden="true"></span> <p>DBIS实验室</p></a></li>
+                    <li><a href="http://www.nankai.edu.cn/"><span class="fa fa-cogs" aria-hidden="true"></span> <p>南开大学</p></a></li>
+                    <li><a href="http://jwc.nankai.edu.cn/"><span class="fa fa-pencil-square-o" aria-hidden="true"></span> <p>南开大学教务处</p></a></li>
+                    <li><a href="http://eamis.nankai.edu.cn"><span class="fa fa-globe" aria-hidden="true"></span> <p>教学管理系统</p></a></li>
                 </ul>
             </div>
+<!--            <div class="col-lg-3 col-md-3 col-sm-6 footer-subsc">-->
+<!--                <h3>Keep In Touch</h3>-->
+<!--                <hr>-->
+<!--                <div class="footer-subsc-w3ls">-->
+<!--                    <form action="#" method="post" class="form-horizontal" role="form">-->
+<!--                        <div class="form-group">-->
+<!--                            <div class="col-lg-12">-->
+<!--                                <input type="email" class="form-control" name="email" id="inputEmail1" placeholder="Email" required>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="form-group">-->
+<!--                            <div class="col-lg-12">-->
+<!--                                <input type="text" class="form-control" name="name" id="text1" placeholder="Your Name" required>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="form-group">-->
+<!--                            <div class="col-lg-12">-->
+<!--                                <button type="submit" class="btn-outline">Subscribe</button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </form><!-- form -->-->
+<!--                </div>-->
+<!--                <ul class="social-icons2">-->
+<!--                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+<!--                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+<!--                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+<!--                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
         </div>
     </div>
     <div class="container">
         <hr>
         <div class="copyright">
-            <p>Copyright &copy; 2016.Company name All rights reserved. <a href="" target="_blank" title="德塔贝斯">德塔贝斯</a>
+            <p>Copyright &copy; 2018.  Team Database. All rights reserved. <a href="" target="_blank" title="德塔贝斯">德塔贝斯</a>
         </div>
     </div>
 </section>

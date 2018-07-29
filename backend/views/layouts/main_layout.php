@@ -3,14 +3,14 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-//use backend\assets\AppAsset;
+use backend\assets\AppAsset;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
-//AppAsset::register($this);
+AppAsset::register($this);
 ?>
 <!--吴轩羽-->
 <!--编辑于07-19-->
@@ -40,12 +40,10 @@ use common\widgets\Alert;
     <link rel="stylesheet" href="js/vendor/chosen/css/chosen.min.css">
     <link rel="stylesheet" href="js/vendor/chosen/css/chosen-bootstrap.css">
     <link href="css/minimal.css" rel="stylesheet">
-
+    <link href="/Final-Homework/backend/web/assets/985699a/redactor.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
 <body class="bg-3">
@@ -75,7 +73,7 @@ use common\widgets\Alert;
 
             <!-- Branding -->
             <div class="navbar-header col-md-2">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index">
                     <strong>德塔贝斯</strong>后台管理
                 </a>
                 <div class="sidebar-collapse">
@@ -89,155 +87,16 @@ use common\widgets\Alert;
             <div class="navbar-collapse">
 
                 <!-- Page refresh -->
-                <ul class="nav navbar-nav refresh">
-                    <li class="divided">
-                        <a href="#" class="page-refresh"><i class="fa fa-refresh"></i></a>
-                    </li>
-                </ul>
-                <!-- /Page refresh -->
 
-                <!-- Search -->
-                <div class="search" id="main-search">
-                    <i class="fa fa-search"></i> <input type="text" placeholder="Search...">
-                </div>
                 <!-- Search end -->
 
                 <!-- Quick Actions -->
                 <ul class="nav navbar-nav quick-actions">
 
-                    <li class="dropdown divided">
-
-                        <a class="dropdown-toggle button" data-toggle="dropdown" href="#">
-                            <i class="fa fa-tasks"></i>
-                            <span class="label label-transparent-black">2</span>
-                        </a>
-
-                        <ul class="dropdown-menu wide arrow nopadding bordered">
-                            <li><h1>You have <strong>2</strong> new tasks</h1></li>
-                            <li>
-                                <a href="#">
-                                    <div class="task-info">
-                                        <div class="desc">Layout</div>
-                                        <div class="percent">80%</div>
-                                    </div>
-                                    <div class="progress progress-striped progress-thin">
-                                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                            <span class="sr-only">40% Complete (success)</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="task-info">
-                                        <div class="desc">Schemes</div>
-                                        <div class="percent">15%</div>
-                                    </div>
-                                    <div class="progress progress-striped active progress-thin">
-                                        <div class="progress-bar progress-bar-cyan" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
-                                            <span class="sr-only">45% Complete</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="task-info">
-                                        <div class="desc">Forms</div>
-                                        <div class="percent">5%</div>
-                                    </div>
-                                    <div class="progress progress-striped progress-thin">
-                                        <div class="progress-bar progress-bar-orange" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 5%">
-                                            <span class="sr-only">5% Complete (warning)</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="task-info">
-                                        <div class="desc">JavaScript</div>
-                                        <div class="percent">30%</div>
-                                    </div>
-                                    <div class="progress progress-striped progress-thin">
-                                        <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-                                            <span class="sr-only">30% Complete (danger)</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="task-info">
-                                        <div class="desc">Dropdowns</div>
-                                        <div class="percent">60%</div>
-                                    </div>
-                                    <div class="progress progress-striped progress-thin">
-                                        <div class="progress-bar progress-bar-amethyst" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                            <span class="sr-only">60% Complete</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li><a href="#">Check all tasks <i class="fa fa-angle-right"></i></a></li>
-                        </ul>
-
-                    </li>
-
-                    <li class="dropdown divided">
-
-                        <a class="dropdown-toggle button" data-toggle="dropdown" href="#">
-                            <i class="fa fa-envelope"></i>
-                            <span class="label label-transparent-black">1</span>
-                        </a>
-                        <ul class="dropdown-menu wider arrow nopadding messages">
-                            <li><h1>You have <strong>1</strong> new message</h1></li>
-                            <li>
-                                <a class="orange" href="#">
-                                    <div class="profile-photo">
-                                        <img src="images/george-avatar.jpg" alt />
-                                    </div>
-                                    <div class="message-info">
-                                        <span class="sender">George McCain</span>
-                                        <span class="time">6 hours</span>
-                                        <div class="message-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
-                                    </div>
-                                </a>
-                            </li>
-
-
-                            <li class="topborder"><a href="#">Check all messages <i class="fa fa-angle-right"></i></a></li>
-                        </ul>
-
-                    </li>
-
-                    <li class="dropdown divided">
-
-                        <a class="dropdown-toggle button" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell"></i>
-                            <span class="label label-transparent-black">3</span>
-                        </a>
-
-                        <ul class="dropdown-menu wide arrow nopadding bordered">
-                            <li><h1>You have <strong>3</strong> new notifications</h1></li>
-<!--消息示例-->
-                            <li>
-                                <a href="#">
-                                    <span class="label label-green"><i class="fa fa-user"></i></span>
-                                    New user registered.
-                                    <span class="small">18 mins</span>
-                                </a>
-                            </li>
-
-
-                            <li><a href="#">Check all notifications <i class="fa fa-angle-right"></i></a></li>
-                        </ul>
-
-                    </li>
 
                     <li class="dropdown divided user" id="current-user">
                         <div class="profile-photo">
-                            <img src="images/profile-photo.jpg" alt />
+                            <img src="images/head.jpg" alt />
                         </div>
                         <a class="dropdown-toggle options" data-toggle="dropdown" href="#">
                             <?= Yii::$app->user->identity->username ?> <i class="fa fa-caret-down"></i>
@@ -269,7 +128,7 @@ use common\widgets\Alert;
                             </li>
 
                             <li>
-                                <a href="#"><i class="fa fa-envelope"></i> Inbox <span class="badge badge-red" id="user-inbox">3</span></a>
+                                <a href="<?php echo Url::to(['comment/manage','id' =>Yii::$app->user->identity->getId()])?>"><i class="fa fa-envelope"></i> Inbox <span  id="user-inbox"></span></a>
                             </li>
 
                             <li class="divider"></li>
@@ -280,9 +139,7 @@ use common\widgets\Alert;
                         </ul>
                     </li>
 
-                    <li>
-                        <a href="#mmenu"><i class="fa fa-comments"></i></a>
-                    </li>
+
                 </ul>
                 <!-- /Quick Actions -->
 
@@ -308,13 +165,13 @@ use common\widgets\Alert;
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="form-elements.html">
+                                        <a href="<?php echo Url::to(['news/my-articles', 'id' =>Yii::$app->user->identity->getId()])?>">
                                             <i class="fa fa-caret-right"></i> 我发布的文章
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="validation-elements.html">
-                                            <i class="fa fa-caret-right"></i> 新建文章
+                                        <a href="<?php echo Url::to(['news/new-article', 'id' =>Yii::$app->user->identity->getId()])?>">
+                                        <i class="fa fa-caret-right"></i> 新建文章
                                         </a>
                                     </li>
                                 </ul>
@@ -326,13 +183,8 @@ use common\widgets\Alert;
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="ui-elements.html">
+                                        <a href="<?php echo Url::to(['comment/manage','id' =>Yii::$app->user->identity->getId()])?>">
                                             <i class="fa fa-caret-right"></i> 收到的留言
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="typography.html">
-                                            <i class="fa fa-caret-right"></i> 给好友留言
                                         </a>
                                     </li>
                                 </ul>
@@ -403,12 +255,12 @@ use common\widgets\Alert;
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="form-elements.html">
+                                        <a href="team-list">
                                             <i class="fa fa-caret-right"></i> 球队信息管理
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="validation-elements.html">
+                                        <a href="player-list">
                                             <i class="fa fa-caret-right"></i> 球员信息管理
                                         </a>
                                     </li>
@@ -421,13 +273,8 @@ use common\widgets\Alert;
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="ui-elements.html">
+                                        <a href="<?php echo Url::to(['games/games'])?>">
                                             <i class="fa fa-caret-right"></i> 赛程管理
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="typography.html">
-                                            <i class="fa fa-caret-right"></i> 央视名嘴
                                         </a>
                                     </li>
                                 </ul>
@@ -472,15 +319,7 @@ use common\widgets\Alert;
 
 
             <!-- page header -->
-            <div class="pageheader">
 
-
-                <h2><i class="fa fa-tachometer"></i> 欢迎老师
-                    <span>莅临后台</span></h2>
-
-
-
-            </div>
             <!-- /page header -->
 
 
@@ -515,313 +354,40 @@ use common\widgets\Alert;
 
 <section class="videocontent" id="video"></section>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/vendor/bootstrap/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/vendor/mmenu/js/jquery.mmenu.min.js"></script>
-<script type="text/javascript" src="js/vendor/sparkline/jquery.sparkline.min.js"></script>
-<script type="text/javascript" src="js/vendor/nicescroll/jquery.nicescroll.min.js"></script>
-<script type="text/javascript" src="js/vendor/animate-numbers/jquery.animateNumbers.js"></script>
-<script type="text/javascript" src="js/vendor/videobackground/jquery.videobackground.js"></script>
-<script type="text/javascript" src="js/vendor/blockui/jquery.blockUI.js"></script>
-<script src="js/vendor/flot/jquery.flot.min.js"></script>
-<script src="js/vendor/flot/jquery.flot.time.min.js"></script>
-<script src="js/vendor/flot/jquery.flot.selection.min.js"></script>
-<script src="js/vendor/flot/jquery.flot.animator.min.js"></script>
-<script src="js/vendor/flot/jquery.flot.orderBars.js"></script>
-<script src="js/vendor/easypiechart/jquery.easypiechart.min.js"></script>
 
-<script src="js/vendor/rickshaw/raphael-min.js"></script>
-<script src="js/vendor/rickshaw/d3.v2.js"></script>
-<script src="js/vendor/rickshaw/rickshaw.min.js"></script>
-
-<script src="js/vendor/morris/morris.min.js"></script>
-
-<script src="js/vendor/tabdrop/bootstrap-tabdrop.min.js"></script>
-
-<script src="js/vendor/summernote/summernote.min.js"></script>
-
-<script src="js/vendor/chosen/chosen.jquery.min.js"></script>
-
-<script src="js/minimal.min.js"></script>
 <?php
-$this->registerJs("
- $(function(){
 
-        // Initialize card flip
-        $('.card.hover').hover(function(){
-            $(this).addClass('flip');
-        },function(){
-            $(this).removeClass('flip');
-        });
+//AppAsset::addCSS($this,Yii::$app->request->baseUrl."/css/blog.css");
+//AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/jquery.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/bootstrap/bootstrap.min.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/mmenu/js/jquery.mmenu.min.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/sparkline/jquery.sparkline.min.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/nicescroll/jquery.nicescroll.min.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/animate-numbers/jquery.animateNumbers.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/videobackground/jquery.videobackground.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/blockui/jquery.blockUI.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/flot/jquery.flot.min.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/flot/jquery.flot.time.min.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/flot/jquery.flot.selection.min.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/flot/jquery.flot.animator.min.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/flot/jquery.flot.orderBars.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/easypiechart/jquery.easypiechart.min.js");
 
-        // Initialize flot chart
-        var d1 =[ [1, 715],
-            [2, 985],
-            [3, 1525],
-            [4, 1254],
-            [5, 1861],
-            [6, 2621],
-            [7, 1987],
-            [8, 2136],
-            [9, 2364],
-            [10, 2851],
-            [11, 1546],
-            [12, 2541]
-        ];
-        var d2 =[ [1, 463],
-            [2, 578],
-            [3, 327],
-            [4, 984],
-            [5, 1268],
-            [6, 1684],
-            [7, 1425],
-            [8, 1233],
-            [9, 1354],
-            [10, 1200],
-            [11, 1260],
-            [12, 1320]
-        ];
-        var months = [\"January\", \"February\", \"March\", \"April\", \"May\", \"Juny\", \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"];
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/rickshaw/raphael-min.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/rickshaw/d3.v2.js");
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/rickshaw/rickshaw.min.js");
 
-        // flot chart generate
-        var plot = $.plotAnimator($(\"#statistics-chart\"),
-            [
-                {
-                    label: 'Sales',
-                    data: d1,
-                    lines: {lineWidth:3},
-                    shadowSize:0,
-                    color: '#ffffff'
-                },
-                { label: \"Visits\",
-                    data: d2,
-                    animator: {steps: 99, duration: 500, start:200, direction: \"right\"},
-                    lines: {
-                        fill: .15,
-                        lineWidth: 0
-                    },
-                    color:['#ffffff']
-                },{
-                label: 'Sales',
-                data: d1,
-                points: { show: true, fill: true, radius:6,fillColor:\"rgba(0,0,0,.5)\",lineWidth:2 },
-                color: '#fff',
-                shadowSize:0
-            },
-                { label: \"Visits\",
-                    data: d2,
-                    points: { show: true, fill: true, radius:6,fillColor:\"rgba(255,255,255,.2)\",lineWidth:2 },
-                    color: '#fff',
-                    shadowSize:0
-                }
-            ],{
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/morris/morris.min.js");
 
-                xaxis: {
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/tabdrop/bootstrap-tabdrop.min.js");
 
-                    tickLength: 0,
-                    tickDecimals: 0,
-                    min:1,
-                    ticks: [[1,\"JAN\"], [2, \"FEB\"], [3, \"MAR\"], [4, \"APR\"], [5, \"MAY\"], [6, \"JUN\"], [7, \"JUL\"], [8, \"AUG\"], [9, \"SEP\"], [10, \"OCT\"], [11, \"NOV\"], [12, \"DEC\"]],
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/summernote/summernote.min.js");
 
-                    font :{
-                        lineHeight: 24,
-                        weight: \"300\",
-                        color: \"#ffffff\",
-                        size: 14
-                    }
-                },
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/vendor/chosen/chosen.jquery.min.js");
 
-                yaxis: {
-                    ticks: 4,
-                    tickDecimals: 0,
-                    tickColor: \"rgba(255,255,255,.3)\",
-
-                    font :{
-                        lineHeight: 13,
-                        weight: \"300\",
-                        color: \"#ffffff\"
-                    }
-                },
-
-                grid: {
-                    borderWidth: {
-                        top: 0,
-                        right: 0,
-                        bottom: 1,
-                        left: 1
-                    },
-                    borderColor: 'rgba(255,255,255,.3)',
-                    margin:0,
-                    minBorderMargin:0,
-                    labelMargin:20,
-                    hoverable: true,
-                    clickable: true,
-                    mouseActiveRadius:6
-                },
-
-                legend: { show: false}
-            });
-
-        $(window).resize(function() {
-            // redraw the graph in the correctly sized div
-            plot.resize();
-            plot.setupGrid();
-            plot.draw();
-        });
-
-        $('#mmenu').on(
-            \"opened.mm\",
-            function()
-            {
-                // redraw the graph in the correctly sized div
-                plot.resize();
-                plot.setupGrid();
-                plot.draw();
-            }
-        );
-
-        $('#mmenu').on(
-            \"closed.mm\",
-            function()
-            {
-                // redraw the graph in the correctly sized div
-                plot.resize();
-                plot.setupGrid();
-                plot.draw();
-            }
-        );
-
-        // tooltips showing
-        $(\"#statistics-chart\").bind(\"plothover\", function (event, pos, item) {
-            if (item) {
-                var x = item.datapoint[0],
-                    y = item.datapoint[1];
-
-                $(\"#tooltip\").html('<h1 style=\"color: #418bca\">' + months[x - 1] + '</h1>' + '<strong>' + y + '</strong>' + ' ' + item.series.label)
-                    .css({top: item.pageY-30, left: item.pageX+5})
-                    .fadeIn(200);
-            } else {
-                $(\"#tooltip\").hide();
-            }
-        });
-
-
-        //tooltips options
-        $(\"<div id='tooltip'></div>\").css({
-            position: \"absolute\",
-            //display: \"none\",
-            padding: \"10px 20px\",
-            \"background-color\": \"#ffffff\",
-            \"z-index\":\"99999\"
-        }).appendTo(\"body\");
-
-        //generate actual pie charts
-        $('.pie-chart').easyPieChart();
-
-
-        //server load rickshaw chart
-        var graph;
-
-        var seriesData = [ [], []];
-        var random = new Rickshaw.Fixtures.RandomData(50);
-
-        for (var i = 0; i < 50; i++) {
-            random.addData(seriesData);
-        }
-
-        graph = new Rickshaw.Graph( {
-            element: document.querySelector(\"#serverload-chart\"),
-            height: 150,
-            renderer: 'area',
-            series: [
-                {
-                    data: seriesData[0],
-                    color: '#6e6e6e',
-                    name:'File Server'
-                },{
-                    data: seriesData[1],
-                    color: '#fff',
-                    name:'Mail Server'
-                }
-            ]
-        } );
-
-        var hoverDetail = new Rickshaw.Graph.HoverDetail( {
-            graph: graph,
-        });
-
-        setInterval( function() {
-            random.removeData(seriesData);
-            random.addData(seriesData);
-            graph.update();
-
-        },1000);
-
-        // Morris donut chart
-        Morris.Donut({
-            element: 'browser-usage',
-            data: [
-                {label: \"Chrome\", value: 25},
-                {label: \"Safari\", value: 20},
-                {label: \"Firefox\", value: 15},
-                {label: \"Opera\", value: 5},
-                {label: \"Internet Explorer\", value: 10},
-                {label: \"Other\", value: 25}
-            ],
-            colors: ['#00a3d8', '#2fbbe8', '#72cae7', '#d9544f', '#ffc100', '#1693A5']
-        });
-
-        $('#browser-usage').find(\"path[stroke='#ffffff']\").attr('stroke', 'rgba(0,0,0,0)');
-
-        //sparkline charts
-        $('#projectbar1').sparkline('html', {type: 'bar', barColor: '#22beef', barWidth: 4, height: 20});
-        $('#projectbar2').sparkline('html', {type: 'bar', barColor: '#cd97eb', barWidth: 4, height: 20});
-        $('#projectbar3').sparkline('html', {type: 'bar', barColor: '#a2d200', barWidth: 4, height: 20});
-        $('#projectbar4').sparkline('html', {type: 'bar', barColor: '#ffc100', barWidth: 4, height: 20});
-        $('#projectbar5').sparkline('html', {type: 'bar', barColor: '#ff4a43', barWidth: 4, height: 20});
-        $('#projectbar6').sparkline('html', {type: 'bar', barColor: '#a2d200', barWidth: 4, height: 20});
-
-        // sortable table
-        $('.table.table-sortable th.sortable').click(function() {
-            var o = $(this).hasClass('sort-asc') ? 'sort-desc' : 'sort-asc';
-            $('th.sortable').removeClass('sort-asc').removeClass('sort-desc');
-            $(this).addClass(o);
-        });
-
-        //todo's
-        $('#todolist li label').click(function() {
-            $(this).toggleClass('done');
-        });
-
-        // Initialize tabDrop
-        $('.tabdrop').tabdrop({text: '<i class=\"fa fa-th-list\"></i>'});
-
-        //load wysiwyg editor
-        $('#quick-message-content').summernote({
-            toolbar: [
-                //['style', ['style']], // no style button
-                ['style', ['bold', 'italic', 'underline', 'clear']],
-                ['fontsize', ['fontsize']],
-                ['color', ['color']],
-                ['para', ['ul', 'ol', 'paragraph']],
-                ['height', ['height']],
-                //['insert', ['picture', 'link']], // no insert buttons
-                //['table', ['table']], // no table button
-                //['help', ['help']] //no help button
-            ],
-            height: 143   //set editable area's height
-        });
-
-        //multiselect input
-        $(\".chosen-select\").chosen({disable_search_threshold: 10});
-
-    })", \yii\web\View::POS_END);
+AppAsset::addScript($this,Yii::$app->request->baseUrl."/js/minimal.min.js");
 ?>
-<script>
 
-
-</script>
 <?php $this->endBody() ?>
 </body>
 </html>

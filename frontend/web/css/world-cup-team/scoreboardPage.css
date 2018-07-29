@@ -1,0 +1,35 @@
+.scoreTitle{
+    width:100%;height:45px; line-height: 45px; text-align: center;margin-bottom: 20px; font-size: 18px;color:#fff;
+    font-weight: bold; background: url("//n.sinaimg.cn/products/worldcup2018/latest/images/nav_title_bg.png");
+}
+.scoreboardTitle{
+    margin-bottom: 40px;
+}
+.scoreboard-page {width: 1240px;margin: 0 auto;line-height: 36px;}
+.int-box-one{color:#434343;font-size:16px;margin-bottom:40px;min-height: 200px;}
+.group{float:left;margin-top:10px;width:600px;}
+.gp-left{padding-right:40px;}
+.gp-title{font-size:16px;font-weight:bold;height:35px;}
+.gp-title span{font-size:30px;line-height:32px;}
+.gp-content {width:100%;text-align:center;background: #d1747c;}
+.group .gp-content a{color:#434343;text-decoration:none;}
+.group .gp-content a:hover{color:#0075a9;}
+.gp-content th{height:35px;color:#fff;width:45px;line-height: 42px;}
+.gp-content .queue{width:85px;}
+.gp-content .gp-one{height:28px;background:#e6f7ff;}
+.gp-content .gp-two{height:30px;background:#f7fcff;}
+.gp-content .gp-grey{background:#eeeeee;}
+.gp-content .gp-white{background:#fff;}
+.gp-td-one, .gp-td-two{display:block;width:19px;height:19px;line-height:20px;background:#f37382;border-radius:2px;margin:5px auto;color:#fff;}
+.gp-content .gp-td-two{background:#fb4;color:#fff;}
+.gp-content .integral{color:#e70606;font-weight:bold;}
+
+.int-box-tow{border:1px solid #ededed;margin-top:20px;padding-bottom:10px;background:#f8f8f8;color:#434343;padding-top: 20px;}
+.int-box-tow h3{padding-left:75px;font-size:16px;height:37px;line-height:40px;padding-bottom:10px;}
+.int-box-tow p{padding:0 17px;line-height:28px;font-size:16px;}
+
+.scoreboard-page a:link, .scorer a:visited {color: #0a0a0a;}
+.scoreboard-page a:hover, .scorer a:active {color: #d31726;}
+.scorer_name {display: block; max-width: 120px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.gp-content{margin-bottom:10px;}
+.ct-article-link a{margin-right:10px;}

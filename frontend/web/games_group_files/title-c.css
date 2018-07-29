@@ -1,0 +1,11 @@
+@charset "utf-8";
+.title-c{ height: 18px;font:18px "Microsoft YaHei","微软雅黑","SimHei","黑体",sans-serif;color:#BB6161;position:relative;width:100%;}
+.title-c .label{position:absolute;top: 0;left:0;z-index:1;background:#fff;padding-right:20px;}
+.title-c .label,.title-c .label a{display:inline-block;font-weight:bold;font-size:18px;line-height:18px;}
+.title-c .label a:link{color:#bb6161;text-decoration:none;}
+.title-c .label a:visited{color:#bb6161;text-decoration:none;}
+.title-c .label a:hover,.title-c .label a:active{color:#bb6161;text-decoration:none;}
+.title-c .extra{width:100%;height:2px;background:#bb6161;display:inline-block;margin-bottom:12px;vertical-align:bottom;}
+.title-c.thumbnai-title{margin-bottom: 20px;position: relative;}
+.title-c .thumbnai-title-name{font-size:18px;color: #bb6161;font-family: "Microsoft YaHei";font-weight: bold;}
+.title-c .thumbnai-title-more{font-size:12px;color: #bb6161;position: absolute;right:0;bottom:0;}

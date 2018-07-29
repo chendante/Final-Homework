@@ -33,12 +33,10 @@ class HomeworkController extends \yii\web\Controller
        }
         return $this->render('group', ['model' => $model]);
     }
-    public function actionPersonal($id){
+    public function actionPersonal(){
         $view = Yii::$app->getView();
         $id=Yii::$app->getRequest()->get('id');
         $view->params['data'] =DbHomeworkPersonal::getHomework($id);
         return $this->render('personal');
     }
-
-
 }
