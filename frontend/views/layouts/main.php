@@ -75,7 +75,7 @@ AppAsset::register($this);
                             'url' => ['/logout'],
                             'linkOptions' => ['data-method' => 'post']
                         ];
-                        $menuItems[] = ['label' => '进入后台', 'url' =>  Yii::$app->urlManagerFrontend->createAbsoluteUrl('/')];
+                        $menuItems[] = ['label' => '进入后台', 'url' =>  Yii::$app->urlManagerFrontend->createAbsoluteUrl('/').'index'];
                     }
                     echo Nav::widget([
                         'options' => ['class' => 'navbar-nav navbar-right'],
