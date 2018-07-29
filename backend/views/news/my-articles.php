@@ -5,9 +5,9 @@
 use yii\helpers\Url;
 use yii\bootstrap\ActiveForm;
 ?>
-<?php if($this->params['IsSuccess']==1){echo "<script>alert('编辑成功')</script>";} ?>
+<?php if($this->params['IsSuccess']==1){echo "<script>alert('操作成功')</script>";} ?>
 
-<?php if($this->params['IsSuccess']==2){echo "<script>alert('编辑失败')</script>";} ?>
+<?php if($this->params['IsSuccess']==2){echo "<script>alert('操作失败')</script>";} ?>
 <div class="row">
     <div class="col-md-4">
         <?php $article=null ;$po=0;?>
@@ -16,15 +16,15 @@ use yii\bootstrap\ActiveForm;
             <?php foreach ($this->params['data'] as $news){?>
             <li class="msg" id="home<?= $po?>" onclick="test(id)">
 
-                <a href="#" class="mail-favourite active"><i class="fa fa-star-o"></i></a>
+                <a href="#" class="mail-favourite acti
+ve"><i class="fa fa-star-o"></i></a>
                 <div>
-
                     <h5><strong><?= $news['Title']?></strong> </h5>
                     <p><?= $news['Keywords']?></p>
                     <span class="delivery-time"><?= $news['PublishTime']?></span>
                     <div class="mail-label bg-red"></div>
                     <div class="mail-actions">
-                        <a href="#" class="delete"><i class="fa fa-trash-o"></i></a>
+                        <a href="<?php echo Url::to(['news/delete-article','id' =>$news['NID'],'UserID'=>Yii::$app->user->getId()]) ?>" class="delete"><i class="fa fa-trash-o"></i></a>
                     </div>
                 </div>
             </li><?php $po++;}?>
@@ -62,9 +62,11 @@ use yii\bootstrap\ActiveForm;
 
                     <div class="btn-group">
                         <div id="message-wysiwyg"></div>
-                            <div class="col-md-8">
-                            <a href=" <?php echo Url::to(['news/edit-article','id' =>$news['NID']]) ?>" class="btn btn-greensea">编辑</a></div>
-
+                            <div class="col-md-4">
+                                <a href=" <?php echo Url::to(['news/edit-article','id' =>$news['NID']]) ?>" class="btn btn-greensea">编辑</a></div>
+                        <div class="col-md-4">
+                            <a href=" <?php echo Url::to(['news/delete-article','id' =>$news['NID'],'UserID'=>Yii::$app->user->getId()]) ?>" class="btn btn-greensea">删除</a>
+                        </div>
                     </div>
                 </div>
 
@@ -94,5 +96,4 @@ function test(id) {
     document.getElementById("preindex").style.display="none";
     document.getElementById("p"+id).style.display="";
 }
-
 </script>

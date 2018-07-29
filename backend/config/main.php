@@ -52,15 +52,22 @@ return [
             'rules' => [
                 'homework-group'=>'homework/group',
                 'group-member'=>'group/member',
+                'group-edit'=>'group/edit',
                 'homework-personal'=>'homework/personal',
                 'upload-file'=>'site/upload',
                 'login'=>'site/login',
                 'my-articles'=>'news/my-articles',
                 'games' => 'games/games',
+                'index'=>'site/index',
                 'games-update' => 'games/game-update',
                 'new-article'=>'news/new-article',
                 'edit-article'=>'news/edit-article',
-                'comment-manage'=>'comment/manage'
+                'delete-article'=>'news/delete-article',
+                'comment-manage'=>'comment/manage',
+                'team-list'=>'team/team-list',
+                'player-list'=>'team/player-list',
+                'team-update'=>'team/team-update',
+                'player-update'=>'team/player-update'
             ],
         ],
         'urlManagerBackend' => [

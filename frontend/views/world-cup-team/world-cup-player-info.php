@@ -5,7 +5,7 @@
  * Date: 2018/7/24
  * Time: 23:07
  */
-$this->title='德塔贝斯-世界杯球员信息';
+$this->title='德塔贝斯-世界杯球员信息'.'--'.$this->params['data']['players']['player_name'];
 ?>
 <head>
     <link href="css/world-cup-team/player_detail.css" rel="stylesheet" type="text/css" media="all" />

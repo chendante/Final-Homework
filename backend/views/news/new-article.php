@@ -14,9 +14,9 @@ use yii\bootstrap\ActiveForm;
 <body>
 <!-- row -->
 <div class="row">
-    <?php if($this->params['IsSuccess']==1){echo "<script>alert('新建成功，请点击 我发布的文章 进行查看')</script>";} ?>
+    <?php if($this->params['IsSuccess']==1){echo "<script>alert('操作成功')</script>";} ?>
 
-    <?php if($this->params['IsSuccess']==2){echo "<script>alert('新建失败')</script>";} ?>
+    <?php if($this->params['IsSuccess']==2){echo "<script>alert('操作失败')</script>";} ?>
     <!-- col 12 -->
     <div class="col-md-12">
         <!-- tile -->
@@ -48,6 +48,7 @@ use yii\bootstrap\ActiveForm;
             </div>
         </section>
     </div>
+</div>
     <!-- /col 12 -->
 </body>
 </html>
