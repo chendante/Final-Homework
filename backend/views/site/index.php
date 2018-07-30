@@ -1,5 +1,14 @@
 <?php
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 张缴怡, 1611400, 20180726
+ *Coding by 吴轩羽, 1611332, 20180726
+
+ *此为后台的首页
+
+ */ 
 /* @var $this yii\web\View */
 use yii\helpers\Url;
 $this->title = 'My Yii Application';

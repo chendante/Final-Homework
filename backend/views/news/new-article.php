@@ -1,10 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: lenovo
- * Date: 2018/7/25
- * Time: 0:56
- */
+
+ *Team:德塔贝斯
+
+ *Coding by 张缴怡, 1611400, 20180725
+
+ *此为后台文章模块新建文章页面
+
+ */ 
 use yii\helpers\Url;
 use yii\bootstrap\ActiveForm;
 ?>

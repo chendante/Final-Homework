@@ -1,5 +1,13 @@
 <?php
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 张缴怡, 1611400, 20180723
+
+ *此为前台文章模块中所有文章的model
+
+ */ 
 namespace frontend\models\news;
 
 use Yii;

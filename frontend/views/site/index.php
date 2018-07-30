@@ -1,7 +1,15 @@
 <?php
 
 /* @var $this yii\web\View */
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 张缴怡, 1611400, 20180725
+
+ *此为前台首页
+
+ */ 
 $this->title = '德塔贝斯';
 ?>
 <div class="site-index">

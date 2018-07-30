@@ -1,7 +1,15 @@
 <?php
 
 /* @var $this yii\web\View */
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 张缴怡, 1611400, 20180723
+
+ *此为前台文章模块的所有文章页面
+
+ */ 
 use yii\helpers\Url;
 $this->title = '德塔贝斯-所有文章';
 ?>

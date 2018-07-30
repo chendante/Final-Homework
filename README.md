@@ -19,7 +19,7 @@
 
  *Team:德塔贝斯
 
- *Coding by XXX
+ *Coding by XXX, 学号, 日期
 
  *代码介绍
 
