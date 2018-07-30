@@ -1,9 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: 刘子晨
- * Date: 2018/7/23
- * Time: 14:46
+
+ *Team:德塔贝斯
+
+ *Coding by 刘子晨
+
+ *代码介绍：
+ * 球队信息页面，在该页面可以看到球队基本信息和球队的几场比赛
+
  */
 
 $this->title='德塔贝斯-世界杯球队信息'.'--'.$this->params['data']['teamInfo']['team_name'];

@@ -1,9 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: 刘子晨
- * Date: 2018/7/24
- * Time: 23:07
+
+ *Team:德塔贝斯
+
+ *Coding by 刘子晨
+
+ *代码介绍：
+ * 球员信息页面，在该页面可以看到球员基本信息和球员在各场比赛中的表现
+
  */
 $this->title='德塔贝斯-世界杯球员信息'.'--'.$this->params['data']['players']['player_name'];
 ?>

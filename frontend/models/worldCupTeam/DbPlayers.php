@@ -1,5 +1,14 @@
 <?php
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 刘子晨
+
+ *代码介绍：
+ * 对应表model
+
+ */
 namespace frontend\models\worldCupTeam;
 
 use Yii;

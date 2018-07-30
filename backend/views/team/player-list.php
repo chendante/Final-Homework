@@ -1,10 +1,15 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: 刘子晨
- * Date: 2018/7/25
- * Time: 23:12
+
+ *Team:德塔贝斯
+
+ *Coding by 刘子晨
+
+ *代码介绍：
+ * 球员信息列表，在该页面点击想要更改信息的球员，进入球员信息更改页面
+
  */
+
 
 use yii\helpers\Url;
 $this->title='德塔贝斯-球员列表'

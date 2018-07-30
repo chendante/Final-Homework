@@ -1,9 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: 刘子晨
- * Date: 2018/7/26
- * Time: 2:42
+
+ *Team:德塔贝斯
+
+ *Coding by 刘子晨
+
+ *代码介绍：
+ * 球员信息更改页面，在该页面更新球员基本信息
+
  */
 use yii\helpers\Url;
 $this->title='德塔贝斯-球员信息更新';

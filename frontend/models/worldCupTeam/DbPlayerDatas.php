@@ -1,5 +1,16 @@
 <?php
 
+/**
+
+ *Team:德塔贝斯
+
+ *Coding by 刘子晨
+
+ *代码介绍：
+ * 对应表model
+
+ */
+
 namespace frontend\models\worldCupTeam;
 
 use Yii;
@@ -96,6 +107,7 @@ class DbPlayerDatas extends \yii\db\ActiveRecord
         return $this->hasOne(DbPlayers::className(), ['player_id' => 'player_id']);
     }
 
+    //球队各球员表现
     public static function getTeamInfo($id)
     {
         $data=self::find()

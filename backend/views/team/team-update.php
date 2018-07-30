@@ -1,9 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: 刘子晨
- * Date: 2018/7/25
- * Time: 23:43
+
+ *Team:德塔贝斯
+
+ *Coding by 刘子晨
+
+ *代码介绍：
+ * 球队信息更改页面，在该页面更新球队基本信息
+
  */
 
 use yii\helpers\Url;

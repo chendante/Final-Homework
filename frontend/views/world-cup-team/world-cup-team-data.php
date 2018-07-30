@@ -1,9 +1,14 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: 刘子晨
- * Date: 2018/7/22
- * Time: 23:57
+
+ *Team:德塔贝斯
+
+ *Coding by 刘子晨
+
+ *代码介绍：
+ * 球队信息页面
+ * 提供参赛32支球队的基本信息，排名不分先后
+
  */
 
 $this->title='德塔贝斯-世界杯球队排行';

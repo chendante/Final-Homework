@@ -1,9 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: 刘子晨
- * Date: 2018/7/25
- * Time: 22:49
+
+ *Team:德塔贝斯
+
+ *Coding by 刘子晨
+
+ *代码介绍：
+ * 球队信息列表，在该页面点击想要更改信息的球队，进入球队信息更改页面
+
  */
 use yii\helpers\Url;
 $this->title='德塔贝斯-球队列表';
