@@ -1,5 +1,13 @@
 <?php
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 吴轩羽 1611332
+
+ *几个基本页面-登陆页面 view层
+
+ */
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model \common\models\LoginForm */

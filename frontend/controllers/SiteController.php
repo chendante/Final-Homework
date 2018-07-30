@@ -91,7 +91,10 @@ class SiteController extends Controller
         $this->layout=false;
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
+            $this->layout='main';
+            $view = Yii::$app->getView();
+            $view->params['data'] = DbGroupMember::getGroupMember();
+            return $this->render('index');
         } else {
             return $this->render('login', [
                 'model' => $model,
@@ -107,8 +110,9 @@ class SiteController extends Controller
     public function actionLogout()
     {
         Yii::$app->user->logout();
-
-        return $this->goHome();
+        $view = Yii::$app->getView();
+        $view->params['data'] = DbGroupMember::getGroupMember();
+        return $this->render('index');
     }
     public function actionManage()
     {
@@ -188,7 +192,6 @@ class SiteController extends Controller
                 Yii::$app->session->setFlash('error', 'Sorry, we are unable to reset password for the provided email address.');
             }
         }
-
         return $this->render('requestPasswordResetToken', [
             'model' => $model,
         ]);

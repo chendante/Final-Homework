@@ -61,7 +61,7 @@ return [
            ],
         'urlManagerFrontend' => [
             'class' => 'yii\web\urlManager',
-            'scriptUrl' => '/Final-Homework/backend/web/', //代替'baseUrl'
+            'scriptUrl' => '/backend/web/', //代替'baseUrl'
             'enablePrettyUrl' => false,
             'showScriptName' => true,
         ],

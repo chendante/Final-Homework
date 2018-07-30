@@ -1,5 +1,13 @@
 <?php
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 吴轩羽 1611332
+
+ *评论模块 controller层
+
+ */
 namespace backend\controllers;
 use Yii;
 use backend\models\comment\DbNewsComment;

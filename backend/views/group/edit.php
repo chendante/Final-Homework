@@ -9,7 +9,15 @@
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model \common\models\LoginForm */
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 吴轩羽 1611332
+
+ *成员模块-修改成员信息 view层
+
+ */
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap\ActiveForm;
