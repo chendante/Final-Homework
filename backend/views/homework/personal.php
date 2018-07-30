@@ -5,7 +5,15 @@
  * Date: 2018/7/20
  * Time: 23:30
  */
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 吴轩羽 1611332
+
+ *个人作业模块 view层
+
+ */
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model \common\models\LoginForm */
