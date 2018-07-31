@@ -1,5 +1,13 @@
 <?php
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 张缴怡, 1611400, 20180724
+
+ *此为后台文章模块的controller
+
+ */ 
 namespace backend\controllers;
 
 use backend\models\news\DbNews;

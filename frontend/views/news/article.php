@@ -1,7 +1,15 @@
 <?php
 
 /* @var $this yii\web\View */
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 张缴怡, 1611400, 20180723
+
+ *此为前台文章的具体文章页面，可进行评论
+
+ */ 
 use yii\helpers\Url;
 use yii\bootstrap\ActiveForm;
 $this->title = '德塔贝斯-文章';

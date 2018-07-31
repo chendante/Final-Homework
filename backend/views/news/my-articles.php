@@ -1,6 +1,15 @@
 <?php
 
 /* @var $this yii\web\View */
+/**
+
+ *Team:德塔贝斯
+
+ *Coding by 张缴怡, 1611400, 20180724
+
+ *此为后台文章模块的显示登录账户所发布的所有文章页面
+
+ */ 
 
 use yii\helpers\Url;
 use yii\bootstrap\ActiveForm;

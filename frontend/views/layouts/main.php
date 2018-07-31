@@ -75,7 +75,7 @@ AppAsset::register($this);
                             'url' => ['/logout'],
                             'linkOptions' => ['data-method' => 'post']
                         ];
-                        $menuItems[] = ['label' => '进入后台', 'url' =>  Yii::$app->urlManagerFrontend->createAbsoluteUrl('/')];
+                        $menuItems[] = ['label' => '进入后台', 'url' =>  Yii::$app->urlManagerFrontend->createAbsoluteUrl('/').'index'];
                     }
                     echo Nav::widget([
                         'options' => ['class' => 'navbar-nav navbar-right'],
@@ -161,7 +161,7 @@ AppAsset::register($this);
                 <h3>Quick Links</h3>
                 <hr>
                 <ul class="footer-links-w3ls">
-                    <li><a href="#"><span class="fa fa-home" aria-hidden="true"></span> <p>Home</p></a></li>
+                    <li><a href="index"><span class="fa fa-home" aria-hidden="true"></span> <p>Home</p></a></li>
                     <li><a href="all-article"><span class="fa fa-shield" aria-hidden="true"></span> <p>文章</p></a></li>
                     <li><a href="world-cup-team-data"><span class="fa fa-cogs" aria-hidden="true"></span> <p>球队信息</p></a></li>
                     <li><a href="games"><span class="fa fa-pencil-square-o" aria-hidden="true"></span> <p>比赛信息</p></a></li>

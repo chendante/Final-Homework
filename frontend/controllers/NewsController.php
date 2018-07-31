@@ -1,5 +1,13 @@
 <?php
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 张缴怡, 1611400, 20180723
+
+ *此为前台文章模块的controller
+
+ */ 
 namespace frontend\controllers;
 use Yii;
 use yii\web\Controller;
@@ -72,7 +80,10 @@ class NewsController extends \yii\web\Controller
         if(yii::$app->request->isPost) {
             $data['CommentContent']=Yii::$app->request->post('DbNewsComment')['CommentContent'];
             $data['NID']=$view->params['data1'][0]['NID'];
-            $data['UserID']=Yii::$app->user->identity->getId();
+            if(Yii::$app->user->isGuest)
+                $data['UserID']=-1;
+            else
+                $data['UserID']=Yii::$app->user->identity->getId();
             $data['Type']=0;
             date_default_timezone_set('PRC');
             $data['CommentTime'] = date('Y-m-d H:i:s', time());

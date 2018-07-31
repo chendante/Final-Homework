@@ -1,7 +1,15 @@
 <?php
 
 namespace backend\models\group;
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 吴轩羽 1611332
+
+ *成员模块 Model层
+
+ */
 use Yii;
 
 /**
