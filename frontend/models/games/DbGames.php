@@ -1,4 +1,13 @@
 <?php
+/**
+
+ *Team:德塔贝斯
+
+ *Coding by 吴明亮, 1611331, 2018-07-22
+
+ *前台赛程部分的model
+
+ */ 
 
 namespace frontend\models\games;
 use frontend\models\worldCupTeam\DbTeams;

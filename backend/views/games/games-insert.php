@@ -1,4 +1,13 @@
 <?php
+/**
+
+ *Team:德塔贝斯
+
+ *Coding by 吴明亮, 1611331, 2018-07-22
+
+ *后台赛程更新页面
+
+ */ 
 use yii\helpers\Url;
     $this->title = '德塔贝斯-赛程更新';
 ?>
