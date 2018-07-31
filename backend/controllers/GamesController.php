@@ -1,5 +1,13 @@
 <?php
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 吴明亮, 1611331, 2018-07-22
+
+ *后台赛程部分的controller
+
+ */ 
 namespace backend\controllers;
 use Codeception\Module\Db;
 use yii\web\Controller;

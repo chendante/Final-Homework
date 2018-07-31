@@ -1,4 +1,13 @@
 <?php
+/**
+
+ *Team:德塔贝斯
+
+ *Coding by 吴明亮, 1611331, 2018-07-22
+
+ *前台赛程比赛详情页面。展示比赛详情。
+
+ */ 
 	$this->title = '德塔贝斯-比赛详情';
 	$gameInfo = $this->params['game_detail'];
 	$team1_player = $gameInfo['team1_player'];
