@@ -1,6 +1,15 @@
 
 
     <?php
+    /**
+
+ *Team:德塔贝斯
+
+ *Coding by 吴明亮, 1611331, 2018-07-22
+
+ *前台赛程详细信息页面
+
+ */ 
         use yii\helpers\Url;
         $this->title = "德塔贝斯-比赛管理";
     ?>

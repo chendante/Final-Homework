@@ -1,6 +1,14 @@
 <?php
 /* @var $this yii\web\View */
+/**
 
+ *Team:德塔贝斯
+
+ *Coding by 吴轩羽 1611332
+
+ *评论模块 view层
+
+ */
 $this->title = 'My Yii Application';
 ?>
 <!-- content main container -->
